@@ -35,7 +35,7 @@ class source2 {
 		if (number_index == 1 && left_num > -1 ) {
 			// tc[1] = 1;
 			result[number_index] = left_num;
-			//System.out.println(Arrays.toString(Arrays.copyOfRange(result, 1, K + 1)));
+			System.out.println(Arrays.toString(Arrays.copyOfRange(result, 1, K + 1)));
 			Anwser++;
 			if (Anwser > MOD) {
 				Anwser = Anwser % MOD;

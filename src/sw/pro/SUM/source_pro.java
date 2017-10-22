@@ -24,8 +24,7 @@ class source_pro {
 		}
 		for (int i = 2; i <= k; i++) {
 			for (int j = 0; j <= n; j++) {
-				// System.out.println("[i,j](" + i + "," + j + ")->[" + i + "," + (j - 1) +
-				// "],[" + (i - 1) + "," + j + "]");
+				System.out.println("[i,j](" + i + "," + j + ")->[" + i + "," + (j - 1) +"],[" + (i - 1) + "," + j + "]");
 				if (j == 0) {
 					dp[i][j] = 1;
 				} else {
