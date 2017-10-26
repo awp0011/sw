@@ -1,4 +1,4 @@
-package sw.pro.SD_PRO_4_2;
+package sw.pro.SDS_PRO_4_2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
