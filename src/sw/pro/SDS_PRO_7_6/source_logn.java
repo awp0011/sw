@@ -1,24 +1,15 @@
-package sw.pro.falled.balls;
+package sw.pro.SDS_PRO_7_6;
 
-import java.math.BigDecimal;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-public class Test {
+public class source_logn {
 	static long MOD = 1_000_000_007;
 
-	public static void main(String[] args) {
-		System.out.println(climbStairs(99_999_990));
-		System.out.println(climbStairs_b(99_999_990));
-	}
-
-	static int climbStairs_b(int n) {
-		double sqrt5 = Math.sqrt(5);
-		double sqrt5_p1 = (Math.sqrt(5) + 1) / 2;
-		double sqrt5_s1 = (1 - Math.sqrt(5)) / 2;
-		// double fibn = Math.pow((1 + sqrt5) / 2, n + 1) - Math.pow((1 - sqrt5) / 2, n
-		// + 1);
-		BigDecimal fibn = BigDecimal.valueOf(sqrt5_p1).pow(n + 1).subtract(BigDecimal.valueOf(sqrt5_s1).pow(n + 1));
-		return (fibn.divide(BigDecimal.valueOf(sqrt5)).divideAndRemainder(BigDecimal.valueOf(1_000_000_007))[0]
-				.intValue());
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println(climbStairs(Integer.parseInt(br.readLine())));
+		br.close();
 	}
 
 	static long climbStairs(long n) {

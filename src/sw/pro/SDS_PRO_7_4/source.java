@@ -28,8 +28,8 @@ public class source {
 		for (Paper[] row : papers) {
 			// Arrays.stream(row).forEach(p -> System.out.print(p.parnet.index + ","));
 			// System.out.println();
-			zero += Arrays.stream(row).filter(p -> p.parnet.index == p.index && p.color == 0).count();
-			one += Arrays.stream(row).filter(p -> p.parnet.index == p.index && p.color == 1).count();
+			zero += Arrays.stream(row).filter(p -> p.parent.index == p.index && p.color == 0).count();
+			one += Arrays.stream(row).filter(p -> p.parent.index == p.index && p.color == 1).count();
 		}
 		System.out.println(zero);
 		System.out.println(one);
@@ -54,10 +54,10 @@ public class source {
 					find(nextPaper(currPaper, 3, offset));
 					if (currPaper.getUnionLevel() == tobeLevel) {
 						if (isQuadraSameColor(currPaper, offset) && isQuadraSameLevel(currPaper, offset)) {
-							union(currPaper.parnet, nextPaper(currPaper, 1, offset));
-							union(currPaper.parnet, nextPaper(currPaper, 2, offset));
-							union(currPaper.parnet, nextPaper(currPaper, 3, offset));
-							currPaper.parnet.unionLevel++;
+							union(currPaper.parent, nextPaper(currPaper, 1, offset));
+							union(currPaper.parent, nextPaper(currPaper, 2, offset));
+							union(currPaper.parent, nextPaper(currPaper, 3, offset));
+							currPaper.parent.unionLevel++;
 						}
 					}
 					column += block;
@@ -98,15 +98,15 @@ public class source {
 	}
 
 	static Paper find(Paper cur) {
-		if (cur.parnet.index == cur.index) {
+		if (cur.parent.index == cur.index) {
 			return cur;
 		} else {
-			return cur.parnet = find(cur.parnet);
+			return cur.parent = find(cur.parent);
 		}
 	}
 
 	static void union(Paper p, Paper q) {
-		q.parnet.parnet = p;
+		q.parent.parent = p;
 	}
 
 	static class Paper {
@@ -114,14 +114,14 @@ public class source {
 		int		index;
 		int		color;
 		int		unionLevel	= 1;
-		Paper	parnet;
+		Paper	parent;
 
 		Paper(int x, int y, int c) {
 			X = x;
 			Y = y;
 			color = c;
 			index = X * N + y;
-			parnet = this;
+			parent = this;
 		}
 
 		boolean equals(Paper o) {
@@ -136,7 +136,7 @@ public class source {
 		}
 
 		int getUnionLevel() {
-			return parnet.unionLevel;
+			return parent.unionLevel;
 		}
 	}
 }
