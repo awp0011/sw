@@ -5,22 +5,22 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
- 
+
 class source {
-    static int[]                glass   = new int[1001];
-    static Field[]              fields  = new Field[1001];
-    static LinkedList<Field>  queue   = new LinkedList<>();
-     
+    static int[] glass = new int[1001];
+    static Field[] fields = new Field[1001];
+    static LinkedList<Field> queue = new LinkedList<>();
+
     public static void main(String[] args) throws Exception {
-         
+
         int[] cow = new int[101];
-         
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int K = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-         
+
         for (int i = 1; i <= K; i++) {
             cow[i] = Integer.parseInt(br.readLine());
         }
@@ -45,30 +45,32 @@ class source {
         }
         System.out.println(Arrays.stream(glass).filter(i -> i >= K).count());
     }
-     
+
     static void bfs(final int visitor) {
         while (!queue.isEmpty()) {
-            Field nextFild = queue.poll();
-            while (nextFild != null) {
-                nextFild.visited = visitor;
-                if (glass[nextFild.index] == visitor - 1) {
-                    glass[nextFild.index] = visitor;
+            Field field = queue.poll();
+            while (field != null) {
+                field.visited = visitor;
+                if (glass[field.index] == visitor - 1) {
+                    glass[field.index] = visitor;
                 }
-                if (fields[nextFild.index].next != null
-                        && fields[nextFild.index].next.visited != visitor) {
-                    queue.add(fields[nextFild.index].next);
+                if (fields[field.index].next != null
+                        && fields[field.index].next.visited != visitor) {
+                    queue.add(fields[field.index].next);
                 }
-                 
-                nextFild = nextFild.next;
+
+                field = field.next;
             }
         }
     }
-     
+
+
+
     static class Field {
-        int     index;
-        Field   next;
-        int     visited;
-         
+        int index;
+        Field next;
+        int visited;
+
         Field(int i) {
             index = i;
             visited = 0;
