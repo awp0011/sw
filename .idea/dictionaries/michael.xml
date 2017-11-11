@@ -2,6 +2,8 @@
   <dictionary name="michael">
     <words>
       <w>bloken</w>
+      <w>fenwick</w>
+      <w>lowbit</w>
     </words>
   </dictionary>
 </component>

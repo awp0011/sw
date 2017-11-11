@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class source {
-    public static void main(String[] arges) throws Exception {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
