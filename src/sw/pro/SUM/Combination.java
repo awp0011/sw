@@ -14,55 +14,58 @@ package sw.pro.SUM;
                                      +20拆分为3个不为零的整数的个数×补足零后组合
                                      +20拆分为2个不为零的整数的个数×补足零后组合
                                      +20拆分为4个不为零的整数的个数×补足零后组合
+    if N < K ,
  * */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Combination {
-	static long[][]	C_Data	= new long[201][201];
-	static int		MOD		= 1_000_000_000;
+    static long[][] C_Data = new long[201][201];
+    static int MOD = 1_000_000_000;
 
-	public static void main(String[] args) throws Exception {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int N = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
-		long answer = 0;
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+        long answer = 0;
 
-		if (N == 1 || K == 1) {
-			System.out.println(1);
-		} else {
-			if (K >= N) {
-				K = N;
-			}
-			for (int i = 0; i < K; i++) {
-				answer += combination(i, N - 1) * combination(i + 1, K);
-				answer %= MOD;
-			}
+        if (N == 1 || K == 1) {
+            System.out.println(1);
+        } else {
+            int end = K > N ? N : K;
+//			if (K >= N) {
+//				K = N;
+//			}
+            for (int i = 0; i < end; i++) {
+                answer += combination(i, N - 1) * combination(i + 1, K);
+                answer %= MOD;
+            }
 
-			System.out.println(answer);
-		}
-	}
+            System.out.println(answer);
+        }
+    }
 
-	// c(n,m)=c(n-1,m-1)+c(n-1,m) 从n个元素中选取m个元素
-	static long combination(final int n, final int m) {
-		if (C_Data[n][m] != 0)
-			return C_Data[n][m];
+    // c(n,m)=c(n-1,m-1)+c(n-1,m) 从n个元素中选取m个元素
+    static long combination(final int n, final int m) {
+        if (C_Data[n][m] != 0)
+            return C_Data[n][m];
 
-		if (n == 1) {
-			C_Data[n][m] = m;
-			return C_Data[n][m];
-		}
-		if (n == m || n == 0) {
-			C_Data[n][m] = 1;
-			return C_Data[n][m];
-		}
-		C_Data[n - 1][m - 1] = combination(n - 1, m - 1) % MOD;
-		C_Data[n][m - 1] = combination(n, m - 1) % MOD;
-		C_Data[n][m] = C_Data[n - 1][m - 1] + C_Data[n][m - 1];
-		C_Data[n][m] %= MOD;
-		return C_Data[n][m];
-	}
+        if (n == 1) {
+            C_Data[n][m] = m;
+            return C_Data[n][m];
+        }
+        if (n == m || n == 0) {
+            C_Data[n][m] = 1;
+            return C_Data[n][m];
+        }
+        C_Data[n - 1][m - 1] = combination(n - 1, m - 1) % MOD;
+        C_Data[n][m - 1] = combination(n, m - 1) % MOD;
+        C_Data[n][m] = C_Data[n - 1][m - 1] + C_Data[n][m - 1];
+        C_Data[n][m] %= MOD;
+        return C_Data[n][m];
+    }
 
 }

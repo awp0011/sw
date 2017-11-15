@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class FenwickTree {
+public class Test {
 
 
     private static long[] tree; //Binary Indexed Tree
@@ -21,10 +21,13 @@ public class FenwickTree {
         tree = new long[numbs.length + 1];
         for (int i = 1; i < tree.length; i++) {
             sum = 0;
-            lowbit = i & ((i - 1) ^ i);
+            lowbit = i & (-i);
+            System.out.print("i:"+i+"->lowbit:"+lowbit+"-->");
             for (int j = i; j > i - lowbit; j--) {
+                System.out.print("j:"+(j-1)+"--");
                 sum += numbs[j - 1];
             }
+            System.out.println("-->tree[i]="+sum);
             tree[i] = sum;
         }
 
@@ -48,7 +51,7 @@ public class FenwickTree {
         long tem = val - numbs[i];
         numbs[i] = val;
         i++;
-        for (; i < tree.length; i = i + (i & ((i - 1) ^ i))) {
+        for (; i < tree.length; i = i + (i & -i)) {
             tree[i] += tem;
         }
     }
@@ -63,7 +66,7 @@ public class FenwickTree {
         i++;
         while (i > 0) {
             sum += tree[i];
-            i = i - (i & ((i - 1) ^ i));
+            i = i - (i & -i);
         }
         return sum;
     }
