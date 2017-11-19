@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-class source {
+class source2 {
     private static int N;
     private static PriorityQueue<Mountain> queue = new PriorityQueue<>(Comparator.comparing(Mountain::getMinDiff));
     private static Mountain[][] area;
@@ -24,18 +24,22 @@ class source {
             }
         }
         area[0][0].isVisited = true;
-        walkToNext(area[0][0]);
+        area[0][0].isInQueue = true;
+        queue.add(area[0][0]);
+
         walkToNN();
         System.out.println(area[End][End].minDiff);
-        System.out.println(area[End][End].maxHeight+"-"+area[End][End].minHeight);
     }
 
     private static void walkToNN() {
         boolean continued = true;
-        while (!queue.isEmpty()) {
+        while (!queue.isEmpty() && continued) {
             Mountain current = queue.poll();
-            //System.out.println(current.X + "," + current.Y);
-            continued = walkToNext(current);
+            if(current.isInQueue) {
+                //System.out.println("queue -->"+current.X + "," + current.Y);
+                continued = walkToNext(current);
+                current.isInQueue = false;
+            }
         }
 
     }
@@ -43,36 +47,44 @@ class source {
     private static boolean walkToNext(final Mountain from) {
         int nextAxis = from.X + 1;
         if (nextAxis < N) {
-            from.walkTo(area[nextAxis][from.Y]);
+            walk(from, area[nextAxis][from.Y]);
             if (nextAxis == End && from.Y == End) {
                 return false;
             }
         }
         nextAxis = from.Y + 1;
         if (nextAxis < N) {
-            from.walkTo(area[from.X][nextAxis]);
+            walk(from, area[from.X][nextAxis]);
             if (nextAxis == End && from.X == End) {
                 return false;
             }
         }
         if (from.X > 1) {
-            from.walkTo(area[from.X - 1][from.Y]);
+            walk(from, area[from.X - 1][from.Y]);
         }
 
         if (from.Y > 1) {
-            from.walkTo(area[from.X][from.Y - 1]);
+            walk(from, area[from.X][from.Y - 1]);
         }
         return true;
     }
 
+    private static void walk(final Mountain from, final Mountain to) {
+        if (from.walkToMe(to)) {
+            //System.out.println(to.X + "," + to.Y+"--> queue");
+            queue.add(to);
+            to.isInQueue = true;
+        }
+    }
 
     private static class Mountain {
         int X;
         int Y;
         int height;
-        int minHeight;
-        int maxHeight;
-        int minDiff;
+        int minHeight = Integer.MAX_VALUE;
+        int maxHeight = Integer.MIN_VALUE;
+        int minDiff = Integer.MAX_VALUE;
+        boolean isInQueue = false;
         boolean isVisited = false;
 
         Mountain(final int x, final int y, final int h) {
@@ -87,14 +99,22 @@ class source {
             return minDiff;
         }
 
-        void walkTo(final Mountain to) {
-            if (!to.isVisited) {
+        boolean walkToMe(final Mountain to) {
+            if (to.isVisited) {
+                int diff = to.height - minHeight;
+                if (diff < to.minDiff) {
+                    to.minDiff = diff;
+                    to.minHeight = minHeight;
+                    return true;
+                }
+            } else {
                 to.maxHeight = Math.max(maxHeight, to.maxHeight);
                 to.minHeight = Math.min(minHeight, to.minHeight);
                 to.minDiff = to.maxHeight - to.minHeight;
                 to.isVisited = true;
-                queue.add(to);
+                return true;
             }
+            return false;
         }
 
     }
