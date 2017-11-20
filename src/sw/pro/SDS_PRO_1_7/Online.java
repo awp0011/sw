@@ -2,16 +2,13 @@ package sw.pro.SDS_PRO_1_7;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Online {
     private static Altitude[][] area;
     private static int N;
-    private static int minAltitude;
-    private static int maxAltitude;
+    private static int minAltitude = 200;
+    private static int maxAltitude = 0;
     private static Map<Integer, ArrayList<Altitude>> all_altitudes = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
@@ -22,36 +19,48 @@ public class Online {
             StringTokenizer st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 int height = Integer.parseInt(st.nextToken());
+                minAltitude = Math.min(minAltitude, height);
+                maxAltitude = Math.max(maxAltitude, height);
                 final Altitude altitude = new Altitude(i, j, height);
                 area[i][j] = altitude;
                 all_altitudes.computeIfAbsent(height, v -> new ArrayList<>(20)).add(altitude);
             }
         }
-        gotoNN();
-        System.out.println(maxAltitude - minAltitude);
+        int low = 0, height = maxAltitude - minAltitude, middle;
+        while (low < height) {
+            middle = (low + height) >> 1;
+            if (gotoNN(middle)) {
+                height = middle;
+            } else {
+                low = middle + 1;
+            }
+        }
+        System.out.println(low);
 
     }
 
-    private static void gotoNN() {
-        int offset = 0;
-        minAltitude = maxAltitude = area[0][0].height;
-        while (!isArrivedNN()) {
-            if (gotoNextContour(area[0][0].height + offset)) {
-                maxAltitude = area[0][0].height + offset;
+    private static boolean gotoNN(int minHeight) {
+        int current_start = minAltitude;
+        Arrays.stream(area).forEach(row -> Arrays.stream(row).forEach(Altitude::init));
+        while (!isArrivedNN() && current_start + minHeight <= maxAltitude) {
+            Arrays.stream(area).forEach(row -> Arrays.stream(row).forEach(Altitude::init));
+            int each = 0;
+            while (each <= minHeight) {
+                gotoNextContour(current_start + each);
+                each++;
             }
-            if (gotoNextContour(area[0][0].height - offset)) {
-                minAltitude = area[0][0].height - offset;
-            }
-            offset++;
+            current_start++;
         }
+        return isArrivedNN();
+
     }
 
     private static boolean isArrivedNN() {
         return find(area[0][0]).equals(find(area[N - 1][N - 1]));
     }
 
-    private static boolean gotoNextContour(int height) {
-        ArrayList<Altitude> contour = all_altitudes.remove(height);
+    private static void gotoNextContour(int height) {
+        ArrayList<Altitude> contour = all_altitudes.get(height);
         if (contour != null) {
             for (Altitude altitude : contour) {
                 altitude.isOnLine = true;
@@ -60,7 +69,7 @@ public class Online {
                 unionAround(altitude);
             }
         }
-        return contour != null;
+
     }
 
     private static Altitude find(Altitude altitude) {
@@ -80,11 +89,11 @@ public class Online {
         if (next < N) {
             union(altitude, area[altitude.X][next]);
         }
-        if (altitude.X > 1) {
+        if (altitude.X > 0) {
             union(altitude, area[altitude.X - 1][altitude.Y]);
         }
 
-        if (altitude.Y > 1) {
+        if (altitude.Y > 0) {
             union(altitude, area[altitude.X][altitude.Y - 1]);
         }
     }
@@ -121,6 +130,12 @@ public class Online {
             X = x;
             Y = y;
             height = h;
+            child_cnt = 1;
+            isOnLine = false;
+            parent = this;
+        }
+
+        void init() {
             child_cnt = 1;
             isOnLine = false;
             parent = this;
