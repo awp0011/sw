@@ -11,7 +11,7 @@ public class source {
 
     public static void main(String[] args) throws Exception {
         int M, N;
-        int answer;
+
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 board[i][j] = new Box(i, j);
@@ -32,29 +32,40 @@ public class source {
                     board[x][y + 1].init('.');
                 }
             }
-            answer = 0;
+            int answer1 = 0;
             for (x = 0; x <= M; x++) {
                 y = 0;
                 while (y <= N) {
                     if (board[x][y].couldBeKnight()) {
                         board[x][y].isKnight = true;
-                        answer++;
+                        answer1++;
                         y++;
                     }
                     y++;
                 }
             }
-            System.out.println(answer);
 //            System.out.println("-----------------");
 //            Arrays.stream(board).forEach(row -> {
 //                Arrays.stream(row).forEach(c -> {
-//                    if (c.isKnight)                   System.out.print('K');
-//                    else if(!c.isAccessed) System.out.print('x');
+//                    if (c.isKnight) System.out.print('K');
+//                    else if (!c.isAccessed) System.out.print('x');
 //                    else System.out.print('.');
 //                });
 //                System.out.println();
 //            });
 //            System.out.println("-----------------");
+
+            for (x = 0; x <= M; x++) for (y = 0; y <= N; y++) board[x][y].isKnight = false;
+            int answer2 = 0;
+            for (int j = 0; j < N; j++)
+                for (int k = 0; k < M; k++)
+                    if (board[k][j].couldBeKnight()) {
+                        board[k][j].isKnight = true;
+                        answer2++;
+                        k++;
+                    }
+            System.out.println(Math.max(answer1, answer2));
+
         }
         br.close();
     }
@@ -69,19 +80,7 @@ public class source {
             Y = y;
             init('.');
 
-            if (y > 0) {
-                if (x > 0) {
-                    topLeft = board[x - 1][y - 1];
-                }
-                left = board[x][y - 1];
-            }
 
-            if (y < 9) {
-                if (x > 0) {
-                    topRight = board[x - 1][y + 1];
-                }
-                right = board[x][y + 1];
-            }
         }
 
         void init(final char flag) {
@@ -90,11 +89,29 @@ public class source {
         }
 
         boolean couldBeKnight() {
+            makeAround();
+            return (isAccessed)
+                    && ((topLeft == null) || !topLeft.isKnight)
+                    && ((left == null) || !left.isKnight)
+                    && ((topRight == null) || !topRight.isKnight)
+                    && ((right == null) || !right.isKnight);
 
-            if (isAccessed) if ((topLeft == null) || !topLeft.isKnight) if ((left == null) || !left.isKnight)
-                if ((topRight == null) || !topRight.isKnight) if ((right == null) || !right.isKnight) return true;
-            return false;
+        }
 
+        void makeAround() {
+            if (Y > 0) {
+                if (X > 0) {
+                    topLeft = board[X - 1][Y - 1];
+                }
+                left = board[X][Y - 1];
+            }
+
+            if (Y < 9) {
+                if (X > 0) {
+                    topRight = board[X - 1][Y + 1];
+                }
+                right = board[X][Y + 1];
+            }
         }
 
     }
