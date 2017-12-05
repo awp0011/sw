@@ -16,7 +16,9 @@ public class source {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] str = br.readLine().toCharArray();
         //由小到大排序
-        for (char c : str) letters[getIndex(c)].counter++;
+        for (char c : str) {
+            letters[getIndex(c)].counter++;
+        }
         PriorityQueue<Node> queue = new PriorityQueue<>(Comparator.comparing(Node::getCnt));
         Arrays.stream(letters).filter(node -> node.counter > 0).forEach(queue::add);
 
@@ -26,11 +28,7 @@ public class source {
             if (queue.size() == 1) {
                 root = queue.poll();
             } else {
-                Node p = new Node();
-                p.left = queue.poll();
-                p.right = queue.poll();
-                p.counter = p.left.counter + p.right.counter;
-                queue.add(p);
+                queue.add(new Node(queue.poll(), queue.poll()));
             }
         }
         //进行Huffman Coding
@@ -64,6 +62,15 @@ public class source {
         int length = 0;
         Node left;
         Node right;
+
+        Node() {
+        }
+
+        Node(Node l, Node r) {
+            left = l;
+            right = r;
+            counter = l.counter + r.counter;
+        }
 
         int getCnt() {
             return counter;
