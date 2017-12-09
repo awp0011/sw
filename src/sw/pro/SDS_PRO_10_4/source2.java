@@ -9,23 +9,22 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class source2 {
-    private static int N, M;
     private static PriorityQueue<Line> queue = new PriorityQueue<>(Comparator.comparingInt(Line::getCost));
     private static int[] parents;
     private static int[] pCnt;
     private static int counter = 1;
-    private static long total = 0l;
+    private static long total = 0L;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
         parents = new int[N + 1];
         for (int i = 0; i <= N; i++) {
             parents[i] = i;
         }
         pCnt = new int[N + 1];
         Arrays.fill(pCnt, 1);
-        M = Integer.parseInt(br.readLine());
+        int M = Integer.parseInt(br.readLine());
         int s, e, c;
         for (int i = 0; i < M; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());

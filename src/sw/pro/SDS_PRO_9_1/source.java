@@ -32,15 +32,15 @@ public class source {
 
     }
 
-    public static String calculate(point vertex[], int pointNum) {
+    private static String calculate(point vertex[], int pointNum) {
         int i = 0;
         BigDecimal temp = BigDecimal.ZERO;
         for (; i < pointNum - 1; i++) {
             temp = temp.add(BigDecimal.valueOf((vertex[i].x - vertex[i + 1].x)).multiply(BigDecimal.valueOf((vertex[i].y + vertex[i + 1].y))));
         }
-        temp =temp.add(BigDecimal.valueOf((vertex[i].x - vertex[0].x)).multiply(BigDecimal.valueOf((vertex[i].y + vertex[0].y))));
+        temp = temp.add(BigDecimal.valueOf((vertex[i].x - vertex[0].x)).multiply(BigDecimal.valueOf((vertex[i].y + vertex[0].y))));
         //temp += (vertex[i].x - vertex[0].x) * (vertex[i].y + vertex[0].y);
-        temp = temp.divide(BigDecimal.valueOf(2)).abs().setScale(1, BigDecimal.ROUND_HALF_UP);
+        temp = temp.divide(BigDecimal.valueOf(2),1,BigDecimal.ROUND_HALF_UP).abs();
         return temp.toString();
 
     }
