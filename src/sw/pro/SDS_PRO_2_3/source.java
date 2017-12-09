@@ -2,117 +2,63 @@ package sw.pro.SDS_PRO_2_3;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class source {
-    private static Box[][] board = new Box[10][10];
 
+    private static Map<Integer, List<Integer>> data = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
         int M, N;
-
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                board[i][j] = new Box(i, j);
-            }
-        }
+        int[] board = new int[11];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int C = Integer.parseInt(br.readLine());
         int x, y;
         for (int i = 0; i < C; i++) {
-
             StringTokenizer st = new StringTokenizer(br.readLine());
-            M = Integer.parseInt(st.nextToken()) - 1;
-            N = Integer.parseInt(st.nextToken()) - 1;
-            for (x = 0; x <= M; x++) {
+            M = Integer.parseInt(st.nextToken());
+            N = Integer.parseInt(st.nextToken());
+            for (x = 0; x < M; x++) {
+                int sum = 0;
                 char[] flags = br.readLine().toCharArray();
-                for (y = 0; y <= N; y++) board[x][y].init(flags[y]);
-                if (y < 9) {
-                    board[x][y + 1].init('.');
+                for (y = N - 1; y > 0; y--) {
+                    sum += flags[y] == 'x' ? (1 << (N-y)) : 0;
                 }
+                board[x] = ~sum;
+                //System.out.print(Integer.toBinaryString(sum) + "--");
+                //System.out.println(Integer.toBinaryString(board[x]));
             }
-            int answer1 = 0;
-            for (x = 0; x <= M; x++) {
-                y = 0;
-                while (y <= N) {
-                    if (board[x][y].couldBeKnight()) {
-                        board[x][y].isKnight = true;
-                        answer1++;
-                        y++;
-                    }
-                    y++;
-                }
-            }
-//            System.out.println("-----------------");
-//            Arrays.stream(board).forEach(row -> {
-//                Arrays.stream(row).forEach(c -> {
-//                    if (c.isKnight) System.out.print('K');
-//                    else if (!c.isAccessed) System.out.print('x');
-//                    else System.out.print('.');
-//                });
-//                System.out.println();
-//            });
-//            System.out.println("-----------------");
+            int answer = 0;
 
-            for (x = 0; x <= M; x++) for (y = 0; y <= N; y++) board[x][y].isKnight = false;
-            int answer2 = 0;
-            for (int j = 0; j < N; j++)
-                for (int k = 0; k < M; k++)
-                    if (board[k][j].couldBeKnight()) {
-                        board[k][j].isKnight = true;
-                        answer2++;
-                        k++;
-                    }
-            System.out.println(Math.max(answer1, answer2));
 
+            Arrays.fill(board, 0);
+            System.out.println("-----");
         }
         br.close();
     }
 
-    private static class Box {
-        int X, Y;
-        Box topLeft, topRight, left, right;
-        boolean isKnight, isAccessed;
-
-        Box(final int x, final int y) {
-            X = x;
-            Y = y;
-            init('.');
-
-
-        }
-
-        void init(final char flag) {
-            isKnight = false;
-            isAccessed = '.' == flag;
-        }
-
-        boolean couldBeKnight() {
-            makeAround();
-            return (isAccessed)
-                    && ((topLeft == null) || !topLeft.isKnight)
-                    && ((left == null) || !left.isKnight)
-                    && ((topRight == null) || !topRight.isKnight)
-                    && ((right == null) || !right.isKnight);
-
-        }
-
-        void makeAround() {
-            if (Y > 0) {
-                if (X > 0) {
-                    topLeft = board[X - 1][Y - 1];
+    private static void init() {
+        int i, j;
+        for (i = 0; i <= 341; i++) {
+            //index = 0;
+            for (j = 0; j <= 341; j++) {
+                if (Integer.bitCount(i) > 5 || Integer.bitCount(j) > 5) continue;
+                if (((i << 1) & j) == 0 && ((i >> 1) & j) == 0 && !check11(j)) {
+                    data.computeIfAbsent(i, v -> new ArrayList<Integer>(11)).add(j);
                 }
-                left = board[X][Y - 1];
-            }
-
-            if (Y < 9) {
-                if (X > 0) {
-                    topRight = board[X - 1][Y + 1];
-                }
-                right = board[X][Y + 1];
             }
         }
-
     }
+
+    private static boolean check11(int n) {
+        int i = n;
+        while (i > 0) {
+            if ((i & 1) == 1 && ((i >> 1) & 1) == 1) {
+                return true;
+            }
+            i >>= 1;
+        }
+        return false;
+    }
+
 }
