@@ -2,63 +2,62 @@ package sw.pro.SDS_PRO_2_3;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.StringTokenizer;
 
 public class source {
 
-    private static Map<Integer, List<Integer>> data = new HashMap<>();
+    private static int[] start = new int[]{0,1,1,5,5,21,21,85,85,341,341};
+    private static int N, N_END, M, M_END, answer;
+    private static int[] board = new int[11];
 
     public static void main(String[] args) throws Exception {
-        int M, N;
-        int[] board = new int[11];
+
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int C = Integer.parseInt(br.readLine());
         int x, y;
         for (int i = 0; i < C; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            M = Integer.parseInt(st.nextToken());
             N = Integer.parseInt(st.nextToken());
-            for (x = 0; x < M; x++) {
-                int sum = 0;
+            M = Integer.parseInt(st.nextToken());
+            N_END = 1 << N;
+            M_END = 1 << M;
+            for (x = 0; x < N; x++) {
                 char[] flags = br.readLine().toCharArray();
-                for (y = N - 1; y > 0; y--) {
-                    sum += flags[y] == 'x' ? (1 << (N-y)) : 0;
+                for (y = 0; y < M; y++) {
+                    flags[y] = flags[y] == 'x' ? '0' : '1';
                 }
-                board[x] = ~sum;
-                //System.out.print(Integer.toBinaryString(sum) + "--");
-                //System.out.println(Integer.toBinaryString(board[x]));
+                board[x] = Integer.valueOf(new String(flags), 2);
+                //System.out.print(board[x] + "--");
+                //System.out.println(new String(flags));
             }
-            int answer = 0;
+            answer = 0;
+            putKnight(0, 0, 0);
+            System.out.println(answer);
 
-
-            Arrays.fill(board, 0);
-            System.out.println("-----");
         }
         br.close();
     }
 
-    private static void init() {
-        int i, j;
-        for (i = 0; i <= 341; i++) {
-            //index = 0;
-            for (j = 0; j <= 341; j++) {
-                if (Integer.bitCount(i) > 5 || Integer.bitCount(j) > 5) continue;
-                if (((i << 1) & j) == 0 && ((i >> 1) & j) == 0 && !check11(j)) {
-                    data.computeIfAbsent(i, v -> new ArrayList<Integer>(11)).add(j);
-                }
+    private static void putKnight(final int prevRow, final int row, final int sum) {
+        if (row == N) {
+            //System.out.println("LastRow:" + Integer.toBinaryString(prevRow));
+            if (sum > answer) {
+                answer = sum;
+                //System.out.println("sum:" + sum);
             }
-        }
-    }
+        } else {
 
-    private static boolean check11(int n) {
-        int i = n;
-        while (i > 0) {
-            if ((i & 1) == 1 && ((i >> 1) & 1) == 1) {
-                return true;
+            int index_m = start[M];
+            while (index_m < M_END) {
+                int current = index_m & board[row];
+                //if (row == 0) System.out.println("FirstRow:" + Integer.toBinaryString(current));
+                if ((prevRow & current >> 1) == 0 && (prevRow & current << 1) == 0) {
+                    putKnight(current, row + 1, sum + Integer.bitCount(current));
+                }
+                index_m <<= 1;
             }
-            i >>= 1;
         }
-        return false;
     }
 
 }

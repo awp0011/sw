@@ -50,12 +50,14 @@ public class source2 {
     }
 
     private static void union(final int c1, final int c2) {
-        if (pCnt[parents[c1]] > pCnt[parents[c2]]) {
-            parents[c2] = parents[c1];
-            pCnt[parents[c1]] += pCnt[parents[c2]];
+        int p1 = find(c1);
+        int p2 = find(c2);
+        if (pCnt[p1] > pCnt[p2]) {
+            parents[p2] = parents[p1];
+            pCnt[parents[p1]] += pCnt[parents[p2]];
         } else {
-            parents[c1] = parents[c2];
-            pCnt[parents[c2]] += pCnt[parents[c1]];
+            parents[p1] = parents[p2];
+            pCnt[parents[p2]] += pCnt[parents[p1]];
         }
     }
 
