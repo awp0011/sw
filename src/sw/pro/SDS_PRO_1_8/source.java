@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class source {
-    private static int  N;
+    private static int N;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,34 +17,45 @@ public class source {
             st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 board[i][j] = new Box(i, j, Integer.parseInt(st.nextToken()));
+            }
+        }
+        for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
                 if (i > 0) {
                     unionFind(board[i][j], board[i - 1][j]);
-                }
 
+                }
+                if (i < M - 1) {
+                    unionFind(board[i][j], board[i + 1][j]);
+                }
                 if (j > 0) {
                     unionFind(board[i][j], board[i][j - 1]);
-                }
 
+                }
+                if (j < N - 1) {
+                    unionFind(board[i][j], board[i][j + 1]);
+                }
             }
         }
         br.close();
 
 
         int answer_white = 0, answer_black = 0;
-        int white_index = -1, black_index = -1;
-        for (int i = 0; i < N - 1; i++) {
-            if (board[0][i].color == 0) {
-                if (find(board[0][i]).parent.index != white_index) {
-                    answer_white++;
-                    white_index = board[0][i].parent.index;
-                }
-            } else {
-                if (find(board[0][i]).parent.index != black_index) {
-                    answer_black++;
-                    black_index = board[0][i].parent.index;
+        for (int j = 0; j < M; j++) {
+            for (int i = 0; i < N; i++) {
+//                System.out.print(board[j][i].color + "(" + board[j][i].parent.index + ") ");
+                if (board[j][i].index == board[j][i].parent.index) {
+                    if (board[j][i].color == 0) {
+                        answer_white++;
+                    } else {
+                        answer_black++;
+                    }
                 }
             }
+//            System.out.println();
+
         }
+        //System.out.println(answer_black+" "+answer_white);
         System.out.println(Math.min(answer_black, answer_white));
 //        System.out.println("-------");
 //        for (int i = 0; i < M; i++) {
