@@ -1,55 +1,45 @@
 package sw.pro.SET;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class source {
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-        MyInt[] array = new MyInt[N + M];
+        int[] a = new int[N + 1];
+        int[] b = new int[M + 1];
+
+
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            array[i] = new MyInt(Integer.parseInt(st.nextToken()), 0);
+        for (int i = 1; i <= N; i++) {
+            a[i] = Integer.parseInt(st.nextToken());
         }
         st = new StringTokenizer(br.readLine());
-        int[] s = new int[M];
-        for (int i = N; i < N + M; i++) {
-            array[i] = new MyInt(Integer.parseInt(st.nextToken()), 1);
+        for (int i = 1; i <= M; i++) {
+            b[i] = Integer.parseInt(st.nextToken());
         }
-//        Arrays.sort(array, Comparator.comparing(MyInt::getValue));
-
-//        Arrays.stream(array).forEach(a-> System.out.print(a.value+" "));
-//        System.out.println();
-
-        int minDiff = Integer.MAX_VALUE;
-        for (int i = 0; i < array.length - 1; i++) {
-            if (array[i].flag != array[i + 1].flag) {
-                int cur = Math.abs(array[i].value - array[i + 1].value);
-                if (minDiff > cur) minDiff = cur;
+        Arrays.sort(a);
+        Arrays.sort(b);
+        int[][] dp = new int[N + 1][M + 1];
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= M; j++) {
+                dp[i][j] = dp[i - 1][j - 1] + Math.abs(a[i] - b[j]);
+                if (i < j && dp[i][j] > dp[i][j - 1]) {
+                    dp[i][j] = dp[i][j - 1];
+                }
+                if (i > j && dp[i][j] > dp[i - 1][j]) {
+                    dp[i][j] = dp[i - 1][j];
+                }
+                //System.out.print(dp[i][j] + " ");
             }
+            // System.out.println();
         }
-
-
-        System.out.println(minDiff);
-    }
-
-    private static class MyInt {
-        int value;
-        int flag;
-
-        MyInt(final int v, final int f) {
-            value = v;
-            flag = f;
-        }
-
-        int getValue() {
-            return value;
-        }
+        System.out.println(dp[N][M]);
+        br.close();
     }
 }
