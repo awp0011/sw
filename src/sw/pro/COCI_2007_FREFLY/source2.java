@@ -10,57 +10,43 @@ public class source2 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken()) >> 1;
         int H = Integer.parseInt(st.nextToken());
-        int[] b1 = new int[(N >> 1) + 1];
-        int[] b2 = new int[(N >> 1) + 1];
-        int[] height = new int[H + 1];
-        height[0] = Integer.MAX_VALUE;
-        int i;
-        for (i = 0; i < N >> 1; i++) {
+        int[] b1 = new int[N];
+        int[] b2 = new int[N];
+        for (int i = 0; i < N; i++) {
             b1[i] = Integer.parseInt(br.readLine());
             b2[i] = Integer.parseInt(br.readLine());
         }
-        b1[i] = Integer.MAX_VALUE;
-        b2[i] = Integer.MAX_VALUE;
         br.close();
         Arrays.sort(b1);
-        int counter = 1;
-        for (i = 0; i < b1.length - 1; i++) {
-            if (b1[i] == b1[i + 1]) counter++;
-            else {
-                for (int j = 1; j <= b1[i]; j++) {
-                    height[j] += counter;
-                }
-                counter = 1;
-            }
-        }
-
-        counter = 1;
         Arrays.sort(b2);
-        for (i = 0; i < b2.length - 1; i++) {
-            if (b2[i] == b2[i + 1]) counter++;
-            else {
-                for (int j = height.length - 1; j >= height.length - b2[i]; j--) {
-                    height[j] += counter;
-                }
-                counter = 1;
-            }
+
+        int min = Integer.MAX_VALUE, cnt = 0;
+        for (int i = 0; i < H; ++i) {
+            int temp = (N << 1) - lowerBinarySearch(b1, i + 1) - lowerBinarySearch(b2, H - i);
+            //System.out.println(i+" "+ temp);
+            if (temp < min) {
+                min = temp;
+                cnt = 1;
+            } else if (temp == min) ++cnt;
         }
-
-
-        Arrays.sort(height);
-        final int min = height[0];
-        counter = 0;
-        for (i = 0; i <= H; i++) {
-            if (height[i] == min) counter++;
-            else break;
-        }
-        System.out.println(min + " " + counter);
-
-
+        System.out.println(min + " " + cnt);
     }
 
+    private static int lowerBinarySearch(int[] a, int key) {
+        if (key <= a[0]) return 0;
+        if (key > a[a.length - 1]) return a.length;
+        int pos = Arrays.binarySearch(a, key);
+
+        boolean isClose = false;
+        while (!isClose) {
+            if (pos == 0 || a[pos - 1] != key) isClose = true;
+            else  pos--;
+        }
+
+        return pos;
+    }
 
 }
 
