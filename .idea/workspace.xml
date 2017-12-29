@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20171228">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20171229">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java" afterPath="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java" afterPath="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source2.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +20,8 @@
       <file leaf-file-name="source.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="source2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="646">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +29,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="source.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="source.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="source.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="228">
+              <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -55,8 +62,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="344">
+              <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -142,13 +149,13 @@
         <option value="$PROJECT_DIR$/src/sw/pro/ICPC_2012NWERC_HOUSE/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SUFFIXARRAY/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java" />
         <option value="$PROJECT_DIR$/src/SDS_PRO_7_1/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source2.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source2.java" />
       </list>
     </option>
   </component>
@@ -225,70 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="COCI_2007_FREFLY" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="ICPC_2012NWERC_HOUSE" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SDS_PRO_6_2" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SDS_PRO_7_1" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SDS_PRO_7_8" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SET" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SQUARE" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.pro" type="1f31426a:PackageElementNode" />
-              <item name="SUFFIXARRAY" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,8 +290,59 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SDS_PRO_6_2" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SDS_PRO_7_1" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SDS_PRO_7_8" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SET" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SQUARE" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SUFFIXARRAY" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -390,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.source2 (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -576,8 +571,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.source2 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.source2 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
         <item index="2" class="java.lang.String" itemvalue="Application.source2" />
         <item index="3" class="java.lang.String" itemvalue="Application.source" />
         <item index="4" class="java.lang.String" itemvalue="Application.source (2)" />
@@ -727,14 +722,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514124211318</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="20171228">
+      <created>1514474656281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514474656281</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="192005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1657" y="-4" width="1863" height="1084" extended-state="6" />
+    <frame x="1778" y="235" width="1865" height="1095" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16076845" sideWeight="0.49382716" order="10" side_tool="false" content_ui="tabs" />
@@ -745,7 +747,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45467225" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14063339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14063339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39332658" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,7 +785,8 @@
     <MESSAGE value="20171223-2" />
     <MESSAGE value="20171224" />
     <MESSAGE value="20171228" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171228" />
+    <MESSAGE value="20171229" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171229" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,12 +910,6 @@
           <line>46</line>
           <properties />
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="83" />
@@ -1199,13 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/ICPC_2012NWERC_HOUSE/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -1235,13 +1225,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="450">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,40 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/COCI_2007_FREFLY/source2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding />
         </state>
       </provider>

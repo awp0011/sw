@@ -3,39 +3,50 @@ package sw.pro.COCI_2007_FREFLY;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+
 import java.util.StringTokenizer;
-//可以尝试使用线段树
 
 public class source {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken()) >> 1;
         int H = Integer.parseInt(st.nextToken());
-        int[] height = new int[H + 1];
-        height[0] = Integer.MAX_VALUE;
+        int[] b1 = new int[N];
+        int[] b2 = new int[N];
         for (int i = 0; i < N; i++) {
-            int c = Integer.parseInt(br.readLine());
-            if ((i & 1) == 0) {
-                for (int j = 1; j <= c; j++) {
-                    height[j]++;
-                }
-            } else {
-                for (int j = height.length - 1; j >= height.length - c; j--) {
-                    height[j]++;
-                }
-            }
+            b1[i] = Integer.parseInt(br.readLine());
+            b2[i] = Integer.parseInt(br.readLine());
         }
         br.close();
-        Arrays.sort(height);
-        int min = height[0];
-        int counter=0;
-        for (int i = 0; i <= H; i++) {
-            if(height[i]==min) counter++;
-            else break;
+        Arrays.sort(b1);
+        // System.out.println(Arrays.toString(b1));
+        Arrays.sort(b2);
+        // System.out.println(Arrays.toString(b2));
+
+        int min = Integer.MAX_VALUE, cnt = 0;
+        for (int i = 0; i < H; i++) {
+            int temp = N - lowerBound(b1, i + 1) + N - lowerBound(b2, H - i);
+            //System.out.println(i+" "+ temp);
+            if (temp < min) {
+                min = temp;
+                cnt = 1;
+            } else if (temp == min) cnt++;
         }
-        System.out.println(min+" "+counter);
-
-
+        System.out.println(min + " " + cnt);
     }
+
+    private static int lowerBound(int[] numbs, int v) {
+        int l = 0;
+        int r = numbs.length;
+        while (l < r) {
+            int m = l + ((r - l) >> 1);
+            if (numbs[m] >= v) r = m;//因为是寻找下界，不考虑右边还有没有元素
+            else if (numbs[m] < v) l = m + 1;
+        }
+        return l;
+    }
+
 }
+
+
