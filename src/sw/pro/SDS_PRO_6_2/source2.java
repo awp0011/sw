@@ -22,23 +22,20 @@ public class source2 {
             for (int j = 1; j <= bridge1.length(); j++) {
                 for (int k = 1; k <= 2; k++) {//1:天使桥；  2：恶魔桥；
                     if (i == 1) {
-                        if (j == 1) {
-                            dp[1][1][k] = (getStep(j, k) == magic.charAt(i - 1)) ? 1 : 0;
-                        } else {
-                            dp[1][j][k] = dp[1][j - 1][k] + ((getStep(j, k) == magic.charAt(i - 1)) ? 1 : 0);
-
-                        }
+                        dp[1][j][k] = dp[1][j - 1][k] + (isMatchMagic(i, j, k) ? 1 : 0);
                     } else {
-                        dp[i][j][k] = dp[i][j - 1][k] + ((getStep(j, k) == magic.charAt(i - 1)) ? dp[i - 1][j - 1][3 - k] : 0);
+                        dp[i][j][k] = dp[i][j - 1][k] + (isMatchMagic(i, j, k) ? dp[i - 1][j - 1][3 - k] : 0);
                     }
+                    //if(k==2) System.out.print(dp[i][j][k]+" ");
                 }
             }
+            //System.out.println();
         }
         System.out.println(dp[magic.length()][bridge1.length()][1] + dp[magic.length()][bridge1.length()][2]);
     }
 
-    private static char getStep(final int step, final int bridge) {
-        return ((bridge == 1) ? bridge1.charAt(step - 1) : bridge2.charAt(step - 1));
+    private static boolean isMatchMagic(final int magic_index, final int bridge_index, final int brideg) {
+        return ((brideg == 1) ? bridge1.charAt(bridge_index - 1) : bridge2.charAt(bridge_index - 1)) == magic.charAt(magic_index - 1);
     }
-
+    
 }
