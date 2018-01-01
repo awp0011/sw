@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source3.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source2.java" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="source.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="486">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -711,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514689089302</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="20180101">
+      <created>1514785837555</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1514785837555</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -770,7 +774,8 @@
     <MESSAGE value="20171229" />
     <MESSAGE value="20171229-2" />
     <MESSAGE value="20171231" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171231" />
+    <MESSAGE value="20180101" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180101" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1270,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="486">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
