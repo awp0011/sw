@@ -1,5 +1,4 @@
 package sw.pro.SDS_PRO_8_4;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -8,32 +7,19 @@ public class source {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         char[] source = bufferedReader.readLine().toCharArray();
         bufferedReader.close();
-        int left_block = source.length % 25;
-        int wholeBlock_cnt = (source.length - left_block) / 25;
+
         int left_row = source.length % 5;
-        int wholeRow_cnt = (left_block - left_row) / 5;
+        int wholeRow_cnt = (source.length - left_row) / 5;
 
         char[] target = new char[source.length];
-        int base_index = 0;
-        int block = 0;
         int src_index = 0;
-        while (block < wholeBlock_cnt) {
-            for (int i = 0; i < 5; i++) {
-                for (int j = 0; j < 5; j++) {
-                    target[base_index + j * 5 + i] = source[src_index];
-                    src_index++;
-                }
-            }
-            base_index += 25;
-            block++;
-        }
         int[] column_cnt = new int[5];
         for (int i = 0; i < 5; i++) {
             column_cnt[i] = wholeRow_cnt + ((left_row > i) ? 1 : 0);
         }
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < column_cnt[i]; j++) {
-                target[base_index + j * 5 + i] = source[src_index];
+                target[ j * 5 + i] = source[src_index];
                 //System.out.print(base_index + j * 5 + i+" ");
                 src_index++;
             }
