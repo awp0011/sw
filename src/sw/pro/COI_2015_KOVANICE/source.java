@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class source {
@@ -42,6 +43,7 @@ public class source {
             bw.append(p.getSort());
             bw.newLine();
         }
+        Scanner sc = new Scanner(System.in);
 
         bw.flush();
         bw.close();
