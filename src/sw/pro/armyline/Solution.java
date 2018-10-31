@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class Solution {
 
-    static int[] cash = new int[10005];
-    static int[] firstLine = new int[10005];
-    static int MOD = 100000007;
+    private static int[] firstLine = new int[10005];
+    private static int[] secondLine = new int[10005];
+    private static int MOD = 100000007;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,19 +23,19 @@ public class Solution {
         br.close();
     }
 
-    static int solve(final int armyLength) {
-        Arrays.fill(cash, 1, firstLine[armyLength] + 1, 1);
-        cash[firstLine[armyLength] + 1] = 0;//
+    private static int solve(final int armyLength) {
+        Arrays.fill(secondLine, 1, firstLine[armyLength] + 1, 1);
+        secondLine[firstLine[armyLength] + 1] = 0;//
         for (int i = armyLength - 1; i > 0; i--) {
             for (int j = firstLine[i + 1]; j > 0; j--) {
                 if (j > firstLine[i]) {
-                    cash[j - 1] = (cash[j - 1] + cash[j]) % MOD;
-                    cash[j] = 0;
+                    secondLine[j - 1] = (secondLine[j - 1] + secondLine[j]) % MOD;
+                    secondLine[j] = 0;
                 } else {
-                    cash[j] = (cash[j] + cash[j + 1]) % MOD;
+                    secondLine[j] = (secondLine[j] + secondLine[j + 1]) % MOD;
                 }
             }
         }
-        return cash[1];
+        return secondLine[1];
     }
 }
