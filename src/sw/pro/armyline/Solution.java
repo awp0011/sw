@@ -26,17 +26,14 @@ public class Solution {
         Arrays.fill(cash, 1);
         cash[data[data.length - 1] + 1] = 0;//
         for (int i = data.length - 2; i > 0; i--) {
-            int temp = 0;
             for (int j = data[i + 1]; j > 0; j--) {
                 if (j > data[i]) {
-                    temp += cash[j] % MOD;
+                    cash[j - 1] += cash[j];
+                    cash[j - 1] %= MOD;
                     cash[j] = 0;
                 } else {
-                    cash[j] += cash[j + 1] % MOD;
-                    if (temp > 0) {
-                        cash[j] += temp % MOD;
-                        temp = 0;
-                    }
+                    cash[j] += cash[j + 1];
+                    cash[j] %= MOD;
                 }
             }
         }
