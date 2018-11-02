@@ -1,27 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sw/pro/PALINDROME/source.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java" afterPath="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181102">
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/armyline/BuildMaxCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/kthnumber/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/kthnumber/source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tower/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tower/source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Cutting_Sticks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Cutting_Sticks/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SUM/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SUM/source3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SUM/source4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source_pro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SUM/source_pro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/city/spy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/city/spy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/city/spy/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/city/spy/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/falled/balls/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/falled/balls/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/lis/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/lis/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/point/area/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/point/area/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/point/area/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/point/area/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/road/pavement/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/road/pavement/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/Source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/the3nplus1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/the3nplus1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/the3nplus1_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/the3nplus1_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/armyline/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/armyline/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/armyline/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/armyline/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2044327273">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1803" />
+          <entry key="txt" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1803" />
+          <entry key="PLAIN_TEXT" value="99" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="source.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/PALINDROME/source.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="810">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/BuildMaxCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/source.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,12 +133,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="source.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_8_8/source.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/tower/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="658">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/tower/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" lean-forward="true" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/Input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -69,24 +211,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/OnLine.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/Offline.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/source2.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/Online.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/PINARY/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_2_3/source2.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/NQUEEN/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_1/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/NQUEEN/Test.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_4/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/fiveone/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_3_1/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_1/Test.java" />
@@ -128,6 +255,16 @@
         <option value="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/PALINDROME/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/armyline/BuildMaxCase.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/armyline/input.txt" />
+        <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/Input.txt" />
+        <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/Source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/armyline/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tower/input.txt" />
+        <option value="$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tower/source.java" />
       </list>
     </option>
   </component>
@@ -192,36 +329,10 @@
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages ProjectPane="false" />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
       <abbreviatePackageNames ProjectPane="true" />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,14 +390,48 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="kthnumber" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="SUM" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw.pro" type="1f31426a:PackageElementNode" />
+              <item name="tower" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540905478910" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541175560338" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Project" />
@@ -296,8 +441,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sw.pro.SDS_PRO_1_7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sw.pro.SDS_PRO_7_8" />
@@ -306,8 +451,9 @@
       <recent name="sw.pro.SDS_PRO_10_4" />
       <recent name="sw.pro.fiveone" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="sw.pro.SDS_PRO_1_7" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\sw\src\sw\pro\armyline" />
+      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,9 +468,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.source">
+  <component name="RunManager" selected="Application.source (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildMaxCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.armyline.BuildMaxCase" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.armyline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,19 +503,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="source (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.SDS_PRO_10_3.source" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.armyline.Solution" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.SDS_PRO_10_3.*" />
+          <option name="PATTERN" value="sw.pro.armyline.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,13 +517,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="source (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.COI_2015_KOVANICE.source" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.tower.source" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.COI_2015_KOVANICE.*" />
+          <option name="PATTERN" value="sw.pro.tower.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,13 +551,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="source2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.SDS_PRO_10_3.source2" />
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.kthnumber.source" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.SDS_PRO_10_3.*" />
+          <option name="PATTERN" value="sw.pro.kthnumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +589,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.source (3)" />
-      <item itemvalue="Application.source2" />
-      <item itemvalue="Application.source (4)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.BuildMaxCase" />
       <item itemvalue="Application.source" />
+      <item itemvalue="Application.source (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.source (1)" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.source" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.source (4)" />
-        <item itemvalue="Application.source2" />
-        <item itemvalue="Application.source (3)" />
+        <item itemvalue="Application.BuildMaxCase" />
+        <item itemvalue="Application.source" />
       </list>
     </recent_temporary>
   </component>
@@ -508,6 +668,11 @@
       <workItem from="1523065902059" duration="61000" />
       <workItem from="1523065982352" duration="4000" />
       <workItem from="1523451446074" duration="15000" />
+      <workItem from="1540905383745" duration="1883000" />
+      <workItem from="1540912729780" duration="11000" />
+      <workItem from="1540989637563" duration="6928000" />
+      <workItem from="1541083957339" duration="2659000" />
+      <workItem from="1541167309764" duration="7516000" />
     </task>
     <task id="LOCAL-00001" summary="20171210">
       <created>1512816713401</created>
@@ -677,43 +842,73 @@
       <option name="project" value="LOCAL" />
       <updated>1517236200943</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="20181030">
+      <created>1540905519120</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1540905519120</updated>
+    </task>
+    <task id="LOCAL-00026" summary="20181031">
+      <created>1540990613391</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1540990613391</updated>
+    </task>
+    <task id="LOCAL-00027" summary="20181030">
+      <created>1540996970489</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1540996970489</updated>
+    </task>
+    <task id="LOCAL-00028" summary="20181030">
+      <created>1540997414863</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1540997414863</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196487000" />
+    <option name="totallyTimeSpent" value="215484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="279" width="1535" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2645241" sideWeight="0.50486064" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45467225" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26794744" sideWeight="0.48671418" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11530945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21638018" sideWeight="0.49513933" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861477" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16076845" sideWeight="0.49382716" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12100639" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48671418" weight="0.26788554" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49513933" weight="0.21621622" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50486064" side_tool="true" weight="0.2645241" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.45467225" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49382716" visible="true" weight="0.16057234" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32861477" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,7 +936,10 @@
     <MESSAGE value="20180117" />
     <MESSAGE value="20180120" />
     <MESSAGE value="20180127" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180127" />
+    <MESSAGE value="20181031" />
+    <MESSAGE value="20181030" />
+    <MESSAGE value="20181102" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181102" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,111 +1119,13 @@
           <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/fiveone/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/fiveone/SolutionReview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="95" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/fiveone/doc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_4/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/NQUEEN/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/PINARY/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_3_1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/Online.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="25" column="94" lean-forward="false" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Function.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_1/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_1/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_4/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_1/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_4/source2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
+          <caret line="35" column="19" selection-end-line="87" selection-end-column="1" />
           <folding>
             <element signature="e#2431#2432#0" expanded="true" />
             <element signature="e#2503#2504#0" expanded="true" />
@@ -1036,37 +1136,35 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_2_3/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_4/source3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_2_3/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-          <folding />
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_2_3/source2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
+        <state>
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/FROG/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1178,7 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_8/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3076#3077#0" expanded="true" />
@@ -1092,14 +1190,14 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/ICPC_2012NWERC_HOUSE/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
-          <caret line="31" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="31" column="49" lean-forward="true" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SUFFIXARRAY/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" lean-forward="true" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,7 +1220,7 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1137,22 +1234,16 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_1/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jdk8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jdk8/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source2.java" />
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1160,42 +1251,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_2/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/sunday/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_1/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/sunday/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1205,21 +1295,21 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="913">
-          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_8_4/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_1/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
-          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2397#2398#0" expanded="true" />
@@ -1237,11 +1327,11 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
-          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="22" />
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2207#2208#0" expanded="false" />
-            <element signature="e#2242#2243#0" expanded="false" />
+            <element signature="imports" />
+            <element signature="e#2207#2208#0" />
+            <element signature="e#2242#2243#0" />
           </folding>
         </state>
       </provider>
@@ -1250,38 +1340,28 @@
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
-          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hackerrank/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/PALINDROME/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1290,9 +1370,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_8_8/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="27">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/PALINDROME/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source_pro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/BuildMaxCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/Input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tower/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tower/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,7 +1535,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1348,11 +1547,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sw</last-edited>
+          <last-edited>sw.pro</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1360,7 +1560,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

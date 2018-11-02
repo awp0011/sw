@@ -3,22 +3,25 @@ package sw.pro.armyline;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Solution {
 
     private static int[] firstLine = new int[10005];
     private static int[] secondLine = new int[10005];
+    private static int length  = 0;
     private static int MOD = 100000007;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.valueOf(br.readLine());
         for (int i = 1; i <= T; i++) {
-            String[] temp = br.readLine().split(" ");
-            for (int j = 1; j <= temp.length; j++) {
-                firstLine[j] = Integer.valueOf(temp[j - 1]);
+            length = Integer.parseInt(br.readLine());
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 1; j <= length; j++) {
+                firstLine[j] = Integer.valueOf(st.nextToken());
             }
-            System.out.println("#" + i + " " + solve(temp.length));
+            System.out.println("#" + i + " " + solve(length));
         }
         br.close();
     }
