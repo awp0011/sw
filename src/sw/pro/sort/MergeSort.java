@@ -7,15 +7,7 @@ import java.util.StringTokenizer;
 
 public class MergeSort {
 
-    private static int[] mergeSort(int[] input) {
-        if (input.length < 2) {
-            return input;
-        }
-        int mid = input.length >> 1 ;
-        int[] left = Arrays.copyOfRange(input, 0, mid);
-        int[] right = Arrays.copyOfRange(input, mid, input.length);
-        return merge(mergeSort(left), mergeSort(right));
-    }
+
 
     private static int[] merge(int[] left, int[] right) {
         int i = 0, j = 0, k = 0;
@@ -35,7 +27,8 @@ public class MergeSort {
         }
         return output;
     }
-
+    private static int[] intArray = new int[5_000_005];
+    private static int[] temp = new int[5_000_005];
     public static void main(String args[]) throws Exception{
 
 
@@ -43,11 +36,16 @@ public class MergeSort {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
-        int[] input = new int[N+1];
+
         for (int i = 0; i < N; i++) {
-            input[i] = Integer.valueOf(br.readLine());
+            intArray[i] = Integer.valueOf(br.readLine());
         }
-        input = mergeSort(input);
-        System.out.println(input[K-1]);
+         mergeSort(0,N);
+        System.out.println(intArray[K-1]);
+    }
+
+    private static int[] mergeSort(final int start,final int end) {
+
+        return new int[]{1,2,3};// merge(mergeSort(left), mergeSort(right));
     }
 }
