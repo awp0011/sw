@@ -1,65 +1,114 @@
 package sw.pro.SDS_PRO_7_8;
 
+
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class source {
+    private static int latest = 1_000_000_001;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
-        Map<Integer, Axis> map = new HashMap<>(2 * N);
+        int[][] buildings = new int[N][3];
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int si = Integer.parseInt(st.nextToken());
-            int ei = Integer.parseInt(st.nextToken());
-            int hi = Integer.parseInt(st.nextToken());
-            map.computeIfAbsent(si - 1, v -> new Axis(v, 0)).addY(0);
-            map.computeIfAbsent(si, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(si + 1, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei - 1, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei + 1, v -> new Axis(v, 0)).addY(0);
+            buildings[i][0] = Integer.parseInt(st.nextToken());
+            buildings[i][1] = Integer.parseInt(st.nextToken());
+            buildings[i][2] = Integer.parseInt(st.nextToken());
         }
-        br.close();
-        Axis[] every = map.values().toArray(new Axis[0]);
-        Arrays.sort(every, Comparator.comparingInt(Axis::getX));
-
-        int counter=0;
-        for (int i = 1; i < every.length; i++) {
-
-            if (map.containsKey(every[i].X - 1) && every[i].Y != every[i - 1].Y) {
-                counter++;
-                bw.append(every[i].X + " " + every[i].Y);
-                bw.newLine();
+        Arrays.sort(buildings, (a1, a2) -> {
+            if (a1[0] == a2[0]) {
+                return a2[1] - a1[0];
+            } else {
+                return a1[0] - a2[0];
             }
-        }
-        System.out.println(counter);
-        bw.flush();
-        bw.close();
+        });
 
+        Building start = new Building(0);
+        Building end = new Building(latest);
+        start.right = end;
+        end.left = start;
+
+        join(start, new Building(buildings[0][0], buildings[0][2]));
+        join(start.right, new Building(buildings[0][1], buildings[0][2]));
+
+        Building current = start.right;
+        for (int i = 1; i < N; i++) {
+            Building si = new Building(buildings[i][0], buildings[i][2]);
+            current = insert(current, si);
+            Building ei = new Building(buildings[i][1], buildings[i][2]);
+            insert(current, ei);
+        }
+        StringBuilder sb = new StringBuilder();
+        int answer = 0;
+        current = start.right;
+        while (current.right.axisX != latest) {
+            if (current.height != current.left.height) {
+                answer++;
+                sb.append(current.axisX).append(" ").append(current.height).append('\n');
+            }
+
+            current = current.right;
+        }
+        System.out.println(answer);
+        System.out.println(sb.toString());
     }
 
-    private static class Axis {
-        int X;
-        int Y;
 
-        Axis(final int x, final int y) {
-            X = x;
-            Y = y;
-        }
-
-        void addY(final int y) {
-            if (y > Y) {
-                Y = y;
+    private static Building insert(Building start, Building next) {
+        Building current = start;
+        do {
+            if (current.right.axisX == latest && current.axisX != latest && current.height != 0) {
+                Building aNew = new Building(current.axisX + 1);
+                join(current, aNew);
             }
+            if (current.right.axisX < next.axisX) {
+                current = current.right;
+
+            } else {
+                if (current.axisX == next.axisX) {
+                    current.height = current.height < next.height ? next.height : current.height;
+                } else if (current.right.axisX == next.axisX) {
+                    current = current.right;
+                    current.height = current.height < next.height ? next.height : current.height;
+                } else {
+                    if (!(next.height < current.right.height && next.height < current.height)) {
+                        join(current, next);
+                    }
+                }
+                break;
+            }
+
+        } while (true);
+        return current;
+    }
+
+    private static void join(Building first, Building second) {
+        first.right.left = second;
+        second.right = first.right;
+        first.right = second;
+        second.left = first;
+    }
+
+    private static class Building {
+        int axisX;
+        int height;
+        Building left;
+        Building right;
+
+        Building(final int x, final int h) {
+            axisX = x;
+            height = h;
         }
 
-        int getX() {
-            return X;
+        Building(final int x) {
+            axisX = x;
+            height = 0;
         }
+
+
     }
 }
