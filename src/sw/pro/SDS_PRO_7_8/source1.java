@@ -1,65 +1,101 @@
 package sw.pro.SDS_PRO_7_8;
 
+
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class source1 {
+    private static int MAX = 200020;
+    private static int N;
+    private static int[] sx = new int[MAX];
+    private static int[] ex = new int[MAX];
+    private static int[] y = new int[MAX];
+    private static ArrayList<Pair> ans;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int N = Integer.parseInt(br.readLine());
-        Map<Integer, Axis> map = new HashMap<>(2 * N);
+        N = Integer.parseInt(br.readLine());
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int si = Integer.parseInt(st.nextToken());
-            int ei = Integer.parseInt(st.nextToken());
-            int hi = Integer.parseInt(st.nextToken());
-            map.computeIfAbsent(si - 1, v -> new Axis(v, 0)).addY(0);
-            map.computeIfAbsent(si, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(si + 1, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei - 1, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei, v -> new Axis(v, hi)).addY(hi);
-            map.computeIfAbsent(ei + 1, v -> new Axis(v, 0)).addY(0);
+            sx[i] = Integer.parseInt(st.nextToken());
+            ex[i] = Integer.parseInt(st.nextToken());
+            y[i] = Integer.parseInt(st.nextToken());
         }
-        br.close();
-        Axis[] every = map.values().toArray(new Axis[0]);
-        Arrays.sort(every, Comparator.comparingInt(Axis::getX));
-
-        int counter=0;
-        for (int i = 1; i < every.length; i++) {
-
-            if (map.containsKey(every[i].X - 1) && every[i].Y != every[i - 1].Y) {
-                counter++;
-                bw.append(every[i].X + " " + every[i].Y);
-                bw.newLine();
-            }
+        ans = solve(0, N);
+        // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuffer sb = new StringBuffer(500);
+        sb.append(ans.size()).append('\n');
+        for (Pair p : ans) {
+            sb.append(p.first).append(' ' ).append(p.second).append('\n');
         }
-        System.out.println(counter);
-        bw.flush();
-        bw.close();
-
+        System.out.println(sb.toString());
     }
 
-    private static class Axis {
-        int X;
-        int Y;
+    private static ArrayList<Pair> solve(int l, int r) {
+        if (l + 1 == r) {//相邻的两个建筑物
+            ArrayList<Pair> ret = new ArrayList<>();
+            ret.add(new Pair(sx[l], y[l]));//左边建筑物开始坐标，左边建筑物高度
+            ret.add(new Pair(ex[l] + 1, 0));//左边建筑物结束坐标+1，高度0
+            return ret;
+        } else {
+            int m = (l + r) >> 1;
 
-        Axis(final int x, final int y) {
-            X = x;
-            Y = y;
-        }
-
-        void addY(final int y) {
-            if (y > Y) {
-                Y = y;
+            ArrayList<Pair> al = solve(l, m);
+            ArrayList<Pair> ar = solve(m, r);
+            ArrayList<Pair> ret = new ArrayList<>(100);
+            int i = 0, j = 0, ly = 0, ry = 0;
+            while (true) {
+                if (i == al.size()) {
+                    if (j == ar.size()) {
+                        break;
+                    } else {
+                        ret.add(ar.get(j));
+                        j++;
+                    }
+                } else {
+                    if (j == ar.size()) {
+                        ret.add(al.get(i));
+                        i++;
+                    } else {
+                        if (al.get(i).first < ar.get(j).first) {
+                            if (Math.max(ly, ry) != Math.max(al.get(i).second, ry)) {
+                                ret.add(new Pair(al.get(i).first, Math.max(al.get(i).second, ry)));
+                            }
+                            ly = al.get(i).second;
+                            i++;
+                        } else if (al.get(i).first > ar.get(j).first) {
+                            if (Math.max(ly, ry) != Math.max(ly, ar.get(j).second)) {
+                                ret.add(new Pair(ar.get(j).first, Math.max(ly, ar.get(j).second)));
+                            }
+                            ry = ar.get(j).second;
+                            j++;
+                        } else {
+                            int maxY = Math.max(al.get(i).second, ar.get(j).second);
+                            if (Math.max(ly, ry) != maxY) {
+                                ret.add(new Pair(al.get(i).first, maxY));
+                            }
+                            ly = al.get(i).second;
+                            ry = ar.get(j).second;
+                            i++;
+                            j++;
+                        }
+                    }
+                }
             }
-        }
-
-        int getX() {
-            return X;
+            return ret;
         }
     }
+
+    private static class Pair {
+        int first;
+        int second;
+
+        Pair(int f, int s) {
+            first = f;
+            second = s;
+        }
+    }
+
 }
