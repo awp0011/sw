@@ -37,7 +37,7 @@ class Solution {
         boolean isMeet = false;
         int cnt = q.size();
         while (cnt != 0) {
-            Integer current = q.peek()==null?0:q.poll();
+            Integer current = q.peek() == null ? 0 : q.poll();
             Integer next = current + n;
             if (next.equals(MEET99)) {
                 isMeet = true;
