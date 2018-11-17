@@ -32,25 +32,31 @@ public class Solution {
             while (!queue.isEmpty()) {
                 int[] next = queue.poll();
                 int g = 'G';
-                if (next[0] > 0 && map[next[0] - 1][next[1]] == g) {
-                    queue.add(new int[]{next[0] - 1, next[1]});
-                    map[next[0] - 1][next[1]] = map[next[0]][next[1]] - 1;
-                    time = Math.min(time, map[next[0] - 1][next[1]]);
+
+                int left = next[0] - 1;
+                int burning = map[next[0]][next[1]] - 1;
+                if (next[0] > 0 && map[left][next[1]] == g) {
+                    queue.add(new int[]{left, next[1]});
+                    map[left][next[1]] = burning;
+                    time = Math.min(time, map[left][next[1]]);
                 }
-                if (next[0] < N - 1 && map[next[0] + 1][next[1]] == g) {
-                    queue.add(new int[]{next[0] + 1, next[1]});
-                    map[next[0] + 1][next[1]] = map[next[0]][next[1]] - 1;
-                    time = Math.min(time, map[next[0] + 1][next[1]]);
+                int right = next[0] + 1;
+                if (next[0] < N - 1 && map[right][next[1]] == g) {
+                    queue.add(new int[]{right, next[1]});
+                    map[right][next[1]] = burning;
+                    time = Math.min(time, map[right][next[1]]);
                 }
-                if (next[1] > 0 && map[next[0]][next[1] - 1] == g) {
-                    queue.add(new int[]{next[0], next[1] - 1});
-                    map[next[0]][next[1] - 1] = map[next[0]][next[1]] - 1;
-                    time = Math.min(time, map[next[0]][next[1] - 1]);
+                int top = next[1] - 1;
+                if (next[1] > 0 && map[next[0]][top] == g) {
+                    queue.add(new int[]{next[0], top});
+                    map[next[0]][top] = burning;
+                    time = Math.min(time, map[next[0]][top]);
                 }
-                if (next[1] < N - 1 && map[next[0]][next[1] + 1] == g) {
-                    queue.add(new int[]{next[0], next[1] + 1});
-                    map[next[0]][next[1] + 1] = map[next[0]][next[1]] - 1;
-                    time = Math.min(time, map[next[0]][next[1] + 1]);
+                int bottom = next[1] + 1;
+                if (next[1] < N - 1 && map[next[0]][bottom] == g) {
+                    queue.add(new int[]{next[0], bottom});
+                    map[next[0]][bottom] = burning;
+                    time = Math.min(time, map[next[0]][bottom]);
                 }
 
             }
