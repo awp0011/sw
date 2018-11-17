@@ -4,9 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181114-sw adv &#10;选礼物">
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/hate/mosquito/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/hate/mosquito/input.txt" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181116-sw adv &#10;金鱼糖">
+      <change afterPath="$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/adv/fold/table/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/adv/sugguer/fish/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
@@ -35,38 +36,41 @@
     <session id="-2044327273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="10" />
           <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="48" />
-          <entry key="txt" value="10" />
+          <entry key="input" value="1" />
+          <entry key="java" value="51" />
+          <entry key="test_data" value="1" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="51" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
           <entry key="ft" value="1" />
-          <entry key="java" value="12161" />
-          <entry key="txt" value="420" />
+          <entry key="input" value="46" />
+          <entry key="java" value="13268" />
+          <entry key="txt" value="524" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12161" />
-          <entry key="PLAIN_TEXT" value="432" />
+          <entry key="JAVA" value="13268" />
+          <entry key="PLAIN_TEXT" value="582" />
           <entry key="VTL" value="1" />
         </counts>
       </usages-collector>
@@ -82,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/adv/color/letters/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            <state relative-caret-position="1058">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +98,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/adv/select/gift/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1526">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="77">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/road/pavement/test_data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/adv/fold/table/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="16" lean-forward="true" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -106,36 +140,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/adv/hate/mosquito/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1569#1570#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/adv/hate/mosquito/input.txt">
+        <entry file="file://$PROJECT_DIR$/src/sw/adv/sugguer/fish/input">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" lean-forward="true" selection-end-line="18" />
+            <state relative-caret-position="138">
+              <caret line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -146,8 +161,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="KoitpSource" />
-        <option value="SW.PRO" />
         <option value="Class" />
+        <option value="SW.PRO" />
       </list>
     </option>
   </component>
@@ -180,10 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_1/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/sunday/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_8_8/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/sunday/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_1/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_8_4/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source2.java" />
@@ -228,9 +239,13 @@
         <option value="$PROJECT_DIR$/src/sw/adv/color/letters.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/color/letters/Solution.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/select/gift/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/hate/mosquito/input.txt" />
         <option value="$PROJECT_DIR$/src/sw/adv/hate/mosquito/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/adv/sugguer/fish/input" />
+        <option value="$PROJECT_DIR$/src/sw/adv/sugguer/fish/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
+        <option value="$PROJECT_DIR$/src/sw/adv/fold/table/input.txt" />
+        <option value="$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java" />
       </list>
     </option>
   </component>
@@ -240,9 +255,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="222" />
-    <option name="y" value="14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="384" />
+    <option name="y" value="118" />
     <option name="width" value="2133" />
     <option name="height" value="1371" />
   </component>
@@ -298,9 +313,9 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
-      <flattenPackages PackagesPane="true" ProjectPane="true" />
+      <flattenPackages PackagesPane="false" ProjectPane="false" />
       <showMembers PackagesPane="false" />
-      <hideEmptyPackages PackagesPane="false" />
+      <hideEmptyPackages PackagesPane="true" />
       <abbreviatePackageNames PackagesPane="false" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -315,7 +330,26 @@
             <path>
               <item name="sw" type="58d84e3e:PackageViewProjectNode" />
               <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw.adv.hate.mosquito" type="1f31426a:PackageElementNode" />
+              <item name="sw" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw" type="1f31426a:PackageElementNode" />
+              <item name="adv" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw" type="1f31426a:PackageElementNode" />
+              <item name="adv" type="1f31426a:PackageElementNode" />
+              <item name="fold.table" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -385,7 +419,7 @@
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542377763481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542417269252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -422,7 +456,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -433,20 +467,6 @@
       <option name="MAIN_CLASS_NAME" value="sw.test.CheckMemory" />
       <module name="sw.pro" />
       <option name="VM_PARAMETERS" value="-Xmx512m" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.adv.color.letters.Solution" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.adv.color.letters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -466,12 +486,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.adv.meet99.Solution" />
+      <option name="MAIN_CLASS_NAME" value="sw.adv.fold.table.Solution" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.adv.meet99.*" />
+          <option name="PATTERN" value="sw.adv.fold.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,6 +533,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.adv.sugguer.fish.source" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.adv.sugguer.fish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -538,19 +572,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.source (1)" />
       <item itemvalue="Application.TempTest" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.source" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.TempTest" />
-        <item itemvalue="Application.source (1)" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.TempTest" />
+        <item itemvalue="Application.source" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.source (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +670,8 @@
       <workItem from="1542025555301" duration="6687000" />
       <workItem from="1542108281125" duration="8266000" />
       <workItem from="1542190100814" duration="14885000" />
-      <workItem from="1542369010097" duration="8403000" />
+      <workItem from="1542369010097" duration="15987000" />
+      <workItem from="1542412303844" duration="4961000" />
     </task>
     <task id="LOCAL-00001" summary="20171210">
       <created>1512816713401</created>
@@ -925,17 +960,31 @@
       <option name="project" value="LOCAL" />
       <updated>1542210853922</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="20181116-sw adv &#10;讨厌的蚊子">
+      <created>1542377806646</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1542377806646</updated>
+    </task>
+    <task id="LOCAL-00043" summary="20181116-sw adv &#10;金鱼糖">
+      <created>1542387188742</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1542387188743</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314801000" />
+    <option name="totallyTimeSpent" value="327346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="384" y="118" width="2133" height="1371" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1465308" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -944,7 +993,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282989" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48642173" visible="true" weight="0.26709062" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48642173" weight="0.26628193" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -952,7 +1001,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.45467225" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49400958" weight="0.15898252" />
-      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.3282989" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.32811213" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -963,7 +1012,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" weight="0.4353035" />
+      <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" visible="true" weight="0.4352256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,8 +1022,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20171223" />
-    <MESSAGE value="20171223-2" />
     <MESSAGE value="20171224" />
     <MESSAGE value="20171228" />
     <MESSAGE value="20171229" />
@@ -998,7 +1045,9 @@
     <MESSAGE value="20181113-sw adv &#10;letter color" />
     <MESSAGE value="20181113-sw adv &#10;meet 99" />
     <MESSAGE value="20181114-sw adv &#10;选礼物" />
-    <option name="LAST_COMMIT_MESSAGE" value="20181114-sw adv &#10;选礼物" />
+    <MESSAGE value="20181116-sw adv &#10;讨厌的蚊子" />
+    <MESSAGE value="20181116-sw adv &#10;金鱼糖" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181116-sw adv &#10;金鱼糖" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1219,6 +1268,12 @@
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1235,40 +1290,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#2207#2208#0" />
-            <element signature="e#2242#2243#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hackerrank/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1560,40 +1581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/adv/select/gift/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1526">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/adv/meet99/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/adv/color/letters/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1616,14 +1607,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/adv/hate/mosquito/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="598">
+          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1569#1570#0" expanded="true" />
             <element signature="e#1602#1603#0" expanded="true" />
             <element signature="e#1714#1715#0" expanded="true" />
             <element signature="e#1750#1751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/color/letters/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/sugguer/fish/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/sugguer/fish/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/select/gift/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/road/pavement/test_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/fold/table/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
