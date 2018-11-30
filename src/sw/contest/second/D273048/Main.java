@@ -1,7 +1,9 @@
 package sw.contest.second.D273048;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -11,34 +13,28 @@ import static java.util.Collections.binarySearch;
 import static java.util.Comparator.comparing;
 
 public class Main {
-    private static BufferedReader br;
-
-
     public static void main(String[] args) throws Exception {
-        ArrayList<Opt> delList_1 = new ArrayList<>(2500);
-        ArrayList<Opt> delList_2 = new ArrayList<>(2500);
-        List<Opt> insList_1 = new ArrayList<>(2500);
-        List<Opt> insList_2 = new ArrayList<>(2500);
-        br = new BufferedReader(new InputStreamReader(System.in));
-        int cnt = 0;
-        while (cnt < 80) {
-            if (exec(delList_1, insList_1)) {
-                exec(delList_2, insList_2);
-                System.out.println(isSame(delList_1, delList_2, insList_1, insList_2) ? 0 : 1);
-                delList_1.clear();
-                delList_2.clear();
-                insList_1.clear();
-                insList_2.clear();
-            } else {
-                break;
-            }
-            cnt++;
+        ArrayList<Opt> delList_1 = new ArrayList<>(2200);
+        ArrayList<Opt> delList_2 = new ArrayList<>(2200);
+        ArrayList<Opt> insList_1 = new ArrayList<>(2200);
+        ArrayList<Opt> insList_2 = new ArrayList<>(2200);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int cnt = 22;
+        while (cnt > 0) {
+            exec(delList_1, insList_1, br);
+            exec(delList_2, insList_2, br);
+            System.out.println(isSame(delList_1, delList_2, insList_1, insList_2) ? 0 : 1);
+            delList_1.clear();
+            delList_2.clear();
+            insList_1.clear();
+            insList_2.clear();
+            cnt--;
         }
     }
 
-    private static boolean exec(List<Opt> delList, List<Opt> insList) throws Exception {
+    private static void exec(List<Opt> delList, List<Opt> insList, BufferedReader br) throws Exception {
         StringTokenizer st;
-        char next = 'Q';
+        char next;
         while (true) {
             st = new StringTokenizer(br.readLine());
             if (st.countTokens() == 0) break;
@@ -59,6 +55,7 @@ public class Main {
                 int pos = binarySearch(insList, insOpt, comparing(Opt::getPos));
                 if (pos < 0) pos = abs(pos + 1);
                 insList.add(pos, insOpt);
+
                 for (int i = pos + 1; i < insList.size(); i++) {
                     insList.get(i).pos += 1;
                 }
@@ -66,7 +63,6 @@ public class Main {
                 break;
             }
         }
-        return next != 'Q';
     }
 
     private static boolean delIns(Opt del, List<Opt> insList) {

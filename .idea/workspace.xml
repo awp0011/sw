@@ -4,7 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181129-达人杯，第二天">
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181129-达人杯，第三天">
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/second/D273048/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java" afterDir="false" />
     </list>
@@ -58,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw/contest/second/C273048/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="276">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,12 +73,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="581">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3647#3648#0" expanded="true" />
                 <element signature="e#3681#3682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1604">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5139#5140#0" expanded="true" />
+                <element signature="e#5167#5168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,11 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/sw/test/CheckMemory.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/armyline/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/armyline/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/select/soldiers/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/Msort.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/kthnumber/source_my.java" />
@@ -187,6 +220,11 @@
         <option value="$PROJECT_DIR$/src/sw/contest/second/A273048/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/contest/second/B273048/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/contest/second/C273048/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/Batter.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/longlong.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings2.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/Test.java" />
         <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java" />
       </list>
     </option>
@@ -278,6 +316,13 @@
               <item name="sw" type="58d84e3e:PackageViewProjectNode" />
               <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
               <item name="sw" type="1f31426a:PackageElementNode" />
+              <item name="contest.second" type="1f31426a:PackageElementNode" />
+              <item name="D273048" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
+              <item name="sw" type="1f31426a:PackageElementNode" />
               <item name="pro" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
@@ -348,7 +393,7 @@
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543580387502" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543585330199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -403,6 +448,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongLongStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.LongLongStrings" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.contest.second.D273048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.contest.second.B273048.Main" />
       <module name="sw.pro" />
@@ -431,20 +490,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.contest.second.D273048.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.contest.second.A273048.Main" />
       <module name="sw.pro" />
@@ -459,22 +504,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.Main" />
+      <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.contest.second.D273048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.SDS_PRO_7_3.source" />
-      <module name="sw.pro" />
-      <option name="VM_PARAMETERS" value="-Xmx512m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.pro.SDS_PRO_7_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -504,19 +549,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.source" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.LongLongStrings" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.LongLongStrings" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.source" />
       </list>
     </recent_temporary>
   </component>
@@ -616,14 +661,7 @@
       <workItem from="1543318671853" duration="9213000" />
       <workItem from="1543404555349" duration="9464000" />
       <workItem from="1543497118492" duration="3277000" />
-      <workItem from="1543580201677" duration="186000" />
-    </task>
-    <task id="LOCAL-00001" summary="20171210">
-      <created>1512816713401</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1512816713401</updated>
+      <workItem from="1543580201677" duration="5016000" />
     </task>
     <task id="LOCAL-00002" summary="20171210-2">
       <created>1512817476208</created>
@@ -961,11 +999,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543500390719</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="20181129-达人杯，第三天">
+      <created>1543580406636</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1543580406636</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389671000" />
+    <option name="totallyTimeSpent" value="394501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -1001,14 +1046,13 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" weight="0.3546326" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" weight="0.25798723" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.48642173" visible="true" weight="0.25798723" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20180101" />
     <MESSAGE value="20180108" />
     <MESSAGE value="20180117" />
     <MESSAGE value="20180120" />
@@ -1033,7 +1077,8 @@
     <MESSAGE value="20181117-sw adv &#10;刀耕火种" />
     <MESSAGE value="20181119-sw pro &#10;Road Pavement" />
     <MESSAGE value="20181129-达人杯，第二天" />
-    <option name="LAST_COMMIT_MESSAGE" value="20181129-达人杯，第二天" />
+    <MESSAGE value="20181129-达人杯，第三天" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181129-达人杯，第三天" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1315,37 +1360,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/Input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/kthnumber/source_my.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1691,16 +1705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/C273048/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_10_3/source2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -1711,10 +1715,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1604">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/C273048/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5139#5140#0" expanded="true" />
+            <element signature="e#5167#5168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3647#3648#0" expanded="true" />
