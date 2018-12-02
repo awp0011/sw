@@ -2,96 +2,174 @@ package sw.contest.second.D273048;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.StringTokenizer;
 
-import static java.lang.Long.parseLong;
-import static java.lang.Math.abs;
-import static java.util.Collections.binarySearch;
-import static java.util.Comparator.comparing;
+import static java.lang.Long.*;
 
 public class Main {
+    private static final char NONE = 0;
+
     public static void main(String[] args) throws Exception {
-        ArrayList<Opt> delList_1 = new ArrayList<>(2200);
-        ArrayList<Opt> delList_2 = new ArrayList<>(2200);
-        ArrayList<Opt> insList_1 = new ArrayList<>(2200);
-        ArrayList<Opt> insList_2 = new ArrayList<>(2200);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int cnt = 22;
-        while (cnt > 0) {
-            exec(delList_1, insList_1, br);
-            exec(delList_2, insList_2, br);
-            System.out.println(isSame(delList_1, delList_2, insList_1, insList_2) ? 0 : 1);
-            delList_1.clear();
-            delList_2.clear();
-            insList_1.clear();
-            insList_2.clear();
-            cnt--;
-        }
+        do {
+            System.out.println(execute(br).equals(execute(br)) ? "0" : "1");
+        } while (br.ready());
+
+
+        br.close();
     }
 
-    private static void exec(List<Opt> delList, List<Opt> insList, BufferedReader br) throws Exception {
-        StringTokenizer st;
-        char next;
+    private static Opt execute(BufferedReader br) throws Exception {
+        Opt head = new Opt(NONE);
+        head.next = new Opt(1L, 100_000_000_000L);
+        head.next.prev = head;
+        head.next.next = new Opt(NONE);
+        head.next.next.prev = head.next;
+        StringTokenizer st = new StringTokenizer(br.readLine());
         while (true) {
+            char optChar = st.nextToken().charAt(0);
+            if (optChar == 'E') break;
+            long pos = parseLong(st.nextToken()) - 1L;
+            char c = optChar == 'I' ? st.nextToken().charAt(0) : NONE;
+            Opt nextOpt = head.next;//从第一个区间开始
+            long len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
+            while (len <= pos) {
+                pos -= len;
+                nextOpt = nextOpt.next;
+                len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
+            }
+            if (c == NONE) delete(nextOpt, pos);
+            else insert(nextOpt, pos, c);
             st = new StringTokenizer(br.readLine());
-            if (st.countTokens() == 0) break;
-            next = st.nextToken().charAt(0);
-            if ('D' == next) {
-                Opt delOpt = new Opt();
-                delOpt.pos = parseLong(st.nextToken());
-                if (delIns(delOpt, insList)) continue;
-                int pos = binarySearch(delList, delOpt, comparing(Opt::getPos));
-                if (pos < 0) pos = abs(pos + 1);
-                delOpt.pos += pos;
-                delList.add(pos, delOpt);
+        }
 
-            } else if ('I' == next) {
-                Opt insOpt = new Opt();
-                insOpt.pos = parseLong(st.nextToken());
-                insOpt.c = st.nextToken().charAt(0);
-                int pos = binarySearch(insList, insOpt, comparing(Opt::getPos));
-                if (pos < 0) pos = abs(pos + 1);
-                insList.add(pos, insOpt);
+        return head;
+    }
 
-                for (int i = pos + 1; i < insList.size(); i++) {
-                    insList.get(i).pos += 1;
-                }
+    private static void delete(Opt n, long index) {
+        Opt prev = n.prev;
+        Opt next = n.next;
+
+        if (n.start == -1L) {
+            prev.next = next;
+            next.prev = prev;
+
+            if (prev.ch == NONE && next.ch == NONE && prev.end + 1 == next.start) {
+                prev.end = next.end;
+                prev.next = next.next;
+                next.next.prev = prev;
+            }
+        } else {
+            long start1 = n.start;
+            long end1 = n.start + index - 1L;
+            long start2 = n.start + index + 1L;
+            long end2 = n.end;
+
+            Opt first = start1 <= end1 ? new Opt(start1, end1) : null;
+            Opt last = start2 <= end2 ? new Opt(start2, end2) : null;
+
+            if (first != null && last != null) {
+                prev.next = first;
+                first.prev = prev;
+                first.next = last;
+                last.prev = first;
+                last.next = next;
+                next.prev = last;
+            } else if (first != null) {
+                prev.next = first;
+                first.prev = prev;
+                first.next = next;
+                next.prev = first;
+            } else if (last != null) {
+                prev.next = last;
+                last.prev = prev;
+                last.next = next;
+                next.prev = last;
             } else {
-                break;
+                prev.next = next;
+                next.prev = prev;
             }
         }
     }
 
-    private static boolean delIns(Opt del, List<Opt> insList) {
-        int index = binarySearch(insList, del, comparing(Opt::getPos));
-        if (index < 0) return false;
-        else insList.remove(index);
-        return true;
+    private static void insert(Opt n, long index, char ch) {
+        Opt prev = n.prev;
+        Opt next = n.next;
+        Opt ins = new Opt(ch);
+
+        if (n.start == -1L) {
+            prev.next = ins;
+            ins.prev = prev;
+            ins.next = n;
+            n.prev = ins;
+        } else {
+            long start1 = n.start;
+            long end1 = n.start + index - 1L;
+            long start2 = n.start + index;
+            long end2 = n.end;
+
+            Opt first = start1 <= end1 ? new Opt(start1, end1) : null;
+            Opt last = start2 <= end2 ? new Opt(start2, end2) : null;
+
+            if (first != null && last != null) {
+                prev.next = first;
+                first.prev = prev;
+                first.next = ins;
+                ins.prev = first;
+                ins.next = last;
+                last.prev = ins;
+                last.next = next;
+                next.prev = last;
+            } else if (first != null) {
+                prev.next = first;
+                first.prev = prev;
+                first.next = ins;
+                ins.prev = first;
+                ins.next = next;
+                next.prev = ins;
+            } else if (last != null) {
+                prev.next = ins;
+                ins.prev = prev;
+                ins.next = last;
+                last.prev = ins;
+                last.next = next;
+                next.prev = last;
+            } else {
+                prev.next = ins;
+                ins.prev = prev;
+                ins.next = next;
+                next.prev = ins;
+            }
+        }
     }
 
-    private static boolean isSame(List<Opt> delList1, List<Opt> delList2, List<Opt> insList1, List<Opt> insList2) {
-        if (delList1.size() != delList2.size() || insList1.size() != insList2.size()) return false;
-        for (int i = 0; i < delList1.size(); i++) {
-            if (delList1.get(i) == null || delList2.get(i) == null) return false;
-            if (delList1.get(i).pos != delList2.get(i).pos) return false;
-        }
-        for (int i = 0; i < insList1.size(); i++) {
-            if (insList2.get(i) == null || insList1.get(i) == null) return false;
-            if (insList1.get(i).pos != insList2.get(i).pos) return false;
-            else if (insList1.get(i).c != insList2.get(i).c) return false;
-        }
-        return true;
-    }
+    static class Opt {
+        final long start;
+        long end;
+        char ch;
+        Opt prev;
+        Opt next;
 
-    private static class Opt {
-        long pos = 0;
-        char c = '0';
+        Opt(long start, long end) {
+            this.start = start;
+            this.end = end;
+        }
 
-        long getPos() {
-            return pos;
+        Opt(char ch) {
+            this.start = -1L;
+            this.end = -1L;
+            this.ch = ch;
+        }
+
+        boolean equals(Opt o) {
+            Opt m = this;
+            while (m != null) {
+                if (o == null) return false;
+                if (m.ch != o.ch || m.start != o.start || m.end != o.end) return false;
+                m = m.next;
+                o = o.next;
+            }
+            return o == null;
         }
     }
 }

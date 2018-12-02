@@ -9,16 +9,16 @@ import static java.lang.Long.*;
 
 public class MainV2 {
     private static final char NONE = 0;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Opt first = execute(br), second = execute(br);
+        System.out.println(execute(br).equals(execute(br)) ? "0" : "1");
         br.close();
-        System.out.println(first.equals(second) ? "0" : "1");
     }
 
     private static Opt execute(BufferedReader br) throws Exception {
         Opt head = new Opt(NONE);
-        head.next = new Opt(1L,100_000_000_000L);
+        head.next = new Opt(1L, 100_000_000_000L);
         head.next.prev = head;
         head.next.next = new Opt(NONE);
         head.next.next.prev = head.next;
@@ -26,25 +26,17 @@ public class MainV2 {
         while (true) {
             char optChar = st.nextToken().charAt(0);
             if (optChar == 'E') break;
-
             long pos = parseLong(st.nextToken()) - 1L;
             char c = optChar == 'I' ? st.nextToken().charAt(0) : NONE;
-            Opt nextOpt = head.next;
-            while (true) {
-                long len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
-                if (len <= pos) {
-                    pos -= len;
-                    nextOpt = nextOpt.next;
-                    continue;
-                }
-
-                if (c == NONE)
-                    delete(nextOpt, pos);
-                else
-                    insert(nextOpt, pos, c);
-
-                break;
+            Opt nextOpt = head.next;//从第一个区间开始
+            long len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
+            while (len <= pos) {
+                pos -= len;
+                nextOpt = nextOpt.next;
+                len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
             }
+            if (c == NONE)delete(nextOpt, pos);
+            else insert(nextOpt, pos, c);
             st = new StringTokenizer(br.readLine());
         }
 
@@ -166,26 +158,15 @@ public class MainV2 {
             this.ch = ch;
         }
 
-        @Override
-        public boolean equals(Object obj) {
-            if (!(obj instanceof Opt))
-                return false;
-
-            Opt a = this;
-            Opt b = (Opt) obj;
-
-            while (a != null) {
-                if (b == null)
-                    return false;
-
-                if (a.ch != b.ch || a.start != b.start || a.end != b.end)
-                    return false;
-
-                a = a.next;
-                b = b.next;
+        boolean equals(Opt o) {
+            Opt m = this;
+            while (m != null) {
+                if (o == null) return false;
+                if (m.ch != o.ch || m.start != o.start || m.end != o.end) return false;
+                m = m.next;
+                o = o.next;
             }
-
-            return b == null;
+            return o == null;
         }
     }
 }
