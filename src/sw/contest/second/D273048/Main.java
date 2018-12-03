@@ -1,13 +1,15 @@
 package sw.contest.second.D273048;
 
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import static java.lang.Long.*;
+import static java.lang.Long.parseLong;
+import static java.lang.Math.max;
 
 public class Main {
-    private static final char NONE = 0;
+    private static final char empty = 0;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,153 +21,136 @@ public class Main {
         br.close();
     }
 
-    private static Opt execute(BufferedReader br) throws Exception {
-        Opt head = new Opt(NONE);
-        head.next = new Opt(1L, 100_000_000_000L);
-        head.next.prev = head;
-        head.next.next = new Opt(NONE);
-        head.next.next.prev = head.next;
-        StringTokenizer st = new StringTokenizer(br.readLine());
+    private static Range execute(BufferedReader br) throws Exception {
+        Range first = new Range(empty);
+        join(first, new Range(1, 100_000_000_000L));
+        join(first.next, new Range(empty));
+
+
+        StringTokenizer st ;
         while (true) {
-            char optChar = st.nextToken().charAt(0);
-            if (optChar == 'E') break;
-            long pos = parseLong(st.nextToken()) - 1L;
-            char c = optChar == 'I' ? st.nextToken().charAt(0) : NONE;
-            Opt nextOpt = head.next;//从第一个区间开始
-            long len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
+            st = new StringTokenizer(br.readLine());
+            char opt = st.nextToken().charAt(0);
+            if (opt == 'E') break;
+            long pos = parseLong(st.nextToken()) - 1;
+            char c = opt == 'I' ? st.nextToken().charAt(0) : empty;
+            Range nextOpt = first.next;
+            long len = max(1, nextOpt.getLength());
             while (len <= pos) {
                 pos -= len;
                 nextOpt = nextOpt.next;
-                len = Math.max(1L, nextOpt.end - nextOpt.start + 1L);
+                len = max(1, nextOpt.getLength());
             }
-            if (c == NONE) delete(nextOpt, pos);
-            else insert(nextOpt, pos, c);
-            st = new StringTokenizer(br.readLine());
+            if (opt == 'I') insert(nextOpt, pos, c);
+            else delete(nextOpt, pos);
+
         }
 
-        return head;
+        return first;
     }
+    private static void delete(Range n, long index) {
+        Range prev = n.prev;
+        Range next = n.next;
 
-    private static void delete(Opt n, long index) {
-        Opt prev = n.prev;
-        Opt next = n.next;
-
-        if (n.start == -1L) {
-            prev.next = next;
-            next.prev = prev;
-
-            if (prev.ch == NONE && next.ch == NONE && prev.end + 1 == next.start) {
-                prev.end = next.end;
+        if (n.s == -1) {
+            join(prev, next);
+            if (prev.c == empty && next.c == empty && prev.e + 1 == next.s) {
+                prev.e = next.e;
                 prev.next = next.next;
                 next.next.prev = prev;
             }
         } else {
-            long start1 = n.start;
-            long end1 = n.start + index - 1L;
-            long start2 = n.start + index + 1L;
-            long end2 = n.end;
+            long s1 = n.s;
+            long e1 = n.s + index - 1;
+            long s2 = n.s + index + 1;
+            long e2 = n.e;
 
-            Opt first = start1 <= end1 ? new Opt(start1, end1) : null;
-            Opt last = start2 <= end2 ? new Opt(start2, end2) : null;
+            Range part1 = s1 <= e1 ? new Range(s1, e1) : null;
+            Range part2 = s2 <= e2 ? new Range(s2, e2) : null;
 
-            if (first != null && last != null) {
-                prev.next = first;
-                first.prev = prev;
-                first.next = last;
-                last.prev = first;
-                last.next = next;
-                next.prev = last;
-            } else if (first != null) {
-                prev.next = first;
-                first.prev = prev;
-                first.next = next;
-                next.prev = first;
-            } else if (last != null) {
-                prev.next = last;
-                last.prev = prev;
-                last.next = next;
-                next.prev = last;
+            if (part1 != null && part2 != null) {
+                join(prev, part1);
+                join(part1, part2);
+                join(part2, next);
+            } else if (part1 != null) {
+                join(prev, part1);
+                join(part1, next);
+            } else if (part2 != null) {
+                join(prev, part2);
+                join(part2, next);
             } else {
-                prev.next = next;
-                next.prev = prev;
+                join(prev, next);
             }
         }
     }
 
-    private static void insert(Opt n, long index, char ch) {
-        Opt prev = n.prev;
-        Opt next = n.next;
-        Opt ins = new Opt(ch);
+    private static void insert(Range n, long index, char ch) {
+        Range prev = n.prev;
+        Range next = n.next;
+        Range ins = new Range(ch);
 
-        if (n.start == -1L) {
-            prev.next = ins;
-            ins.prev = prev;
-            ins.next = n;
-            n.prev = ins;
+        if (n.s == -1) {
+            join(prev, ins);
+            join(ins, n);
         } else {
-            long start1 = n.start;
-            long end1 = n.start + index - 1L;
-            long start2 = n.start + index;
-            long end2 = n.end;
+            long s1 = n.s;
+            long e1 = n.s + index - 1;
+            long s2 = n.s + index;
+            long e2 = n.e;
 
-            Opt first = start1 <= end1 ? new Opt(start1, end1) : null;
-            Opt last = start2 <= end2 ? new Opt(start2, end2) : null;
+            Range part1 = s1 <= e1 ? new Range(s1, e1) : null;
+            Range part2 = s2 <= e2 ? new Range(s2, e2) : null;
 
-            if (first != null && last != null) {
-                prev.next = first;
-                first.prev = prev;
-                first.next = ins;
-                ins.prev = first;
-                ins.next = last;
-                last.prev = ins;
-                last.next = next;
-                next.prev = last;
-            } else if (first != null) {
-                prev.next = first;
-                first.prev = prev;
-                first.next = ins;
-                ins.prev = first;
-                ins.next = next;
-                next.prev = ins;
-            } else if (last != null) {
-                prev.next = ins;
-                ins.prev = prev;
-                ins.next = last;
-                last.prev = ins;
-                last.next = next;
-                next.prev = last;
+            if (part1 != null && part2 != null) {
+                join(prev, part1);
+                join(part1, ins);
+                join(ins, part2);
+                join(part2, next);
+            } else if (part1 != null) {
+                join(prev, part1);
+                join(part1, ins);
+                join(ins, next);
+            } else if (part2 != null) {
+                join(prev, ins);
+                join(ins, part2);
+                join(part2, next);
             } else {
-                prev.next = ins;
-                ins.prev = prev;
-                ins.next = next;
-                next.prev = ins;
+                join(prev, ins);
+                join(ins, next);
             }
         }
     }
 
-    static class Opt {
-        final long start;
-        long end;
-        char ch;
-        Opt prev;
-        Opt next;
+    private static void join(Range l, Range r) {
+        l.next = r;
+        r.prev = l;
+    }
 
-        Opt(long start, long end) {
-            this.start = start;
-            this.end = end;
+    static class Range {
+        long s = -1;
+        long e = -1;
+        char c = empty;
+        Range prev;
+        Range next;
+
+        Range(long start, long end) {
+            this.s = start;
+            this.e = end;
         }
 
-        Opt(char ch) {
-            this.start = -1L;
-            this.end = -1L;
-            this.ch = ch;
+        Range(char ch) {
+            this.c = ch;
         }
 
-        boolean equals(Opt o) {
-            Opt m = this;
+        long getLength() {
+            return e - s + 1;
+        }
+
+        boolean equals(Range o) {
+            Range m = this;
             while (m != null) {
                 if (o == null) return false;
-                if (m.ch != o.ch || m.start != o.start || m.end != o.end) return false;
+                if (m.c != o.c || m.s != o.s || m.e != o.e) return false;
                 m = m.next;
                 o = o.next;
             }
