@@ -4,10 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181206-Sw Pro &#10;Knights round table">
-      <change afterPath="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/source.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="20181206-Sw Pro &#10;Knights round table&#10;&#10;And Koitp&#10;number of inversion">
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="37" column="19" selection-start-line="15" selection-start-column="8" selection-end-line="37" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/source.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="782">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +68,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2628">
-              <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+            <state relative-caret-position="397">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4291#4292#0" expanded="true" />
-                <element signature="e#4351#4352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/adv/normandie/Solution.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_8/source1.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/find/max/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/PINARY/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/USACO_2017FEB_SILVER_COWPARTY/Batter.java" />
@@ -132,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/sw/adv/hate/mosquito/Solution.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/sugguer/fish/input" />
         <option value="$PROJECT_DIR$/src/sw/adv/sugguer/fish/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/fold/table/input.txt" />
         <option value="$PROJECT_DIR$/src/sw/adv/fold/table/Solution.java" />
         <option value="$PROJECT_DIR$/src/sw/adv/sand/castle/input" />
@@ -165,6 +170,10 @@
         <option value="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java" />
       </list>
     </option>
   </component>
@@ -256,14 +265,13 @@
               <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
               <item name="sw" type="1f31426a:PackageElementNode" />
               <item name="pro" type="1f31426a:PackageElementNode" />
-              <item name="knights.round.table" type="1f31426a:PackageElementNode" />
+              <item name="MIDDLE_NUMBER" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="sw" type="58d84e3e:PackageViewProjectNode" />
               <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
               <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="pro" type="1f31426a:PackageElementNode" />
-              <item name="NUMBEROFINVERSION" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +341,7 @@
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544443197373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544454197384" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -373,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.source">
+  <component name="RunManager" selected="Application.MaxMinHeap">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -388,13 +396,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.MainV2" />
+    <configuration name="MaxMinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.MIDDLE_NUMBER.MaxMinHeap" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.second.D273048.*" />
+          <option name="PATTERN" value="sw.pro.MIDDLE_NUMBER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,13 +410,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.NUMBEROFINVERSION.MergeSort" />
+    <configuration name="SourceArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.MIDDLE_NUMBER.SourceArray" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.NUMBEROFINVERSION.*" />
+          <option name="PATTERN" value="sw.pro.MIDDLE_NUMBER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,13 +424,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.MySolution" />
+    <configuration name="SourceList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.MIDDLE_NUMBER.SourceList" />
       <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Xmx512m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.second.D273048.*" />
+          <option name="PATTERN" value="sw.pro.MIDDLE_NUMBER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,13 +438,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.second.D273048.Test" />
+    <configuration name="TempTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.test.TempTest" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.second.D273048.*" />
+          <option name="PATTERN" value="sw.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,19 +497,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.MainV2" />
-      <item itemvalue="Application.MySolution" />
-      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.SourceList" />
       <item itemvalue="Application.source" />
+      <item itemvalue="Application.TempTest" />
+      <item itemvalue="Application.SourceArray" />
+      <item itemvalue="Application.MaxMinHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxMinHeap" />
+        <item itemvalue="Application.SourceArray" />
+        <item itemvalue="Application.SourceList" />
+        <item itemvalue="Application.TempTest" />
         <item itemvalue="Application.source" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MySolution" />
-        <item itemvalue="Application.MainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -611,14 +619,8 @@
       <workItem from="1544108733547" duration="136000" />
       <workItem from="1544108948920" duration="4017000" />
       <workItem from="1544257700010" duration="2787000" />
-      <workItem from="1544442979480" duration="184000" />
-    </task>
-    <task id="LOCAL-00007" summary="20171220">
-      <created>1513946668959</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1513946668959</updated>
+      <workItem from="1544442979480" duration="5661000" />
+      <workItem from="1544452373161" duration="1716000" />
     </task>
     <task id="LOCAL-00008" summary="20171220">
       <created>1513946682643</created>
@@ -956,17 +958,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544112931994</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="20181206-Sw Pro &#10;Knights round table&#10;&#10;And Koitp&#10;number of inversion">
+      <created>1544443253652</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1544443253653</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432082000" />
+    <option name="totallyTimeSpent" value="439275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15095846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15255591" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -982,7 +991,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.45467225" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49400958" weight="0.15873016" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.32698414" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32698414" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -996,14 +1005,13 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" weight="0.3546326" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" weight="0.25798723" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" visible="true" weight="0.25798723" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20180127" />
     <MESSAGE value="20181031" />
     <MESSAGE value="20181030" />
     <MESSAGE value="20181102" />
@@ -1028,7 +1036,8 @@
     <MESSAGE value="20181129-达人杯，第四天" />
     <MESSAGE value="20181129-达人杯，第五天" />
     <MESSAGE value="20181206-Sw Pro &#10;Knights round table" />
-    <option name="LAST_COMMIT_MESSAGE" value="20181206-Sw Pro &#10;Knights round table" />
+    <MESSAGE value="20181206-Sw Pro &#10;Knights round table&#10;&#10;And Koitp&#10;number of inversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181206-Sw Pro &#10;Knights round table&#10;&#10;And Koitp&#10;number of inversion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1364,27 +1373,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/USACO_2017FEB_SILVER_COWPARTY/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="49" column="27" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/GHOST_SHIP/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/GRAPH_TRAVERSAL/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/shortest/longest/source.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
@@ -1565,13 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1761,12 +1742,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="604">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4291#4292#0" expanded="true" />
+            <element signature="e#4351#4352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1781,14 +1764,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2628">
-          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+        <state relative-caret-position="23">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4351#4352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="37" column="19" selection-start-line="15" selection-start-column="8" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
