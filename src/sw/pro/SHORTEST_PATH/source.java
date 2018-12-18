@@ -1,64 +1,81 @@
 package sw.pro.SHORTEST_PATH;
 
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
 import static java.lang.Integer.parseInt;
-import static java.util.Arrays.fill;
-import static java.util.Arrays.sort;
 
 public class source {
+
+    private static long INF = Long.MAX_VALUE >> 1;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = parseInt(st.nextToken());
+        City[] cities = new City[N + 1];
+        for (int i = 1; i <= N; i++) {
+            cities[i] = new City();
+        }
         int M = parseInt(st.nextToken());
-
-
-        int[][] map = new int[M][3];
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            map[i][0] = parseInt(st.nextToken());
-            map[i][1] = parseInt(st.nextToken());
-            map[i][2] = parseInt(st.nextToken());
+            int x = parseInt(st.nextToken());
+            int y = parseInt(st.nextToken());
+            int l = parseInt(st.nextToken());
+            cities[x].roads.add(new Road(x, y, l));
+            cities[y].roads.add(new Road(y, x, l));
         }
 
-        sort(map, (a, b) -> a[0] != b[0] ?
-                a[0] - b[0] : a[1] != b[1] ? a[1] - b[1] : a[2] - b[2]);
-        PriorityQueue<Road> queue = new PriorityQueue<>(Comparator.comparingInt(Road::getLength));
-        int x = 0, y = 0;
-        for (int i = 0; i < M; i++) {
-            if (x == map[i][0] && y == map[i][1]) continue;
-            x = map[i][0];
-            y = map[i][1];
-            queue.add(new Road(x, y, map[i][2]));
+        cities[0] = new City();
+        cities[0].length = 0;
+        cities[0].roads.add(new Road(0, 1, 0));
+        Queue<City> queue = new LinkedList<>();
+        queue.add(cities[0]);
+        while (!queue.isEmpty() && queue.peek() != null ) {
+            City next = queue.poll();
+            for (Road road : next.roads) {
+                long temp = cities[road.from].length + road.length;
+                if (cities[road.to].length > temp) {
+                    cities[road.to].length = temp;
+                    queue.add(cities[road.to]);
+                }
+            }
         }
-        long[] length = new long[N + 1];
-        fill(length, Long.MAX_VALUE);
-        length[1] = 0;
-        while (queue.peek() != null && !queue.isEmpty()) {
-            Road r = queue.poll();
-            length[r.Y] = Math.min(length[r.Y], length[r.X] + r.L);
-        }
-        System.out.println(length[N]);
+        if (INF == cities[N].length) System.out.println(-1);
+        else System.out.println(cities[N].length);
     }
-
     private static class Road {
-        int X;
-        int Y;
-        int L;
+        int from;
+        int to;
+        int length;
 
-        Road(int a, int b, int c) {
-            X = a;
-            Y = b;
-            L = c;
+        Road(int f, int t, int l) {
+            from = f;
+            to = t;
+            length = l;
         }
 
         int getLength() {
-            return L;
+            return length;
         }
     }
 
+    private static class City {
+        boolean isVisited;
+        long length;
+        ArrayList<Road> roads;
+
+        City() {
+            isVisited = false;
+            roads = new ArrayList<>(20);
+            length = INF;
+        }
+
+        long getLength() {
+            return length;
+        }
+    }
 }
