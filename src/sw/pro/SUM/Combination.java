@@ -22,8 +22,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Combination {
-    static long[][] C_Data = new long[201][201];
-    static int MOD = 1_000_000_000;
+    private static final long[][] C_Data = new long[201][201];
+    private static final int MOD = 1_000_000_000;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -49,7 +49,7 @@ class Combination {
     }
 
     // c(n,m)=c(n-1,m-1)+c(n-1,m) 从n个元素中选取m个元素
-    static long combination(final int n, final int m) {
+    private static long combination(final int n, final int m) {
         if (C_Data[n][m] != 0)
             return C_Data[n][m];
 
