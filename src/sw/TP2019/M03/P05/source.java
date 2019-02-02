@@ -14,18 +14,14 @@ public class source {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        if (K == 1) {
-            System.out.println(1);
-        } else {
-            int end = K > N ? N : K;
-            long ans = 0;
-            for (int i = 0; i < end; i++) {
-                ans += C(i, N - 1) * C(i + 1, K);
-                ans %= MOD;
-            }
-
-            System.out.println(ans);
+        int end = K > N ? N : K;
+        long ans = 0;
+        for (int i = 0; i < end; i++) {
+            ans += C(i, N - 1) * C(i + 1, K);
+            ans %= MOD;
         }
+
+        System.out.println(ans);
     }
 
     private static long C(int m, int n) {
@@ -35,7 +31,7 @@ public class source {
         } else if (m == 1) {
             middle[m][n] = n;
         } else {
-            middle[m][n] = (C(m - 1, n - 1) % MOD + C(m, n - 1) % MOD) % MOD;
+            middle[m][n] = (C(m - 1, n - 1) + C(m, n - 1)) % MOD;
         }
         return middle[m][n];
     }
