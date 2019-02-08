@@ -18,7 +18,6 @@ public class Dijkstra {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
         int T = Integer.parseInt(br.readLine());
-        int answer = 0;
         Graph graph = new Graph(N);
         int xi, yi, zi;
         for (int i = 1; i <= M; i++) {
@@ -29,14 +28,13 @@ public class Dijkstra {
             graph.addPath(new Path(xi, yi, zi));
         }
         Path[] distance = new Path[N + 1];
-        PriorityQueue<Path> queue = new PriorityQueue<Path>(idComparator);
+        PriorityQueue<Path> queue = new PriorityQueue<>(idComparator);
         
         bfs(queue, graph, distance, 1);
         if (distance[T].length == Integer.MAX_VALUE) {
             System.out.println("NO");
         } else {
-            answer = distance[T].length;
-            // System.out.println("1>T:" + answer);
+            int answer = distance[T].length;
             bfs(queue, graph, distance, T);
             if (distance[1].length == Integer.MAX_VALUE) {
                 System.out.println("NO");
@@ -49,7 +47,7 @@ public class Dijkstra {
         
     }
     
-    static void bfs(PriorityQueue<Path> queue, Graph g, Path[] distance, int start) {
+    private static void bfs(PriorityQueue<Path> queue, Graph g, Path[] distance, int start) {
         queue.clear();
         for (int i = 1; i < distance.length; i++) {
             if (distance[i] == null) {
@@ -69,10 +67,9 @@ public class Dijkstra {
         while (queue.size() != 0) {
             Path p = queue.poll();
             // System.out.print("-->" + p.to);
-            if (p.isUsed) {
-                // System.out.print("(continue)");
-                continue;
-            } else if (p.length == Integer.MAX_VALUE) {
+            // System.out.print("(continue)");
+            if (p.isUsed) continue;
+            else if (p.length == Integer.MAX_VALUE) {
                 // System.out.print("(break)");
                 break;
             } else {
@@ -85,7 +82,7 @@ public class Dijkstra {
         // System.out.println("");
     }
     
-    static void search(PriorityQueue<Path> queue, Path[] distance, final int start, Graph g) {
+    private static void search(PriorityQueue<Path> queue, Path[] distance, final int start, Graph g) {
         for (Path island : g.map.get(start)) {
             if (distance[island.to].length > distance[start].length + island.length) {
                 distance[island.to].length = distance[start].length + island.length;
@@ -100,9 +97,9 @@ public class Dijkstra {
         List<LinkedList<Path>> map;
         
         Graph(int n) {
-            map = new ArrayList<LinkedList<Path>>(n + 1);
+            map = new ArrayList<>(n + 1);
             for (int i = 0; i <= n; i++) {
-                map.add(new LinkedList<Path>());
+                map.add(new LinkedList<>());
             }
         }
         
@@ -134,11 +131,5 @@ public class Dijkstra {
     }
     
     // 匿名Comparator实现
-    public static Comparator<Path> idComparator = new Comparator<Path>() {
-        
-        @Override
-        public int compare(Path c1, Path c2) {
-            return (int) (c1.length - c2.length);
-        }
-    };
+    private static Comparator<Path> idComparator = (c1, c2) -> (int) (c1.length - c2.length);
 }

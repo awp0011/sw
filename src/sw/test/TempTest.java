@@ -1,21 +1,23 @@
 package sw.test;
 
 
-import java.util.Arrays;
-
-class TempTest {
+class source {
     public static void main(String[] args) {
-        int[] test = new int[]{1, 2, 3, 4, 5, 5, 5, 6, 6, 6, 8, 9, 10};
-        System.out.println(Arrays.binarySearch(test, 5));
-        System.out.println(Arrays.binarySearch(test, 6));
-
-        test = new int[]{1, 2, 3, 4, 5, 5, 5, 6, 6, 6, 8, 9, 10, 11, 12, 13};
-        System.out.println(Arrays.binarySearch(test, 5));
-        System.out.println(Arrays.binarySearch(test, 6));
-
-
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(1_000_000_000L);
-
+        // TODO Auto-generated method stub
+        System.out.println(rand_pi(1000000000)); //改变参数值
     }
+
+    public static double rand_pi(int n) {
+        int numInCircle = 0;
+        double x, y;
+        double pi;
+        for (int i = 0; i < n; i++) {
+            x = Math.random();
+            y = Math.random();
+            if (x * x + y * y < 1) numInCircle++;
+        }
+        pi = (4.0 * numInCircle) / n;
+        return pi;
+    }
+
 }
