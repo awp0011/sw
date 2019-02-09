@@ -4,10 +4,10 @@ package sw.test;
 class source {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        System.out.println(rand_pi(1000000000)); //改变参数值
+        System.out.printf(rand_pi(5000000).substring(0,4)); //改变参数值
     }
 
-    public static double rand_pi(int n) {
+    public static String rand_pi(int n) {
         int numInCircle = 0;
         double x, y;
         double pi;
@@ -17,7 +17,7 @@ class source {
             if (x * x + y * y < 1) numInCircle++;
         }
         pi = (4.0 * numInCircle) / n;
-        return pi;
+        return pi+"";
     }
 
 }
