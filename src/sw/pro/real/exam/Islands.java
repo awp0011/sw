@@ -10,15 +10,18 @@ import static java.lang.Integer.valueOf;
 
 public class Islands {
     private static final int OFFSET = 10000;
-    private static int[][] steps = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    private static int[][][] map = new int[6][6][2];
-    private static int N, M, Q, P;
-    private static Map<Integer, ArrayDeque<Integer>> islands = new HashMap<>();
-    private static Map<Integer, ArrayDeque<Integer>> adding = new HashMap<>();
-    private static StringBuilder ans = new StringBuilder();
-    private static HashSet<Integer> existed = new HashSet<>();
-    private static ArrayDeque<Integer> commands = new ArrayDeque<>();
-    private static ArrayDeque<Integer> result = new ArrayDeque<>();
+    private static final Integer RPT = 0;
+    private static final int[][] steps = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private static final int[][][] map = new int[6][6][2];
+    private static int N;
+    private static int M;
+    private static int P;
+    private static final Map<Integer, ArrayDeque<Integer>> islands = new HashMap<>();
+    private static final Map<Integer, ArrayDeque<Integer>> adding = new HashMap<>();
+    private static final StringBuilder ans = new StringBuilder();
+    private static final HashSet<Integer> existed = new HashSet<>();
+    private static final ArrayDeque<Integer> commands = new ArrayDeque<>();
+    private static final ArrayDeque<Integer> result = new ArrayDeque<>();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -36,7 +39,7 @@ public class Islands {
     private static void execute() {
         while (commands.size() > 1) {
             Integer c = commands.pollFirst();
-            if (!c.equals(0)) {
+            if (!RPT.equals(c)) {
                 for (int is : adding.get(c)) {
                     int x = is / OFFSET;
                     int y = is % OFFSET;
@@ -89,11 +92,6 @@ public class Islands {
         int p1 = find(index1);
         int p2 = find(index2);
         if (p1 == p2) return;
-        /*int x1 = index1 / OFFSET;
-        int y1 = index1 % OFFSET;
-        int x2 = index2 / OFFSET;
-        int y2 = index2 % OFFSET;
-        System.out.println("join:" + x1 + "-" + y1 + " | " + x2 + "-" + y2 + "[p1:" + p1 + ",p2:" + p2 + "}");*/
         P--;
         if (p1 < p2) map[p2 / OFFSET][p2 % OFFSET][1] = map[p1 / OFFSET][p1 % OFFSET][1];
         else map[p1 / OFFSET][p1 % OFFSET][1] = map[p2 / OFFSET][p2 % OFFSET][1];
@@ -109,12 +107,12 @@ public class Islands {
                 islands.computeIfAbsent(valueOf(st.nextToken()), v -> new ArrayDeque<>()).add(i * OFFSET + j);
             }
         }
-        Q = parseInt(br.readLine());
+        int q = parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < Q; i++) {
+        for (int i = 0; i < q; i++) {
             Integer c = valueOf(st.nextToken());
             if (existed.contains(c)) {
-                commands.addFirst(0);//表示重复命令
+                commands.addFirst(RPT);//表示重复命令
             } else {
                 commands.addFirst(c);
                 existed.add(c);
