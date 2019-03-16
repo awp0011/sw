@@ -6,9 +6,16 @@ import java.util.*;
 
 public class Test {
 
-    private static List<Integer> numbers = new ArrayList<>(5000000);
 
-    public static void main(String[] args) throws Exception {
-        System.out.println((long)Math.pow(10,9));
+    public static void main(String[] args)  {
+        Integer a = Integer.valueOf("9999");
+        HashSet<Integer> set = new HashSet<>();
+        set.add(a);
+
+        Integer b = Integer.valueOf("8888");
+        Integer b1 = Integer.valueOf("8888");
+
+        System.out.println(a.equals(b));
+        System.out.println(b.equals(b1));
     }
 }
