@@ -11,13 +11,14 @@ import static java.lang.Integer.valueOf;
 public class Islands {
     private static final int OFFSET = 10000;
     private static int[][] steps = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    private static int[][][] map = new int[503][503][2];
+    private static int[][][] map = new int[6][6][2];
     private static int N, M, Q, P;
     private static Map<Integer, ArrayDeque<Integer>> islands = new HashMap<>();
     private static Map<Integer, ArrayDeque<Integer>> adding = new HashMap<>();
     private static StringBuilder ans = new StringBuilder();
     private static HashSet<Integer> existed = new HashSet<>();
     private static ArrayDeque<Integer> commands = new ArrayDeque<>();
+    private static ArrayDeque<Integer> result = new ArrayDeque<>();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -26,17 +27,17 @@ public class Islands {
             readTC(br);
             init();
             execute();
-            System.out.println("#t" + ans.toString());
+            while (!result.isEmpty()) ans.append(' ').append(result.pollFirst());
+            System.out.println("#" + t + ans.toString());
             clean();
         }
     }
 
     private static void execute() {
-        Integer prev = 0;
-        while (!commands.isEmpty()) {
-            Integer c = commands.pollLast();
-            if (!c.equals(prev)) {
-                for (int is : islands.get(c)) {
+        while (commands.size() > 1) {
+            Integer c = commands.pollFirst();
+            if (!c.equals(0)) {
+                for (int is : adding.get(c)) {
                     int x = is / OFFSET;
                     int y = is % OFFSET;
                     map[x][y][0] = 1;
@@ -44,8 +45,7 @@ public class Islands {
                     join(x, y, is);
                 }
             }
-            prev = c;
-            ans.append(P).append(' ');
+            result.addFirst(P);
         }
     }
 
@@ -66,27 +66,37 @@ public class Islands {
                 join(x, y, is);
             }
         }
-        ans.append(P).append(' ');
+        result.add(P);
     }
 
     private static void join(int x, int y, int index) {
+        int i, j;
         for (int[] next : steps) {
-            if (map[x + next[0]][y + next[1]][0] == 1)
-                union(x, y, index, (x + next[0]), (y + next[1]), map[x + next[0]][y + next[1]][1]);
+            i = x + next[0];
+            j = y + next[1];
+            if (i >= 0 && i < N && j >= 0 && j < M && map[i][j][0] == 1) union(index, map[i][j][1]);
         }
     }
 
-    private static int find(int x, int y, int index) {
+    private static int find(int index) {
+        int x = index / OFFSET;
+        int y = index % OFFSET;
         if (map[x][y][1] == index) return index;
-        return map[x][y][1] = find(map[x][y][1] / OFFSET, map[x][y][1] % OFFSET, map[x][y][1]);
+        return map[x][y][1] = find(map[x][y][1]);
     }
 
-    private static void union(int x1, int y1, int index1, int x2, int y2, int index2) {
-        int p1 = find(x1, y1, index1);
-        int p2 = find(x2, y2, index2);
+    private static void union(int index1, int index2) {
+        int p1 = find(index1);
+        int p2 = find(index2);
         if (p1 == p2) return;
+        /*int x1 = index1 / OFFSET;
+        int y1 = index1 % OFFSET;
+        int x2 = index2 / OFFSET;
+        int y2 = index2 % OFFSET;
+        System.out.println("join:" + x1 + "-" + y1 + " | " + x2 + "-" + y2 + "[p1:" + p1 + ",p2:" + p2 + "}");*/
         P--;
-        map[p2 / OFFSET][p2 % OFFSET][1] = map[p1 / OFFSET][p1 % OFFSET][1];
+        if (p1 < p2) map[p2 / OFFSET][p2 % OFFSET][1] = map[p1 / OFFSET][p1 % OFFSET][1];
+        else map[p1 / OFFSET][p1 % OFFSET][1] = map[p2 / OFFSET][p2 % OFFSET][1];
     }
 
     private static void readTC(BufferedReader br) throws IOException {
@@ -99,14 +109,15 @@ public class Islands {
                 islands.computeIfAbsent(valueOf(st.nextToken()), v -> new ArrayDeque<>()).add(i * OFFSET + j);
             }
         }
-        Q = parseInt(st.nextToken());
+        Q = parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < Q; i++) {
             Integer c = valueOf(st.nextToken());
             if (existed.contains(c)) {
-                commands.addFirst(commands.peekFirst());
+                commands.addFirst(0);//表示重复命令
             } else {
                 commands.addFirst(c);
+                existed.add(c);
                 adding.put(c, islands.remove(c));
             }
         }
@@ -115,7 +126,8 @@ public class Islands {
 
     private static void clean() {
         ans.setLength(0);//效率较高的一种StringBuilder归零的方式
-
+        adding.clear();
+        commands.clear();
         //清理Map
         for (ArrayDeque<Integer> island : islands.values()) {
             island.clear();
