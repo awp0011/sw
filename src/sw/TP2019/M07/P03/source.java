@@ -1,4 +1,4 @@
-package sw.TP2019.M06.P03;
+package sw.TP2019.M07.P03;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 public class source {
     private static final int MAX = 103;
-    private static final int[][][] MAP = new int[MAX][MAX][2];
+    private static int[][][] MAP;
     private static final int[][] OFFSETS = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     private static final Map<Integer, ArrayDeque<Integer>> MOUNTS = new HashMap<>();
     private static int N, maxH, minH;
@@ -18,6 +18,7 @@ public class source {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
+        MAP = new int[N + 1][N + 1][2];
         StringTokenizer st;
         maxH = 0;
         minH = 200;

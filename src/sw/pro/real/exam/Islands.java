@@ -36,67 +36,6 @@ public class Islands {
         }
     }
 
-    private static void execute() {
-        while (commands.size() > 1) {
-            Integer c = commands.pollFirst();
-            if (!RPT.equals(c)) {
-                for (int is : adding.get(c)) {
-                    int x = is / OFFSET;
-                    int y = is % OFFSET;
-                    map[x][y][0] = 1;
-                    P++;
-                    join(x, y, is);
-                }
-            }
-            result.addFirst(P);
-        }
-    }
-
-    private static void init() {
-        P = 0;
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
-                map[i][j][0] = 0;
-                map[i][j][1] = i * OFFSET + j;
-            }
-        }
-        for (ArrayDeque<Integer> set : islands.values()) {
-            for (int is : set) {
-                int x = is / OFFSET;
-                int y = is % OFFSET;
-                map[x][y][0] = 1;
-                P++;
-                join(x, y, is);
-            }
-        }
-        result.add(P);
-    }
-
-    private static void join(int x, int y, int index) {
-        int i, j;
-        for (int[] next : steps) {
-            i = x + next[0];
-            j = y + next[1];
-            if (i >= 0 && i < N && j >= 0 && j < M && map[i][j][0] == 1) union(index, map[i][j][1]);
-        }
-    }
-
-    private static int find(int index) {
-        int x = index / OFFSET;
-        int y = index % OFFSET;
-        if (map[x][y][1] == index) return index;
-        return map[x][y][1] = find(map[x][y][1]);
-    }
-
-    private static void union(int index1, int index2) {
-        int p1 = find(index1);
-        int p2 = find(index2);
-        if (p1 == p2) return;
-        P--;
-        if (p1 < p2) map[p2 / OFFSET][p2 % OFFSET][1] = map[p1 / OFFSET][p1 % OFFSET][1];
-        else map[p1 / OFFSET][p1 % OFFSET][1] = map[p2 / OFFSET][p2 % OFFSET][1];
-    }
-
     private static void readTC(BufferedReader br) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = parseInt(st.nextToken());
@@ -120,6 +59,67 @@ public class Islands {
             }
         }
 
+    }
+
+    private static void init() {
+        P = 0;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                map[i][j][0] = 0;
+                map[i][j][1] = i * OFFSET + j;
+            }
+        }
+        for (ArrayDeque<Integer> set : islands.values()) {
+            for (int is : set) {
+                int x = is / OFFSET;
+                int y = is % OFFSET;
+                map[x][y][0] = 1;
+                P++;
+                join(x, y, is);
+            }
+        }
+        result.add(P);
+    }
+
+    private static void execute() {
+        while (commands.size() > 1) {
+            Integer c = commands.pollFirst();
+            if (!RPT.equals(c)) {
+                for (int is : adding.get(c)) {
+                    int x = is / OFFSET;
+                    int y = is % OFFSET;
+                    map[x][y][0] = 1;
+                    P++;
+                    join(x, y, is);
+                }
+            }
+            result.addFirst(P);
+        }
+    }
+
+    private static void join(int x, int y, int index) {
+        int i, j;
+        for (int[] next : steps) {
+            i = x + next[0];
+            j = y + next[1];
+            if (i >= 0 && i < N && j >= 0 && j < M && map[i][j][0] == 1) union(index, map[i][j][1]);
+        }
+    }
+
+    private static void union(int index1, int index2) {
+        int p1 = find(index1);
+        int p2 = find(index2);
+        if (p1 == p2) return;
+        P--;
+        if (p1 < p2) map[p2 / OFFSET][p2 % OFFSET][1] = map[p1 / OFFSET][p1 % OFFSET][1];
+        else map[p1 / OFFSET][p1 % OFFSET][1] = map[p2 / OFFSET][p2 % OFFSET][1];
+    }
+
+    private static int find(int index) {
+        int x = index / OFFSET;
+        int y = index % OFFSET;
+        if (map[x][y][1] == index) return index;
+        return map[x][y][1] = find(map[x][y][1]);
     }
 
     private static void clean() {

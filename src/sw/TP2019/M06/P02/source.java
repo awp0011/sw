@@ -3,40 +3,32 @@ package sw.TP2019.M06.P02;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Comparator;
-
-import static java.lang.Integer.parseInt;
+import java.util.StringTokenizer;
 
 public class source {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = parseInt(br.readLine());
-        int[][] tc = new int[N][3];
-        for (int i = 0; i < N; i++) {
-            tc[i][0] = i;
-            tc[i][1] = parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int d = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int[] history = new int[1_000_005];
+        int[] born = new int[1_000_005];
+        int[] live = new int[1_000_005];
+        history[0] = 1;
+        born[0] = 1;
+        live[0] = 1;
+        for (int i = 1; i <= N; i++) {
+            if (i >= a) born[i] = history[i - a];
+            if (i >= b) born[i] -= history[i - b];
+            history[i] = history[i - 1] + born[i];
+            live[i] = live[i - 1] + born[i];
+            if (i >= d) live[i] -= born[i - d];
+            live[i] = (live[i] + 1000) % 1000;
+            history[i] = (history[i] + 1000) % 1000;
+            born[i] = (born[i] + 1000) % 1000;
         }
-        Arrays.sort(tc, Comparator.comparingInt(s -> s[1]));
-
-        int sum, cnt, next;
-        int ans = 0;
-        for (int i = 0; i < N; i++) {
-            if (tc[i][2] == 1) continue;
-            tc[i][2] = 1;
-            if (tc[i][0] == i) continue;
-            sum = 0;
-            cnt = 0;
-            next = tc[i][0];
-            while (tc[next][2] != 1) {
-                tc[next][2] = 1;
-                cnt++;
-                sum += tc[next][1];
-                next = tc[next][0];
-            }
-            ans += Math.min(tc[0][1] * (cnt + 2) + tc[i][1] * 2, tc[i][1] * cnt) + sum;
-
-        }
-        System.out.println(ans);
+        System.out.println(live[N]);
     }
 }

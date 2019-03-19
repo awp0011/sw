@@ -1,4 +1,4 @@
-package sw.TP2019.M05.P06;
+package sw.TP2019.M06.P06;
 
 import java.io.BufferedReader;
 import java.io.IOException;
