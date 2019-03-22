@@ -29,23 +29,30 @@ public class Solution20190321 {
                 int A = parseInt(st.nextToken());
                 int B = parseInt(st.nextToken());
                 int D = parseInt(st.nextToken());
-                if (D == 1) map[B].inDegree += map[A].AVO.add(B) ? 1 : 0;
+                if (D == 1) {
+                    map[B].inDegree += map[A].AVO.add(B) ? 1 : 0;
+                }
 
             }
             for (int i = 1; i <= N; i++) {
-                if (map[i].inDegree == 0) pq.offer(map[i]);
+                if (map[i].inDegree == 0) {
+                    pq.offer(map[i]);
+                }
             }
 
             while (!pq.isEmpty()) {
-                Node aNode = pq.poll();
-                tpRet.add(aNode.getIndex());
-                for (int i : aNode.AVO) {
+                tpRet.add(pq.peek().getIndex());
+                for (int i : pq.poll().AVO) {
                     map[i].inDegree--;
-                    if (map[i].inDegree == 0) pq.offer(map[i]);
+                    if (map[i].inDegree == 0) {
+                        pq.offer(map[i]);
+                    }
                 }
             }
             System.out.println("#" + t + " " + (tpRet.size() == N ? tpRet.get(K - 1) : -1));
+            tpRet.clear();
         }
+        br.close();
     }
 
     private static class Node {
