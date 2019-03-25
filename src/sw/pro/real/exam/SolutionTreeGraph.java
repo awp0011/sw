@@ -38,8 +38,6 @@ public class SolutionTreeGraph {
             for (int i = 1; i <= N; i++) {
                 if (map[i].isLeaf()) {
                     leave.add(map[i]);
-                    map[map[i].before.iterator().next()].beforeSecond = true;
-                    map[map[i].after.iterator().next()].afterSecond = true;
                 }
             }
             int ans = -1;
@@ -47,9 +45,10 @@ public class SolutionTreeGraph {
                 int cnt = 0;
                 while (!leave.isEmpty()) {
                     Node n = leave.poll();
-                    if (map[n.before.iterator().next()].beforeSecond == map[n.after.iterator().next()].afterSecond) {
-                        cnt++;
+                    if (!n.before.iterator().next().equals(n.after.iterator().next())) {
+                        if (map[n.before.iterator().next()].after.size() > 0) break;
                     }
+
                 }
                 if (cnt == L) ans = 1;
             }
@@ -62,8 +61,6 @@ public class SolutionTreeGraph {
         final int index;
         final HashSet<Integer> before = new HashSet<>();
         final HashSet<Integer> after = new HashSet<>();
-        boolean beforeSecond;
-        boolean afterSecond;
 
         Node(final int i) {
             index = i;
@@ -76,8 +73,6 @@ public class SolutionTreeGraph {
         void init() {
             before.clear();
             after.clear();
-            beforeSecond = false;
-            afterSecond = false;
         }
 
     }
