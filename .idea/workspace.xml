@@ -4,15 +4,19 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="TreeGraph">
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/s56/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/c/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/pro/kmp/Source.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="Pro突击班——图论模型专题01">
+      <change afterPath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1030/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/UVA1585/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/UVA658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +48,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="92" column="66" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="66" />
+            <state relative-caret-position="115">
+              <caret line="11" column="50" lean-forward="true" selection-end-line="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1897#1898#0" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1173">
+              <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -92,10 +107,14 @@
       <find>PriorityQueue</find>
       <find>::</find>
       <find>computeIfAbsent</find>
+      <find>&amp; lt;</find>
+      <find>&amp; gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>numbers[</replace>
       <replace>'</replace>
+      <replace>&lt;</replace>
+      <replace>&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -115,15 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P03/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P03/source02.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P06/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/M02/P01/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P01/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P01/source02.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P02/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P03/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P04/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P05/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/lis/source2.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M03/P04/source.java" />
@@ -136,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source2.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P06/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P01/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main.java" />
@@ -166,6 +175,16 @@
         <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/c/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1030/A/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA1585/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/UVA658.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Test.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java" />
       </list>
     </option>
   </component>
@@ -234,7 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +299,7 @@
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="vjudge" type="462c0819:PsiDirectoryNode" />
-              <item name="c297176" type="462c0819:PsiDirectoryNode" />
+              <item name="c297177" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw" type="b2602c69:ProjectViewProjectNode" />
@@ -289,8 +308,7 @@
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="vjudge" type="462c0819:PsiDirectoryNode" />
-              <item name="c297176" type="462c0819:PsiDirectoryNode" />
-              <item name="d" type="462c0819:PsiDirectoryNode" />
+              <item name="POJ1419" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw" type="b2602c69:ProjectViewProjectNode" />
@@ -299,8 +317,17 @@
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="vjudge" type="462c0819:PsiDirectoryNode" />
-              <item name="c297176" type="462c0819:PsiDirectoryNode" />
-              <item name="e" type="462c0819:PsiDirectoryNode" />
+              <item name="POJ1419" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="vjudge" type="462c0819:PsiDirectoryNode" />
+              <item name="UVA11235" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw" type="b2602c69:ProjectViewProjectNode" />
@@ -314,13 +341,21 @@
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TempTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="TP2019" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,6 +366,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554901378998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -338,9 +374,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="sw.pro.SDS_PRO_1_7" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sw.TP2019.M05.P02" />
       <recent name="sw.TP2019.M01.P01" />
@@ -348,16 +381,19 @@
       <recent name="sw.contest.second.finalmatch.b275601" />
       <recent name="sw.contest.second.A273048" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\sw\src\sw\pro\armyline" />
+      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sw.contest.vjudge.UVA658" />
       <recent name="sw.pro.real.exam" />
       <recent name="sw.TP2019.M01.P03" />
       <recent name="sw.pro.SDS_PRO_7_8" />
       <recent name="sw.pro.SDS_PRO_6_2" />
-      <recent name="sw.pro.SDS_PRO_7_1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\sw\src\sw\pro\armyline" />
-      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sw.pro.SDS_PRO_1_7" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -388,12 +424,12 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.c297176.c.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.UVA658.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.vjudge.c297176.c.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.UVA658.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,26 +438,12 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.c297176.d.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.c297177.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.vjudge.c297176.d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.c297176.e.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.contest.vjudge.c297176.e.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.c297177.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +452,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.c297176.b.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.UVA11235.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.contest.vjudge.c297176.b.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.UVA11235.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,13 +465,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTreeGraph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.real.exam.SolutionTreeGraph2" />
+    <configuration name="UVA658" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.UVA658.UVA658" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.real.exam.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.UVA658.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,6 +481,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.test.source" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -490,19 +526,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.SolutionTreeGraph2" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.UVA658" />
+      <item itemvalue="Application.source" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.source" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.UVA658" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SolutionTreeGraph2" />
       </list>
     </recent_temporary>
   </component>
@@ -666,14 +702,12 @@
       <workItem from="1556105714206" duration="2945000" />
       <workItem from="1556226988463" duration="2166000" />
       <workItem from="1556285799735" duration="1575000" />
-      <workItem from="1556321855857" duration="1343000" />
-    </task>
-    <task id="LOCAL-00028" summary="20181030">
-      <created>1540997414863</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1540997414863</updated>
+      <workItem from="1556321855857" duration="1602000" />
+      <workItem from="1556362720081" duration="6916000" />
+      <workItem from="1556539781665" duration="3729000" />
+      <workItem from="1556546539990" duration="2911000" />
+      <workItem from="1556715675197" duration="2147000" />
+      <workItem from="1556799689820" duration="10215000" />
     </task>
     <task id="LOCAL-00029" summary="20181102">
       <created>1541175576200</created>
@@ -1011,17 +1045,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553603967047</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Pro突击班——图论模型专题01">
+      <created>1556323406470</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1556323406471</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="579666000" />
+    <option name="totallyTimeSpent" value="605843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19528754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18730032" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1037,7 +1077,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.45396826" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49400958" weight="0.15170771" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32539684" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.324861" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1109,7 +1149,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20181119-sw pro &#10;Road Pavement" />
     <MESSAGE value="20181129-达人杯，第二天" />
     <MESSAGE value="20181129-达人杯，第三天" />
     <MESSAGE value="20181129-达人杯，第四天" />
@@ -1134,7 +1173,8 @@
     <MESSAGE value="真题：拓扑排序" />
     <MESSAGE value="TreeGraph" />
     <MESSAGE value="TreeGraph -2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeGraph -2" />
+    <MESSAGE value="Pro突击班——图论模型专题01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pro突击班——图论模型专题01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1547,11 +1587,46 @@
           <properties />
           <option name="timeStamp" value="223" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/test/TempTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cur.crossTime(next)" language="JAVA" />
+        <watch expression="juns[next.index].len" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>cur.crossTime(next)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>find(N*N+N)</expression-string>
         <language-id>JAVA</language-id>
@@ -1572,84 +1647,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2028">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M06/P06/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M04/P05/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" column="50" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M04/P04/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -1985,6 +1982,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
@@ -1995,12 +2002,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1030/A/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+        <state relative-caret-position="69">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA1585/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/UVA658.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="72" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#3837#3838#0" expanded="true" />
+            <element signature="e#3883#3884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="50" lean-forward="true" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
           </folding>
         </state>
       </provider>
