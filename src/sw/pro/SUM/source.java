@@ -7,37 +7,40 @@ package sw.pro.SUM;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class source {
+public class source {
+    private final static int MOD = 1_000_000_000;
+    private final static long[][] middle = new long[205][205];
 
-	public static void main(String[] args) throws Exception {
-		int MOD = 1_000_000_000;
-		int n, k;
-		int[][] dp = new int[201][201];
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		n = Integer.parseInt(st.nextToken());
-		k = Integer.parseInt(st.nextToken());
-		for (int i = 0; i <= n; i++) {
-			dp[1][i] = 1;//任何数被分成１个都是只有１种分法
-		}
-		for (int i = 2; i <= k; i++) {
-			for (int j = 0; j <= n; j++) {
-				//System.out.print("[i,j]("+i+","+j+")->");
-				for (int m = 0; m <= j; m++) {
-					//System.out.print("["+(i - 1)+","+(j - m)+"]");
-					dp[i][j] = (dp[i][j] + dp[i - 1][j - m]) % MOD;
-				}
-				//System.out.println();
-			}
-		}
-		System.out.println(dp[k][n] % MOD);
-		//System.out.println(dp[n][n]);//整数ｎ的全部分解组合数
-//		for (int i = 1; i <= k; i++) {
-//			System.out.println(Arrays.toString(Arrays.copyOf(dp[i], n+1)));
-//		}
-	}
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
 
+        int end = K > N ? N : K;
+        long ans = 0;
+        for (int i = 0; i < end; i++) {
+            ans += C(i, N - 1) * C(i + 1, K);
+            ans %= MOD;
+        }
+
+        System.out.println(ans);
+    }
+
+    private static long C(int m, int n) {
+        if (middle[m][n] != 0) return middle[m][n];
+        if (m == 0 || n == 0 || m == n) {
+            middle[m][n] = 1;
+        } else if (m == 1) {
+            middle[m][n] = n;
+        } else {
+            middle[m][n] = (C(m - 1, n - 1) + C(m, n - 1)) % MOD;
+        }
+        return middle[m][n];
+    }
 }
+
+
+
