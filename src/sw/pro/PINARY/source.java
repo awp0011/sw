@@ -14,7 +14,7 @@ public class source {
         int end = N >> 1;//1的个数是N/2
         for (int i = 0; i <= end; i++) {
             //i表示1的个数，因为1不能连续，所以01必须以前出现，因而有（i<<1），一个1就要有一个01
-            System.out.println(combine(N - i, i));
+            answer+= combine(N - i, i);
 
         }
         System.out.println(answer);

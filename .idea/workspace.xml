@@ -4,7 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="2019-05,宝石小偷">
+=======
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="现场班，POJ2255">
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1338/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1363/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionDNA.java" afterDir="false" />
+>>>>>>> refs/remotes/origin/master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -13,6 +20,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sw$source__3_.ic" NAME="source (3) Coverage Results" MODIFIED="1551445757321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sw.pro.COI_2015_KOVANICE.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -28,62 +40,16 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P06/source.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2394#2395#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main02.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionDNA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="92">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,22 +73,27 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>union</find>
-      <find>computeIfAbsent</find>
       <find>from</find>
       <find>sacner</find>
       <find>a[</find>
       <find>&amp;#39;</find>
       <find>PriorityQueue</find>
       <find>::</find>
+      <find>computeIfAbsent</find>
+      <find>&amp; lt;</find>
+      <find>&amp; gt;</find>
+      <find>f(0, 0, N);</find>
     </findStrings>
     <replaceStrings>
       <replace>numbers[</replace>
       <replace>'</replace>
+      <replace>&lt;</replace>
+      <replace>&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
-      <dir>E:\IdeaProjects\sw</dir>
       <dir>E:\IdeaProjects\sw\src\sw\pro</dir>
+      <dir>E:\IdeaProjects\sw</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -137,65 +108,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings2.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/MainV2.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/Test.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/MySolution.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/D273048/Main.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MegerSort.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SHORTEST_PATH/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/final/b275601/Main.kt" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/finalmatch/b275601/MainF.java" />
-        <option value="$PROJECT_DIR$/src/sw/contest/second/finalmatch/b275601/Main.java" />
-        <option value="$PROJECT_DIR$/src/sw/adv/floyd/input.txt" />
-        <option value="$PROJECT_DIR$/src/sw/adv/floyd/Main.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/source01.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P01/source01.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P01/source02.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P01/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P02/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P03/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P03/source02.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/P06/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M01/M02/P01/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P01/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/armyline/Test.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P01/source02.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P02/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P03/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P04/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M02/P05/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/lis/source2.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M03/P04/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SUM/source_pro.java" />
-        <option value="$PROJECT_DIR$/src/sw/pro/SUM/Combination.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M03/P05/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/TP2019/M03/P06/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P04/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P05/source.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source2.java" />
         <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P06/source.java" />
-        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P01/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main.java" />
         <option value="$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main02.java" />
+        <option value="$PROJECT_DIR$/src/sw/TP2019/M06/P01/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/TP2019/M04/P04/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source2.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source4.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source3.java" />
+        <option value="$PROJECT_DIR$/src/sw/adv/DivisionCalculator/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/adv/DivisionCalculator/input.txt" />
+        <option value="$PROJECT_DIR$/src/sw/TP2019/M06/P02/source2.java" />
+        <option value="$PROJECT_DIR$/src/sw/TP2019/M06/P02/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/armyline/Test.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/Islands.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/Online.java" />
+        <option value="$PROJECT_DIR$/src/sw/TP2019/M06/P03/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/Solution20190321.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionTreeGraph.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionTreeGraph2.java" />
+        <option value="$PROJECT_DIR$/src/sw/adv/s56/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/kmp/Source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/road/pavement/MST.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/input" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/c/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1030/A/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA1585/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/UVA658.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Test.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/test/TempTest.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/PINARY/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/poj2940/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/POJ2255/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1363/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/contest/vjudge/POJ1338/Main.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/DNA.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionDNA.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="-55" />
+    <option name="y" value="138" />
+    <option name="width" value="2109" />
+    <option name="height" value="1171" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,7 +219,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages PackagesPane="false" ProjectPane="false" />
       <showMembers PackagesPane="false" />
       <hideEmptyPackages PackagesPane="false" />
@@ -256,108 +227,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="vjudge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="pro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="real" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="real" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pro" type="462c0819:PsiDirectoryNode" />
-              <item name="SDS_PRO_3_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pro" type="462c0819:PsiDirectoryNode" />
-              <item name="SDS_PRO_4_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pro" type="462c0819:PsiDirectoryNode" />
-              <item name="SDS_PRO_4_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw.pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw.pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pro" type="462c0819:PsiDirectoryNode" />
-              <item name="SUM" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="TempTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="TP2019" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="TP2019" type="1f31426a:PackageElementNode" />
-              <item name="M05" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sw" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sw.pro" type="616d4139:PackageViewModuleNode" />
-              <item name="sw" type="1f31426a:PackageElementNode" />
-              <item name="TP2019" type="1f31426a:PackageElementNode" />
-              <item name="M05" type="1f31426a:PackageElementNode" />
-              <item name="P01" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -367,17 +298,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548854137230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554901378998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -392,11 +325,11 @@
       <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sw.contest.vjudge.UVA658" />
+      <recent name="sw.pro.real.exam" />
       <recent name="sw.TP2019.M01.P03" />
       <recent name="sw.pro.SDS_PRO_7_8" />
       <recent name="sw.pro.SDS_PRO_6_2" />
-      <recent name="sw.pro.SDS_PRO_7_1" />
-      <recent name="sw.pro.SDS_PRO_10_4" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sw.pro.SDS_PRO_1_7" />
@@ -414,16 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main02">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -438,13 +362,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M05.P01.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.POJ1363.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.TP2019.M05.P01.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.POJ1363.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,13 +376,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M05.P01.Main02" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.POJ1338.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.TP2019.M05.P01.*" />
+          <option name="PATTERN" value="sw.contest.vjudge.POJ1338.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.contest.vjudge.POJ2255.Main" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.contest.vjudge.POJ2255.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,13 +410,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="source (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.test.source" />
+    <configuration name="source (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M01.P01.source" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.test.*" />
+          <option name="PATTERN" value="sw.TP2019.M01.P01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,27 +424,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="source (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M05.P06.source" />
+    <configuration name="source02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M02.P01.source02" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.TP2019.M05.P06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.TP2019.M05.P02.source" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.TP2019.M05.P02.*" />
+          <option name="PATTERN" value="sw.TP2019.M02.P01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -522,6 +446,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -529,21 +454,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.source (4)" />
-      <item itemvalue="Application.source (2)" />
-      <item itemvalue="Application.source (5)" />
+      <item itemvalue="Application.source (1)" />
+      <item itemvalue="Application.source02" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main02" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main02" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.source (5)" />
-        <item itemvalue="Application.source (2)" />
-        <item itemvalue="Application.source (4)" />
+        <item itemvalue="Application.source02" />
+        <item itemvalue="Application.source (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -670,118 +604,58 @@
       <workItem from="1548674414482" duration="5035000" />
       <workItem from="1548764068198" duration="3193000" />
       <workItem from="1548848397808" duration="4440000" />
-    </task>
-    <task id="LOCAL-00015" summary="20171231">
-      <created>1514689089301</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1514689089302</updated>
-    </task>
-    <task id="LOCAL-00016" summary="20180101">
-      <created>1514785837555</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1514785837555</updated>
-    </task>
-    <task id="LOCAL-00017" summary="20180101">
-      <created>1514785857812</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1514785857812</updated>
-    </task>
-    <task id="LOCAL-00018" summary="20180108">
-      <created>1515311242110</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1515311242110</updated>
-    </task>
-    <task id="LOCAL-00019" summary="20180117">
-      <created>1516193327722</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1516193327722</updated>
-    </task>
-    <task id="LOCAL-00020" summary="20180120">
-      <created>1516442432814</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1516442432815</updated>
-    </task>
-    <task id="LOCAL-00021" summary="20180120">
-      <created>1516442615393</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1516442615393</updated>
-    </task>
-    <task id="LOCAL-00022" summary="20180127">
-      <created>1517126548667</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1517126548667</updated>
-    </task>
-    <task id="LOCAL-00023" summary="20180127">
-      <created>1517236182455</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1517236182455</updated>
-    </task>
-    <task id="LOCAL-00024" summary="20180127">
-      <created>1517236200943</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1517236200943</updated>
-    </task>
-    <task id="LOCAL-00025" summary="20181030">
-      <created>1540905519120</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1540905519120</updated>
-    </task>
-    <task id="LOCAL-00026" summary="20181031">
-      <created>1540990613391</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1540990613391</updated>
-    </task>
-    <task id="LOCAL-00027" summary="20181030">
-      <created>1540996970489</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1540996970489</updated>
-    </task>
-    <task id="LOCAL-00028" summary="20181030">
-      <created>1540997414863</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1540997414863</updated>
-    </task>
-    <task id="LOCAL-00029" summary="20181102">
-      <created>1541175576200</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1541175576200</updated>
-    </task>
-    <task id="LOCAL-00030" summary="20181104">
-      <created>1541311890461</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1541311890462</updated>
+      <workItem from="1549890928154" duration="4054000" />
+      <workItem from="1549983136806" duration="2135000" />
+      <workItem from="1550281313081" duration="2733000" />
+      <workItem from="1550369250742" duration="1956000" />
+      <workItem from="1551437975143" duration="6484000" />
+      <workItem from="1551484438958" duration="462000" />
+      <workItem from="1551529788218" duration="29000" />
+      <workItem from="1551529968614" duration="8101000" />
+      <workItem from="1552168531637" duration="1842000" />
+      <workItem from="1552186461838" duration="942000" />
+      <workItem from="1552187646915" duration="46000" />
+      <workItem from="1552187708544" duration="3002000" />
+      <workItem from="1552308383997" duration="4223000" />
+      <workItem from="1552398157458" duration="1177000" />
+      <workItem from="1552658990573" duration="3770000" />
+      <workItem from="1552693571214" duration="14977000" />
+      <workItem from="1552787996917" duration="4288000" />
+      <workItem from="1552792424485" duration="4525000" />
+      <workItem from="1552798858786" duration="25000" />
+      <workItem from="1552798902026" duration="819000" />
+      <workItem from="1552802102135" duration="84000" />
+      <workItem from="1552802225842" duration="3767000" />
+      <workItem from="1552995961925" duration="1838000" />
+      <workItem from="1553254309034" duration="3626000" />
+      <workItem from="1553258096203" duration="607000" />
+      <workItem from="1553514145776" duration="2884000" />
+      <workItem from="1553519762588" duration="1283000" />
+      <workItem from="1553599978013" duration="3893000" />
+      <workItem from="1554293223800" duration="101000" />
+      <workItem from="1554899893280" duration="548000" />
+      <workItem from="1554900619228" duration="779000" />
+      <workItem from="1554901728085" duration="193000" />
+      <workItem from="1554902254356" duration="1704000" />
+      <workItem from="1555840045536" duration="1348000" />
+      <workItem from="1556105714206" duration="2945000" />
+      <workItem from="1556226988463" duration="2166000" />
+      <workItem from="1556285799735" duration="1575000" />
+      <workItem from="1556321855857" duration="1602000" />
+      <workItem from="1556362720081" duration="6916000" />
+      <workItem from="1556539781665" duration="3729000" />
+      <workItem from="1556546539990" duration="2911000" />
+      <workItem from="1556715675197" duration="2147000" />
+      <workItem from="1556799689820" duration="10265000" />
+      <workItem from="1556930663460" duration="858000" />
+      <workItem from="1556952159601" duration="891000" />
+      <workItem from="1557144539685" duration="3542000" />
+      <workItem from="1557228691019" duration="644000" />
+      <workItem from="1557231996514" duration="2320000" />
+      <workItem from="1557314252525" duration="3589000" />
+      <workItem from="1557499553176" duration="3186000" />
+      <workItem from="1557634416305" duration="13066000" />
+      <workItem from="1557844161059" duration="2122000" />
     </task>
     <task id="LOCAL-00031" summary="20181106">
       <created>1541509921656</created>
@@ -1014,16 +888,129 @@
       <option name="project" value="LOCAL" />
       <updated>1548679902824</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="2019-06，参加宴会">
+      <created>1549894942487</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1549894942488</updated>
+    </task>
+    <task id="LOCAL-00065" summary="2019-06，整理行李">
+      <created>1552312598556</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1552312598557</updated>
+    </task>
+    <task id="LOCAL-00066" summary="小岛岛屿">
+      <created>1552699307855</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1552699307855</updated>
+    </task>
+    <task id="LOCAL-00067" summary="小岛岛屿">
+      <created>1552737158189</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1552737158189</updated>
+    </task>
+    <task id="LOCAL-00068" summary="小岛岛屿">
+      <created>1552737646496</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1552737646496</updated>
+    </task>
+    <task id="LOCAL-00069" summary="KOITP 登山">
+      <created>1552804976402</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1552804976402</updated>
+    </task>
+    <task id="LOCAL-00070" summary="调整练习题目的顺序">
+      <created>1552997399325</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1552997399325</updated>
+    </task>
+    <task id="LOCAL-00071" summary="真题：拓扑排序">
+      <created>1553256676759</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1553256676759</updated>
+    </task>
+    <task id="LOCAL-00072" summary="真题：拓扑排序">
+      <created>1553257520370</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1553257520370</updated>
+    </task>
+    <task id="LOCAL-00073" summary="真题：拓扑排序">
+      <created>1553258698762</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1553258698762</updated>
+    </task>
+    <task id="LOCAL-00074" summary="TreeGraph">
+      <created>1553517020452</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1553517020452</updated>
+    </task>
+    <task id="LOCAL-00075" summary="TreeGraph">
+      <created>1553520928946</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1553520928946</updated>
+    </task>
+    <task id="LOCAL-00076" summary="TreeGraph -2">
+      <created>1553603967047</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1553603967047</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Pro突击班——图论模型专题01">
+      <created>1556323406470</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1556323406471</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Pro突击班——图论模型专题02">
+      <created>1556811454902</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1556811454902</updated>
+    </task>
+    <task id="LOCAL-00079" summary="现场班，POJ2255">
+      <created>1557502727902</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1557502727903</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483343000" />
+    <option name="totallyTimeSpent" value="636111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18508998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651758" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1035,11 +1022,11 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5051917" side_tool="true" weight="0.21563342" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5051917" side_tool="true" weight="0.2152502" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.45396826" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49400958" weight="0.15873016" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32614556" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49400958" weight="0.15170771" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.324861" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1051,9 +1038,14 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" weight="0.3541131" />
+      <window_info anchor="right" id="Debug" order="9" sideWeight="0.4936508" weight="0.35183707" />
       <window_info anchor="right" id="Maven" order="10" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" weight="0.36632392" />
+=======
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.4920635" weight="0.41174123" />
+      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5063492" side_tool="true" weight="0.35383385" />
+>>>>>>> refs/remotes/origin/master
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1110,6 +1102,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="20181113-sw adv &#10;meet 99" />
     <MESSAGE value="20181114-sw adv &#10;选礼物" />
     <MESSAGE value="20181116-sw adv &#10;讨厌的蚊子" />
@@ -1120,6 +1113,8 @@
     <MESSAGE value="20181119-sw pro &#10;Road Pavement" />
     <MESSAGE value="20181129-达人杯，第二天" />
     <MESSAGE value="20181129-达人杯，第三天" />
+=======
+>>>>>>> refs/remotes/origin/master
     <MESSAGE value="20181129-达人杯，第四天" />
     <MESSAGE value="20181129-达人杯，第五天" />
     <MESSAGE value="20181206-Sw Pro &#10;Knights round table" />
@@ -1134,8 +1129,23 @@
     <MESSAGE value="2019-05，俄罗斯套娃" />
     <MESSAGE value="2019-05，ameoba" />
     <MESSAGE value="2019-05，宝藏岛" />
+<<<<<<< HEAD
     <MESSAGE value="2019-05,宝石小偷" />
     <option name="LAST_COMMIT_MESSAGE" value="2019-05,宝石小偷" />
+=======
+    <MESSAGE value="2019-06，参加宴会" />
+    <MESSAGE value="2019-06，整理行李" />
+    <MESSAGE value="小岛岛屿" />
+    <MESSAGE value="KOITP 登山" />
+    <MESSAGE value="调整练习题目的顺序" />
+    <MESSAGE value="真题：拓扑排序" />
+    <MESSAGE value="TreeGraph" />
+    <MESSAGE value="TreeGraph -2" />
+    <MESSAGE value="Pro突击班——图论模型专题01" />
+    <MESSAGE value="Pro突击班——图论模型专题02" />
+    <MESSAGE value="现场班，POJ2255" />
+    <option name="LAST_COMMIT_MESSAGE" value="现场班，POJ2255" />
+>>>>>>> refs/remotes/origin/master
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,12 +1392,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/pro/road/pavement/MST.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/pro/road/pavement/MST.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="151" />
@@ -1465,13 +1469,13 @@
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/TP2019/M05/P04/source.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M06/P01/source.java</url>
           <line>16</line>
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/TP2019/M05/P06/source.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M06/P06/source.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="177" />
@@ -1488,10 +1492,140 @@
           <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P01/source.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/COI_2015_KOVANICE/source3.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P02/source2.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P03/source.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P03/source.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P03/source.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/TP2019/M07/P03/source.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/test/TempTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ2255/Main.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1363/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1338/Main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>stack.peekFirst()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur.crossTime(next)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>find(N*N+N)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>find(N+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>notebook.isAvailable(lending[j][0])</expression-string>
@@ -1501,361 +1635,454 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/knights/round/table/Solution.java">
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="409">
+          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/source.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M07/P03/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1012">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/NUMBEROFINVERSION/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/Online.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2576">
+          <caret line="116" column="33" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/final/B275601.kt" />
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/final/b275601/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceList.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_1_7/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/SourceArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SHORTEST_PATH/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/D273048/LongLongStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/MIDDLE_NUMBER/MaxMinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/contest/second/finalmatch/b275601/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/adv/floyd/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/adv/floyd/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_7_4/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-914">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P01/source01.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_3_1/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P03/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="41" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P03/source02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P02/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P01/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="36" column="9" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P06/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_1/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="92">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/pro/armyline/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P01/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P02/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P04/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="56" column="31" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P03/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/lis/source2.java" />
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P05/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/lis/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P01/source02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M03/P04/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/source_pro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M03/P06/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M03/P05/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SUM/Combination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="47" column="9" selection-start-line="34" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P05/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P04/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2028">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/source2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_4_3/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P06/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="57" />
+        <state relative-caret-position="713">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main02.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M06/P02/source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="667">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="578" column="16" selection-start-line="578" selection-start-column="16" selection-end-line="578" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="679" column="16" selection-start-line="679" selection-start-column="16" selection-end-line="679" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/Solution20190321.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionTreeGraph2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#3483#3484#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionTreeGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/s56/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="43" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/adv/sand/castle/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/kmp/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/road/pavement/MST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="93" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="93" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/b/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/road/pavement/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/road/pavement/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="651" column="48" selection-start-line="651" selection-start-column="48" selection-end-line="651" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/c/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/e/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297176/d/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="92" column="66" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1030/A/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/CodeForces1108/A/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA1585/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA11235/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/UVA658.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="72" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#3837#3838#0" expanded="true" />
+            <element signature="e#3883#3884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/UVA658/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/test/TempTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1419/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_3_1/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/PINARY/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/SDS_PRO_5_1/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/c297177/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P01/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M01/P02/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P01/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/TP2019/M02/P01/source02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ2255/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1363/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/poj2940/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/contest/vjudge/POJ1338/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Users/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="1425" column="19" selection-start-line="1425" selection-start-column="19" selection-end-line="1425" selection-end-column="19" />
+          <folding>
+            <element signature="e#58314#58315#0" expanded="true" />
+            <element signature="e#58358#58359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionDNA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1913,7 +2140,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1930,7 +2157,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
