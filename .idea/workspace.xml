@@ -4,12 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="2019-05，宝藏岛">
-      <change afterPath="$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/TP2019/M05/P01/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/TP2019/M05/P02/source.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="2019-05,宝石小偷">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1057,7 +1053,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Debug" order="9" sideWeight="0.49480832" weight="0.3541131" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" visible="true" weight="0.36632392" />
+      <window_info anchor="right" id="Run" order="11" sideWeight="0.48642173" weight="0.36632392" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1114,7 +1110,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20181113-sw adv &#10;letter color" />
     <MESSAGE value="20181113-sw adv &#10;meet 99" />
     <MESSAGE value="20181114-sw adv &#10;选礼物" />
     <MESSAGE value="20181116-sw adv &#10;讨厌的蚊子" />
@@ -1139,7 +1134,8 @@
     <MESSAGE value="2019-05，俄罗斯套娃" />
     <MESSAGE value="2019-05，ameoba" />
     <MESSAGE value="2019-05，宝藏岛" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-05，宝藏岛" />
+    <MESSAGE value="2019-05,宝石小偷" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-05,宝石小偷" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
