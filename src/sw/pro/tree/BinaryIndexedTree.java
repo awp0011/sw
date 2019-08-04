@@ -16,17 +16,18 @@ public class BinaryIndexedTree {
 
 
         for (int i = 1; i <= this.bitArr.length; i++) {
-            this.bitArr[i ] = list[i-1];
+            this.bitArr[i] = list[i - 1];
             int j = i + (i & -i);
             if (j < this.bitArr.length) {
-                this.bitArr[j] += list[i-1];
+                this.bitArr[j] += list[i - 1];
             }
         }
     }
 
     /**
      * Add `delta` to elements in `idx` of original array
-     * @param idx index of the element in original array that is going to be updated
+     *
+     * @param idx   index of the element in original array that is going to be updated
      * @param delta number that will be added to the original element.
      */
     public void update(int idx, long delta) {
@@ -39,6 +40,7 @@ public class BinaryIndexedTree {
 
     /**
      * Get the sum of elements in the original array up to index `idx`
+     *
      * @param idx index of the last element that should be summed.
      * @return sum of elements from index 0 to `idx`.
      */
@@ -55,8 +57,9 @@ public class BinaryIndexedTree {
 
     /**
      * Get the range sum of elements from original array from index `from_idx` to `to_idx`
+     *
      * @param from_idx start index of element in original array
-     * @param to_idx end index of element in original array
+     * @param to_idx   end index of element in original array
      * @return range sum of elements from index `from_idx` to `to_idx`
      */
     public int rangeSum(int from_idx, int to_idx) {
@@ -71,18 +74,18 @@ public class BinaryIndexedTree {
         int Q = parseInt(br.readLine());
 
         long[] arr = new long[N];
-        for (int i = 0; i <N ; i++) {
+        for (int i = 0; i < N; i++) {
             arr[i] = i;
         }
         BinaryIndexedTree bit = new BinaryIndexedTree(arr);
-        for (int i = 0; i <Q ; i++) {
+        for (int i = 0; i < Q; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int c = parseInt(st.nextToken());
 
             if (c == 0) {
                 int x = parseInt(st.nextToken());
                 long y = Long.parseLong(st.nextToken());
-                long diff = y-arr[x];
+                long diff = y - arr[x];
                 bit.update(x, diff);
                 arr[x] = y;
 
