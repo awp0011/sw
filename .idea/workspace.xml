@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/Chocolates/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/abc2/dp/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/adv/s59/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/pro/SUM/source_dp_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/test/ConvexHull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/test/Graham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/adv/unicron/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/BinaryIndexedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/CompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/IndexedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SUM/source.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source4.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/SUM/source_pro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/.vscode/settings.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sw/adv/abc2/dp/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="575">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,21 +263,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="adv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sw" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sw" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="TempTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -670,13 +656,7 @@
       <workItem from="1560945219920" duration="3968000" />
       <workItem from="1562668411085" duration="5258000" />
       <workItem from="1563029249776" duration="1782000" />
-    </task>
-    <task id="LOCAL-00033" summary="20181110-sw.adv 空置设备和诺曼底">
-      <created>1541809247165</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1541809247165</updated>
+      <workItem from="1565356719008" duration="461000" />
     </task>
     <task id="LOCAL-00034" summary="20181111-sw find max">
       <created>1541920520096</created>
@@ -1014,16 +994,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560173144463</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="使用地推的方式，解决  和分解">
+      <created>1565356815347</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1565356815348</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668877000" />
+    <option name="totallyTimeSpent" value="669338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20007987" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1035,8 +1022,8 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5051917" side_tool="true" weight="0.2152502" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.45396826" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50039935" side_tool="true" visible="true" weight="0.45353454" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" sideWeight="0.49960065" visible="true" weight="0.45353454" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49400958" weight="0.15170771" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.324861" />
@@ -2074,8 +2061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw/adv/abc2/dp/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="575">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
