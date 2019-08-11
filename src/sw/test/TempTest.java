@@ -4,8 +4,6 @@ package sw.test;
 class Main {
 
     public static void main(String[] args) {
-        System.out.println(('.' - '0'));
-        System.out.println(('/' - '0'));
-        System.out.println(('%' - '0'));
+        System.out.println((char)('a'-1));
     }
 }
