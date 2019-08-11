@@ -5,7 +5,10 @@ public class Test {
 
 
     public static void main(String[] args) {
-        System.out.println(8033 % 1000);
+        System.out.println(Integer.toBinaryString(40));
+        System.out.println(Integer.toBinaryString(60));
+
+        System.out.println(Integer.parseInt("101111",2));
     }
 
 

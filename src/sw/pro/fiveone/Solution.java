@@ -10,7 +10,7 @@ public class Solution {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream(
-		        "C:\\Users\\Michael\\workspace\\java\\Examnation\\src\\sds\\sw\\certificert\\adv\\five\\one\\input.txt"));
+		        "C:\\workspace\\idea\\sw\\src\\sw\\pro\\fiveone\\input.txt"));
 		Scanner sc = new Scanner(System.in);
 		long st = Calendar.getInstance().getTimeInMillis();
 		int T = sc.nextInt();

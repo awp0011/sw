@@ -14,7 +14,7 @@ public class Solution2 {
 
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream(
-		        "C:\\Users\\Michael\\workspace\\java\\Examnation\\src\\sds\\sw\\certificert\\adv\\five\\one\\input.txt"));
+		        "C:\\workspace\\idea\\sw\\src\\sw\\pro\\fiveone\\input.txt"));
 		Scanner sc = new Scanner(System.in);
 		long st = Calendar.getInstance().getTimeInMillis();
 		int T = sc.nextInt();
@@ -80,7 +80,8 @@ public class Solution2 {
 	}
 
 	static void printResult(int index) {
-		System.out.println("#" + index + " " + start + " " + end + " " + counter);
+		//System.out.println("#" + index + " " + start + " " + end + " " + counter);
+		System.out.println("#" + index + " " + start + " " + end );
 	}
 
 	static void findLast51(char[] max) {

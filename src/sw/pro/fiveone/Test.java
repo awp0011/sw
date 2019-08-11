@@ -1,197 +1,137 @@
 package sw.pro.fiveone;
 
-import java.util.Arrays;
-import java.util.Calendar;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayDeque;
+import java.util.HashSet;
 import java.util.Scanner;
 
-public class Test{
-	static long		begin, end, min, max;
-	static int		counter;
-	static char[]	startChars	= new char[34];
-	static char[]	endChars	= new char[34];
-	static int CNT_ONE = 7;
-	public static void main(String[] args) throws Exception {
-		Scanner sc = new Scanner(System.in);
-		long st = Calendar.getInstance().getTimeInMillis();
-		int T = sc.nextInt();
-		for (int i = 0; i < T; i++) {
-			scanNextTestcase(sc);
-			min = findMin(startChars);
-			max = findMax(endChars);
-			if (max > min) {
-				counter = findMiddle(startChars, endChars);
-			} else {
-				min = -1;
-				max = -1;
-				counter = 0;
-			}
+public class Test {
+    private static long total;
+    private static int min, max;
+    private static HashSet<Integer> all = new HashSet<>();
+    private static int[] maxPos = new int[]{25, 26, 28, 29, 30};
+    private static int[] minPos = new int[]{0, 1, 2, 3, 4};
+    private static int[] intValues = new int[32];
+    private static final ArrayDeque<Integer> stock = new ArrayDeque<>();
 
-			printResult(i + 1);
-		}
-		sc.close();
-		long p = Calendar.getInstance().getTimeInMillis() - st;
-		System.out.println("Use time: " + p);
+    public static void main(String[] args) throws IOException {
+        for (int i = 0; i < 32; i++) {
+            intValues[i] = 1 << i;
+        }
+        System.setIn(new FileInputStream("C:\\workspace\\idea\\sw\\src\\sw\\pro\\fiveone\\input.txt"));
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        for (int t = 1; t <= T; t++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            min = 0;
+            max = 0;
+            getMin5Bit(a);
+            getMax5Bit(b);
 
-	}
+            total = 0;
 
-	static void scanNextTestcase(Scanner sc) {
-		begin = sc.nextLong();
-		end = sc.nextLong();
-		Arrays.fill(startChars, '0');
-		Arrays.fill(endChars, '0');
+            for (int i = 4; i >= 0; i--) {
+                int pix = 0;
+                for (int j = 0; j < i; j++) {
+                    pix += intValues[minPos[j]];
+                }
+                //find5bit(i, 4, pix, 32);
+            }
+            if (min > b) {
+                min = 0;
+                total = 0;
+            }
+            // System.out.println("#" + t + " " + max + " " + min);
+            System.out.println("#" + t + " " + min + " " + max);
+            all.clear();
+        }
 
-		char[] temp = Long.toBinaryString(begin).toCharArray();
-		int offset = startChars.length - temp.length;
-		for (int index = 0; index < temp.length; index++) {
-			startChars[index + offset] = temp[index];
-		}
 
-		temp = Long.toBinaryString(end).toCharArray();
-		offset = endChars.length - temp.length;
-		for (int index = 0; index < temp.length; index++) {
-			endChars[index + offset] = temp[index];
-		}
+    }
 
-	}
+    private static void getMin5Bit(int a) {
+        minPos = new int[]{0, 1, 2, 3, 4};
+        if (a > 31) {
+            int pos = 0;
+            while (a > 0) {
+                if ((a & 1) == 1) stock.add(pos++);
+                else pos++;
+                a >>= 1;
+            }
+            pos = 4;
+            while (!stock.isEmpty() && pos >= 0) {
+                minPos[pos--] = stock.pollLast();
+            }
+            if (stock.size() > 0) {
+                int p = firstZero(minPos);
+                minPos[p]++;
+                init(p, minPos);
+                stock.clear();
+            } else if (pos >= 0) {
+                for (int i = 1; i < 5; i++) {
+                    if (minPos[i] == minPos[i - 1]) minPos[i]++;
+                }
+            }
+        }
+        for (int i = 0; i < 5; i++) {
+            min += intValues[minPos[i]];
+        }
+    }
 
-	static void printResult(int index) {
-		System.out.println("#" + index + " " + min + " " + max + " " + counter);
-	}
+    private static int firstZero(int[] arr) {
+        int i = 0;
+        for (; i < 4; i++) {
+            if (arr[i + 1] - arr[i] > 1) break;
+        }
+        return i;
+    }
 
-	static int getAmountOf1(char[] aArray) {
-		int amount = 0;
-		for (char c : aArray) {
-			if (c == '1')
-				amount++;
-		}
-		return amount;
-	}
+    private static void init(int pos, int[] arr) {
+        for (int i = pos - 1; i >= 0; i--) {
+            arr[i] = i;
+        }
+    }
 
-	static long findMin(char[] aArray) {
-		int amount1 = getAmountOf1(aArray);
-		if (amount1 < CNT_ONE) {
-			add1ToArray(aArray, amount1);
-		} else {
-			remove1FromArray(aArray, amount1);
-			findNext(aArray);
-		}
-		return Long.valueOf(new String(aArray), 2);
-	}
+    private static void getMax5Bit(int a) {
+        maxPos = new int[]{0, 1, 2, 3, 4};
+        int pos = 0;
+        while (a > 0) {
+            if ((a & 1) == 1) stock.add(pos++);
+            else pos++;
+            a >>= 1;
+        }
+        pos = 4;
+        while (!stock.isEmpty() && pos >= 0) {
+            maxPos[pos--] = stock.pollLast();
+        }
+        if (pos > -1) maxPos[pos + 1]--;
+        stock.clear();
+        for (int i = 0; i < 5; i++) {
+            max += intValues[maxPos[i]];
+        }
+    }
 
-	static long findMax(char[] aArray) {
-		int amount1 = getAmountOf1(aArray);
-		if (amount1 < CNT_ONE) {
-			add1ToArray(aArray, amount1);
-			findPrevious(aArray);
-		} else if (amount1 == CNT_ONE) {
-			findPrevious(aArray);
-		} else {
-			remove1FromArray(aArray, amount1);
+    private static void find5bit(int to, int pos, int sum, int lpos) {
+        if (to == 5) {
+            if (!all.contains(sum)) {
+                total += sum;
+                all.add(sum);
+            }
 
-		}
-		return Long.valueOf(new String(aArray), 2);
-	}
-
-	static int findMiddle(char[] start, char[] end) {
-		int cnt = 0;
-		while (!Arrays.equals(start, end)) {
-			//System.out.print(Arrays.toString(start));
-			//System.out.println("--" + Long.valueOf(new String(start), 2));
-			findNext(start);
-			cnt++;
-		}
-		cnt--;
-		return cnt;
-	}
-
-	static void findPrevious(char[] aArray) {
-		int left = 0;
-		int right = aArray.length - 1;
-
-		while (left != right) { // right first '10' --> '01'
-			right--;
-			if (aArray[right] == '1' && aArray[right + 1] == '0') {
-				aArray[right + 1] = '1';
-				aArray[right] = '0';
-				left = right;
-			}
-
-		}
-		right = aArray.length - 1;
-		left += 2;
-		while (left < right) {// 数组剩余部分 排序 1--->0
-			if (aArray[left] != '0') {
-				left++;
-			}
-			if (aArray[right] != '1') {
-				right--;
-			}
-			if (aArray[left] == '0' && aArray[right] == '1') {
-				aArray[left] = '1';
-				aArray[right] = '0';
-				left++;
-				right--;
-			}
-
-		}
-	}
-
-	static void findNext(char[] aArray) {
-		int left = 0;
-		int right = aArray.length - 1;
-
-		while (left != right) { // right first '01' --> '10'
-			right--;
-			if (aArray[right] == '0' && aArray[right + 1] == '1') {
-				aArray[right + 1] = '0';
-				aArray[right] = '1';
-				left = right;
-			}
-
-		}
-		right = aArray.length - 1;
-		left++;
-		while (left < right) {// 数组剩余部分 排序 0--->1
-			if (aArray[left] != '1') {
-				left++;
-			}
-			if (aArray[right] != '0') {
-				right--;
-			}
-			if (aArray[left] > aArray[right] && left < right) {
-				aArray[left] = '0';
-				aArray[right] = '1';
-				left++;
-				right--;
-			}
-
-		}
-	}
-
-	static void add1ToArray(char[] aArray, int amount1) {
-		int index = aArray.length - 1;
-		while (amount1 != CNT_ONE) {
-			if (aArray[index] == '0') {
-				aArray[index] = '1';
-				amount1++;
-			}
-			index--;
-		}
-	}
-
-	static void remove1FromArray(char[] aArray, int amount1) {
-
-		if (amount1 > CNT_ONE) {
-			int index = aArray.length - 1;
-			while (amount1 != CNT_ONE) {
-				if (aArray[index] == '1' && amount1 > CNT_ONE) {
-					aArray[index] = '0';
-					amount1--;
-				}
-				index--;
-			}
-
-		}
-
-	}
+        } else {
+            for (int i = minPos[pos]; i <= maxPos[pos]; i++) {
+                if (i < lpos) {
+                    sum += intValues[i];
+                    find5bit(to + 1, pos - 1, sum, i);
+                    sum -= intValues[i];
+                } else {
+                    sum += intValues[i - 1];
+                    find5bit(to + 1, pos - 1, sum, i);
+                    sum -= intValues[i - 1];
+                }
+            }
+        }
+    }
 }
