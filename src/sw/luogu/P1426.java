@@ -14,10 +14,10 @@ public class P1426 {
         while (true) {
             if (length >= begin && length <= end) {
                 unit *= 0.98;
-                if (length + unit > end || length - unit < begin) {
-                    System.out.println('y');
-                } else {
+                if (length + unit > end ) {
                     System.out.println('n');
+                } else {
+                    System.out.println('y');
                 }
                 break;
             }
