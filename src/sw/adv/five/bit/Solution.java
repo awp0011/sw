@@ -94,11 +94,7 @@ public class Solution {
         total = min;
         while (next <= end) {
             total += next;
-            if (pos != 4 && minPos[pos + 1] - minPos[pos] > 1) {
-                minPos[pos]++;
-            } else {
-                next5bit();
-            }
+            next5bit();
             next = getInt();
         }
     }

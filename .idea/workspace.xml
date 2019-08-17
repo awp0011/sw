@@ -4,43 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="洛谷网校-练习题&#10;新手村&#10;4.数组">
-      <change afterPath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="adv: 5 bit numbers">
+      <change afterPath="$PROJECT_DIR$/src/sw/adv/five/bit/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1149.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Cutting_Sticks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Cutting_Sticks/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Exponentiation/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/KOI_2008RH_AMEOBA/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_5_5/source4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_6_3/source3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/city/spy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/city/spy/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/city/spy/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/city/spy/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/falled/balls/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/falled/balls/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/lis/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/lis/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/point/area/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/point/area/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/point/area/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/point/area/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/road/pavement/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/road/pavement/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/Source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/russian/dolls/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/the3nplus1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/the3nplus1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/the3nplus1_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/the3nplus1_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/topological/source3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/topological/source3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/adv/five/bit/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/adv/five/bit/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/fiveone/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/fiveone/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.P1149">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -241,8 +210,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.Main" />
+    <configuration name="P1028" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1028" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -255,22 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.test.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1598" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1598" />
+    <configuration name="P1036" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1036" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -283,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1914" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1914" />
+    <configuration name="P1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1149" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -297,13 +252,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.fiveone.Test" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.adv.five.bit.Solution2" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.pro.fiveone.*" />
+          <option name="PATTERN" value="sw.adv.five.bit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +304,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.P1598" />
-      <item itemvalue="Application.P1914" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.P1028" />
+      <item itemvalue="Application.P1036" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.P1149" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.P1914" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.P1598" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.P1149" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.P1036" />
+        <item itemvalue="Application.P1028" />
       </list>
     </recent_temporary>
   </component>
@@ -932,8 +901,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Floyd" />
-    <MESSAGE value="Koitp median&#10;get median with max heap and min heap" />
     <MESSAGE value="SDS_PRO_5_1" />
     <MESSAGE value="Pro练习计划，201902" />
     <MESSAGE value="2019-03" />
@@ -957,7 +924,9 @@
     <MESSAGE value="洛谷网校-练习题&#10;新手村&#10;1.洛谷的第一个任务&#10;2.顺序与分支&#10;3.循环！循环！循环！" />
     <MESSAGE value="洛谷网校-练习题&#10;新手村&#10;4.数组" />
     <MESSAGE value="洛谷网校-练习题&#10;新手村&#10;5.简单字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="洛谷网校-练习题&#10;新手村&#10;5.简单字符串" />
+    <MESSAGE value="adv: 5 bit numbers" />
+    <MESSAGE value="洛谷网校-练习题&#10;新手村&#10;6.过程函数与递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="洛谷网校-练习题&#10;新手村&#10;6.过程函数与递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1362,43 +1331,27 @@
           <line>13</line>
           <option name="timeStamp" value="257" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1036.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/adv/five/bit/Solution2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="all[150000]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sw$source_dp.ic" NAME="source_dp Coverage Results" MODIFIED="1559133148949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sw.pro.SUM.*</FILTER>
     </SUITE>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>stack.peekFirst()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cur.crossTime(next)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>find(N*N+N)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>find(N+1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>notebook.isAvailable(lending[j][0])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
