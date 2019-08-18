@@ -4,9 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1426.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P2089.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;P1426 小鱼会有危险吗&#10;未完成">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1014.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,32 +46,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>union</find>
-      <find>from</find>
-      <find>sacner</find>
-      <find>a[</find>
-      <find>&amp;#39;</find>
-      <find>PriorityQueue</find>
-      <find>::</find>
-      <find>computeIfAbsent</find>
-      <find>&amp; lt;</find>
-      <find>&amp; gt;</find>
-      <find>f(0, 0, N);</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>numbers[</replace>
-      <replace>'</replace>
-      <replace>&lt;</replace>
-      <replace>&gt;</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>E:\IdeaProjects\sw\src\sw\pro</dir>
-      <dir>E:\IdeaProjects\sw</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -184,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1426">
+  <component name="RunManager" selected="Application.P1014">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -204,6 +177,20 @@
       <option name="MAIN_CLASS_NAME" value="sw.test.CheckMemory" />
       <module name="sw.pro" />
       <option name="VM_PARAMETERS" value="-Xmx512m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1014" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2089" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P2089" />
+    <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1464" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -250,27 +237,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.adv.five.bit.Solution2" />
+    <configuration name="P2089" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P2089" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.adv.five.bit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.pro.*" />
+          <option name="PATTERN" value="sw.luogu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,19 +275,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.P1149" />
       <item itemvalue="Application.P2089" />
       <item itemvalue="Application.P1426" />
+      <item itemvalue="Application.P1464" />
+      <item itemvalue="Application.P1014" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1014" />
+        <item itemvalue="Application.P1464" />
         <item itemvalue="Application.P1426" />
         <item itemvalue="Application.P2089" />
         <item itemvalue="Application.P1149" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -899,10 +872,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pro练习计划，201902" />
-    <MESSAGE value="2019-03" />
-    <MESSAGE value="2019-05，俄罗斯套娃" />
-    <MESSAGE value="2019-05，ameoba" />
     <MESSAGE value="2019-05，宝藏岛" />
     <MESSAGE value="2019-06，参加宴会" />
     <MESSAGE value="2019-06，整理行李" />
@@ -924,7 +893,11 @@
     <MESSAGE value="adv: 5 bit numbers" />
     <MESSAGE value="洛谷网校-练习题&#10;新手村&#10;6.过程函数与递归" />
     <MESSAGE value="luogu" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu" />
+    <MESSAGE value="luogu&#10;P1426 小鱼会有危险吗&#10;未完成" />
+    <MESSAGE value="luogu&#10;   P1426 小鱼会有危险吗&#10; 完成" />
+    <MESSAGE value="luogu&#10;P1464 Function&#10;未完成" />
+    <MESSAGE value="luogu&#10;P1464 Function&#10;完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;P1464 Function&#10;完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1338,6 +1311,11 @@
           <url>file://$PROJECT_DIR$/src/sw/adv/five/bit/Solution2.java</url>
           <line>34</line>
           <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1426.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="272" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
