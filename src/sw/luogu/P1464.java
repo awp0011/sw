@@ -33,7 +33,7 @@ public class P1464 {
             data[a][b][c - 1] = w(a, b, c - 1);
             data[a][b - 1][c - 1] = w(a, b - 1, c - 1);
             data[a][b - 1][c] = w(a, b - 1, c);
-            return data[a][b][c] = data[a][b][c - 1] + data[a][b - 1][c - 1] + data[a][b - 1][c];
+            return data[a][b][c] = data[a][b][c - 1] + data[a][b - 1][c - 1] - data[a][b - 1][c];
         }
         data[a - 1][b][c] = w(a - 1, b, c);
         data[a - 1][b - 1][c] = w(a - 1, b - 1, c);
@@ -42,6 +42,6 @@ public class P1464 {
         return data[a][b][c] = data[a - 1][b][c]
                 + data[a - 1][b - 1][c]
                 + data[a - 1][b][c - 1]
-                + data[a - 1][b - 1][c - 1];
+                - data[a - 1][b - 1][c - 1];
     }
 }
