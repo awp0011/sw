@@ -4,11 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;P1014 Cantor表&#10;完成">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1307.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;新手村&#10;完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -874,7 +871,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2019-06，参加宴会" />
     <MESSAGE value="2019-06，整理行李" />
     <MESSAGE value="小岛岛屿" />
     <MESSAGE value="KOITP 登山" />
@@ -899,7 +895,8 @@
     <MESSAGE value="luogu&#10;P1464 Function&#10;未完成" />
     <MESSAGE value="luogu&#10;P1464 Function&#10;完成" />
     <MESSAGE value="luogu&#10;P1014 Cantor表&#10;完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;P1014 Cantor表&#10;完成" />
+    <MESSAGE value="luogu&#10;新手村&#10;完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;新手村&#10;完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
