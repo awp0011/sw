@@ -4,9 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;P1426 小鱼会有危险吗&#10;未完成">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1014.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;P1014 Cantor表&#10;完成">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1307.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1014">
+  <component name="RunManager" selected="Application.P1307">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -181,6 +183,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.test.Main" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.luogu.P1014" />
       <module name="sw.pro" />
@@ -195,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1149" />
+    <configuration name="P1022" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1022" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -209,8 +225,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1426" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1426" />
+    <configuration name="P1307" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1307" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -225,20 +241,6 @@
     </configuration>
     <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.luogu.P1464" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P2089" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P2089" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,19 +277,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.P1149" />
-      <item itemvalue="Application.P2089" />
-      <item itemvalue="Application.P1426" />
       <item itemvalue="Application.P1464" />
       <item itemvalue="Application.P1014" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.P1022" />
+      <item itemvalue="Application.P1307" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1307" />
+        <item itemvalue="Application.P1022" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.P1014" />
         <item itemvalue="Application.P1464" />
-        <item itemvalue="Application.P1426" />
-        <item itemvalue="Application.P2089" />
-        <item itemvalue="Application.P1149" />
       </list>
     </recent_temporary>
   </component>
@@ -872,7 +874,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2019-05，宝藏岛" />
     <MESSAGE value="2019-06，参加宴会" />
     <MESSAGE value="2019-06，整理行李" />
     <MESSAGE value="小岛岛屿" />
@@ -897,7 +898,8 @@
     <MESSAGE value="luogu&#10;   P1426 小鱼会有危险吗&#10; 完成" />
     <MESSAGE value="luogu&#10;P1464 Function&#10;未完成" />
     <MESSAGE value="luogu&#10;P1464 Function&#10;完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;P1464 Function&#10;完成" />
+    <MESSAGE value="luogu&#10;P1014 Cantor表&#10;完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;P1014 Cantor表&#10;完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
