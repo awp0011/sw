@@ -1,4 +1,4 @@
-package sw.luogu;
+package sw.luogu.stage1;
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;

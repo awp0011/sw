@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;新手村&#10;完成">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1022.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1028.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1028.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1035.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1035.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1036.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1036.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1046.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1046.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1055.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1055.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1089.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1089.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1149.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1149.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1307.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1307.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1423.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1423.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1424.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1424.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1426.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1426.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1427.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1427.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1428.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1464.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1464.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1553.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1553.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1567.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1567.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1598.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1598.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1909.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1909.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1914.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1914.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P1980.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P2089.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P2089.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P2141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage1/P2141.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1307">
+  <component name="RunManager" selected="Application.P1003">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -187,6 +217,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1003" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.luogu.stage2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,20 +280,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1464" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -274,19 +304,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.P1464" />
       <item itemvalue="Application.P1014" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.P1022" />
       <item itemvalue="Application.P1307" />
+      <item itemvalue="Application.P1003" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1003" />
         <item itemvalue="Application.P1307" />
         <item itemvalue="Application.P1022" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.P1014" />
-        <item itemvalue="Application.P1464" />
       </list>
     </recent_temporary>
   </component>
@@ -1292,17 +1322,17 @@
           <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/P1089.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1089.java</url>
           <line>18</line>
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/P1914.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1914.java</url>
           <line>13</line>
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/P1036.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1036.java</url>
           <line>35</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
@@ -1312,7 +1342,7 @@
           <option name="timeStamp" value="270" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/P1426.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1426.java</url>
           <line>15</line>
           <option name="timeStamp" value="272" />
         </line-breakpoint>

@@ -1,4 +1,4 @@
-package sw.luogu;
+package sw.luogu.stage1;
 
 import java.util.Scanner;
 import java.util.Stack;
