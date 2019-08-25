@@ -200,7 +200,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="PATTERN" value="sw.luogu.stage2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,7 +214,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="PATTERN" value="sw.luogu.stage2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,7 +228,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="PATTERN" value="sw.luogu.stage2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,7 +242,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="PATTERN" value="sw.luogu.stage2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
