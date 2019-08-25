@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;stage2:P1003 铺地毯&#10;完成">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1067.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1540.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu&#10;新手村&#10;完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1540">
+  <component name="RunManager" selected="Application.P1307">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -182,13 +180,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1003" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.test.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage2.*" />
+          <option name="PATTERN" value="sw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1014" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.luogu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,20 +222,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1067" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1067" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P1307" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.luogu.P1307" />
       <module name="sw.pro" />
@@ -238,13 +236,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1540" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1540" />
+    <configuration name="P1464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1464" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage2.*" />
+          <option name="PATTERN" value="sw.luogu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,19 +274,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
+      <item itemvalue="Application.P1464" />
+      <item itemvalue="Application.P1014" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.P1022" />
       <item itemvalue="Application.P1307" />
-      <item itemvalue="Application.P1003" />
-      <item itemvalue="Application.P1067" />
-      <item itemvalue="Application.P1540" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P1540" />
-        <item itemvalue="Application.P1067" />
-        <item itemvalue="Application.P1003" />
         <item itemvalue="Application.P1307" />
         <item itemvalue="Application.P1022" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.P1014" />
+        <item itemvalue="Application.P1464" />
       </list>
     </recent_temporary>
   </component>
@@ -873,6 +871,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019-06，整理行李" />
     <MESSAGE value="小岛岛屿" />
     <MESSAGE value="KOITP 登山" />
     <MESSAGE value="调整练习题目的顺序" />
@@ -897,8 +896,7 @@
     <MESSAGE value="luogu&#10;P1464 Function&#10;完成" />
     <MESSAGE value="luogu&#10;P1014 Cantor表&#10;完成" />
     <MESSAGE value="luogu&#10;新手村&#10;完成" />
-    <MESSAGE value="luogu&#10;stage2:P1003 铺地毯&#10;完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;stage2:P1003 铺地毯&#10;完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;新手村&#10;完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,17 +1292,17 @@
           <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1089.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1089.java</url>
           <line>18</line>
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1914.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1914.java</url>
           <line>13</line>
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1036.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1036.java</url>
           <line>35</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
@@ -1314,14 +1312,9 @@
           <option name="timeStamp" value="270" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/stage1/P1426.java</url>
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1426.java</url>
           <line>15</line>
           <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/luogu/stage2/P1067.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="274" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
