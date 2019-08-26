@@ -3,7 +3,7 @@ package sw.pro.PINARY;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class source {
+public class Combination {
     private static long[][] data = new long[90][90];
 
     public static void main(String[] args) throws Exception {
