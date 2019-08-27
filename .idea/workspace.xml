@@ -4,11 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="二亲数的三种解法">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1086.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/pro/SUM/source_dp_3.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="P1086 花生采摘">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1177.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_7/source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_6_7/source.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1086">
+  <component name="RunManager" selected="Application.P1177">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -239,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1307" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1307" />
+    <configuration name="P1177" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1177" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -277,19 +275,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.P1307" />
       <item itemvalue="Application.P1031" />
       <item itemvalue="Application.P1042" />
       <item itemvalue="Application.Combination" />
       <item itemvalue="Application.P1086" />
+      <item itemvalue="Application.P1177" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1177" />
         <item itemvalue="Application.P1086" />
         <item itemvalue="Application.Combination" />
         <item itemvalue="Application.P1042" />
         <item itemvalue="Application.P1031" />
-        <item itemvalue="Application.P1307" />
       </list>
     </recent_temporary>
   </component>
@@ -874,7 +872,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KOITP 登山" />
     <MESSAGE value="调整练习题目的顺序" />
     <MESSAGE value="真题：拓扑排序" />
     <MESSAGE value="TreeGraph" />
@@ -899,7 +896,8 @@
     <MESSAGE value="luogu" />
     <MESSAGE value="二亲数的三种解法" />
     <MESSAGE value="登山 确认代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="登山 确认代码" />
+    <MESSAGE value="P1086 花生采摘" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1086 花生采摘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
