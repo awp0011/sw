@@ -11,7 +11,6 @@ public class P1563 {
         int n = (int) in.nval;
         in.nextToken();
         int m = (int) in.nval;
-
         int[] d = new int[n + 1];
         String[] a = new String[n + 1];
         for (int i = 1; i <= n; i++) {

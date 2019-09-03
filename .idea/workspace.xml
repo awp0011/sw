@@ -4,12 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1056.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1504.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1563.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage2 1">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1068.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1583.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/P1781.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/tree/source.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/P1563.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/P1563.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/tree/BinaryIndexedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/tree/BinaryIndexedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/tree/Solution.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1504.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="263">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,36 +60,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1056.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1068.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="276">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1328.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="64" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1563.java">
+        <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1583.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="529">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +102,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i &amp; -i</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\IdeaProjects\sw\src\sw\adv\color</dir>
+      <dir>E:\IdeaProjects\sw\src\sw</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -118,12 +127,22 @@
         <option value="$PROJECT_DIR$/src/sw/luogu/P1056.java" />
         <option value="$PROJECT_DIR$/src/sw/luogu/P1328.java" />
         <option value="$PROJECT_DIR$/src/sw/luogu/P1563.java" />
+        <option value="$PROJECT_DIR$/src/sw/luogu/P1781.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/IndexedTree/Source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tree/BinaryIndexedTree.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tree/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/tree/IndexedTree.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/Test.java" />
+        <option value="$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java" />
+        <option value="$PROJECT_DIR$/src/sw/luogu/P1068.java" />
+        <option value="$PROJECT_DIR$/src/sw/luogu/P1583.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="463" />
-    <option name="y" value="116" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="338" />
+    <option name="y" value="306" />
     <option name="width" value="2109" />
     <option name="height" value="881" />
   </component>
@@ -216,7 +235,44 @@
               <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="adv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
               <item name="luogu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="IndexedTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1563">
+  <component name="RunManager" selected="Application.P1583">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -306,8 +362,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1056" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1056" />
+    <configuration name="P1068" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1068" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -320,8 +376,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1307" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1307" />
+    <configuration name="P1583" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1583" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -334,41 +390,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1328" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1328" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1504" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1504" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1563" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.P1563" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.*" />
+          <option name="PATTERN" value="sw.pro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,6 +406,33 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.tree.source" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.IndexedTree.source" />
+      <module name="sw.pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.IndexedTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,19 +464,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.P1307" />
-      <item itemvalue="Application.P1504" />
-      <item itemvalue="Application.P1056" />
-      <item itemvalue="Application.P1328" />
-      <item itemvalue="Application.P1563" />
+      <item itemvalue="Application.source" />
+      <item itemvalue="Application.source (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.P1068" />
+      <item itemvalue="Application.P1583" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P1563" />
-        <item itemvalue="Application.P1328" />
-        <item itemvalue="Application.P1056" />
-        <item itemvalue="Application.P1504" />
-        <item itemvalue="Application.P1307" />
+        <item itemvalue="Application.P1583" />
+        <item itemvalue="Application.P1068" />
+        <item itemvalue="Application.source" />
+        <item itemvalue="Application.source (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -615,13 +670,11 @@
       <workItem from="1565356719008" duration="4799000" />
       <workItem from="1565443773201" duration="7857000" />
       <workItem from="1565454093592" duration="13218000" />
-    </task>
-    <task id="LOCAL-00037" summary="20181113-sw adv &#10;meet 99">
-      <created>1542111736695</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1542111736695</updated>
+      <workItem from="1567005203873" duration="746000" />
+      <workItem from="1567006005516" duration="1866000" />
+      <workItem from="1567247620535" duration="13192000" />
+      <workItem from="1567341495158" duration="748000" />
+      <workItem from="1567520881033" duration="2035000" />
     </task>
     <task id="LOCAL-00038" summary="20181113-sw adv &#10;meet 99">
       <created>1542111807571</created>
@@ -959,16 +1012,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565482987178</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="luogu stage2 1">
+      <created>1566694786888</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1566694786888</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="705436000" />
+    <option name="totallyTimeSpent" value="724053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="338" y="306" width="2109" height="881" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25798723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19734904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -996,9 +1057,9 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Debug" order="9" sideWeight="0.49245432" weight="0.30670926" />
+      <window_info anchor="right" id="Debug" order="9" sideWeight="0.49245432" weight="0.29792333" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49086577" visible="true" weight="0.31509584" />
+      <window_info active="true" anchor="right" id="Run" order="11" sideWeight="0.49086577" visible="true" weight="0.38733432" />
       <window_info anchor="right" id="Coverage" order="12" sideWeight="0.50913423" side_tool="true" visible="true" weight="0.32108626" />
     </layout>
   </component>
@@ -1049,7 +1110,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2019-06，整理行李" />
     <MESSAGE value="小岛岛屿" />
     <MESSAGE value="KOITP 登山" />
     <MESSAGE value="调整练习题目的顺序" />
@@ -1074,7 +1134,8 @@
     <MESSAGE value="luogu&#10;P1464 Function&#10;完成" />
     <MESSAGE value="luogu&#10;P1014 Cantor表&#10;完成" />
     <MESSAGE value="luogu&#10;新手村&#10;完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu&#10;新手村&#10;完成" />
+    <MESSAGE value="luogu stage2 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu stage2 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1577,11 +1638,35 @@
           <properties />
           <option name="timeStamp" value="272" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1781.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/P1068.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="all[150000]" language="JAVA" />
+        <watch expression="tree[131072]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1589,6 +1674,20 @@
     <SUITE FILE_PATH="coverage/sw$source_dp.ic" NAME="source_dp Coverage Results" MODIFIED="1559133148949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sw.pro.SUM.*</FILTER>
     </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tree[131072]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree[131071]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1464.java">
@@ -1598,20 +1697,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1328.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1563.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1504.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1328.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="19" column="64" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1628,15 +1727,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1563.java">
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tree/BinaryIndexedTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="75" column="35" lean-forward="true" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1781.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1504.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/IndexedTree/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tree/IndexedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="45" column="17" selection-start-line="40" selection-start-column="16" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/pro/tree/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1068.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/luogu/P1583.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
