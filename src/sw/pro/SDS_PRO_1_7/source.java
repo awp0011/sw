@@ -1,102 +1,102 @@
 package sw.pro.SDS_PRO_1_7;
-
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.ArrayDeque;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
+//https://koitp.org/problem/TUD_2006_MOVE/read/
+public class source {
+    private static final int MAX = 103;
+    private static int[][][] MAP;
+    private static final int[][] OFFSETS = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    private static final Map<Integer, ArrayDeque<Integer>> MOUNTS = new HashMap<>();
+    private static int N, maxH, minH;
 
-class source {
-    private static int N;
-    private static PriorityQueue<Mountain> queue = new PriorityQueue<>(Comparator.comparing(Mountain::getMinDiff));
-    private static Mountain[][] area;
-    private static int End;
-
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
-        End = N - 1;
-        area = new Mountain[N][N];
-        for (int i = 0; i < N; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < N; j++) {
-                area[i][j] = new Mountain(i, j, Integer.parseInt(st.nextToken()));
+        MAP = new int[N + 1][N + 1][2];
+        StringTokenizer st;
+        maxH = 0;
+        minH = 200;
+        for (int i = 1; i <= N; i++) {
+            st = new StringTokenizer(br.readLine());
+            for (int j = 1; j <= N; j++) {
+                int h = Integer.parseInt(st.nextToken());
+                maxH = Math.max(maxH, h);
+                minH = Math.min(minH, h);
+                MOUNTS.computeIfAbsent(h, v -> new ArrayDeque<>()).add(i * MAX + j);
             }
         }
-        area[0][0].isVisited = true;
-        walkToNext(area[0][0]);
-        walkToNN();
-        System.out.println(area[End][End].minDiff);
-        System.out.println(area[End][End].maxHeight+"-"+area[End][End].minHeight);
-    }
-
-    private static void walkToNN() {
-        boolean continued = true;
-        while (!queue.isEmpty()) {
-            Mountain current = queue.poll();
-            //System.out.println(current.X + "," + current.Y);
-            continued = walkToNext(current);
-        }
-
-    }
-
-    private static boolean walkToNext(final Mountain from) {
-        int nextAxis = from.X + 1;
-        if (nextAxis < N) {
-            from.walkTo(area[nextAxis][from.Y]);
-            if (nextAxis == End && from.Y == End) {
-                return false;
+        int low = 0;
+        int top = maxH - minH;
+        while (low < top) {
+            int middle = (low + top) >> 1;
+            if (test(middle)) {
+                top = middle;
+            } else {
+                low = middle + 1;
             }
         }
-        nextAxis = from.Y + 1;
-        if (nextAxis < N) {
-            from.walkTo(area[from.X][nextAxis]);
-            if (nextAxis == End && from.X == End) {
-                return false;
-            }
-        }
-        if (from.X > 1) {
-            from.walkTo(area[from.X - 1][from.Y]);
-        }
-
-        if (from.Y > 1) {
-            from.walkTo(area[from.X][from.Y - 1]);
-        }
-        return true;
+        System.out.println(low);
     }
 
 
-    private static class Mountain {
-        int X;
-        int Y;
-        int height;
-        int minHeight;
-        int maxHeight;
-        int minDiff;
-        boolean isVisited = false;
+    private static boolean test(int aHeight) {
+        int start = minH;
+        while (start + aHeight <= maxH) {
+            initParent();
+            for (int h = start; h <= start + aHeight; h++) {
+                if (MOUNTS.containsKey(h)) {
+                    for (int pos : MOUNTS.get(h)) {
+                        join(pos);
+                    }
+                }
+                if (find(MAX + 1) == find(N * MAX + N)) return true;
+            }
+            start++;
 
-        Mountain(final int x, final int y, final int h) {
-            X = x;
-            Y = y;
-            height = h;
-            minHeight = h;
-            maxHeight = h;
         }
+        return false;
+    }
 
-        int getMinDiff() {
-            return minDiff;
-        }
-
-        void walkTo(final Mountain to) {
-            if (!to.isVisited) {
-                to.maxHeight = Math.max(maxHeight, to.maxHeight);
-                to.minHeight = Math.min(minHeight, to.minHeight);
-                to.minDiff = to.maxHeight - to.minHeight;
-                to.isVisited = true;
-                queue.add(to);
+    private static void initParent() {
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                MAP[i][j][1] = i * MAX + j;
+                MAP[i][j][0] = 0;
             }
         }
+    }
+
+    private static void join(int pos) {
+        int x = pos / MAX;
+        int y = pos % MAX;
+        MAP[x][y][0] = 1;
+        for (int[] os : OFFSETS) {
+            int nextX = x + os[0];
+            int nextY = y + os[1];
+            if (nextX >= 0 && nextX <= N && nextY >= 0 && nextY <= N
+                    && MAP[nextX][nextY][0] == 1) union(pos, nextX * MAX + nextY);
+        }
+    }
+
+    private static void union(int index1, int index2) {
+        int p1 = find(index1);
+        int p2 = find(index2);
+        if (p1 == p2) return;
+        if (p1 < p2) MAP[p2 / MAX][p2 % MAX][1] = MAP[p1 / MAX][p1 % MAX][1];
+        else MAP[p1 / MAX][p1 % MAX][1] = MAP[p2 / MAX][p2 % MAX][1];
 
     }
 
+    private static int find(int pos) {
+        int x = pos / MAX;
+        int y = pos % MAX;
+
+        if (MAP[x][y][1] == pos) return pos;
+        return MAP[x][y][1] = find(MAP[x][y][1]);
+    }
 }

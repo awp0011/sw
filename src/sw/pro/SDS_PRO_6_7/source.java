@@ -1,88 +1,41 @@
 package sw.pro.SDS_PRO_6_7;
-
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Comparator;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
-class source {
-    private static SortedSet<Goods> finalArray = new TreeSet<>(Comparator.comparing(Goods::getWeight));
+import static java.lang.Integer.parseInt;
 
-    public static void main(String[] args) throws Exception {
-
+public class source {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-
-        Goods[] origins = new Goods[N + 1];
-        for (int i = 1; i <= N; i++) {
-            Goods goods = new Goods(i, Integer.parseInt(br.readLine()));
-            finalArray.add(goods);
-            origins[i] = goods;
+        int N = parseInt(br.readLine());
+        int[][] tc = new int[N][3];
+        for (int i = 0; i < N; i++) {
+            tc[i][0] = i;
+            tc[i][1] = parseInt(br.readLine());
         }
-        br.close();
-        int index = 1;
-        for (Goods g : finalArray) {
-            g.toBe = index;
-            index++;
+        Arrays.sort(tc, Comparator.comparingInt(s -> s[1]));
 
-        }
-
-        Goods[] targets = new Goods[N + 1];
-        System.arraycopy(finalArray.toArray(new Goods[0]), 0, targets, 1, N);
-
-        Goods first_sorted = null;
-        for (Goods g : finalArray) {
-            if (!g.couldMove()) {
-                first_sorted = g;
-                break;
+        int sum, cnt, next;
+        int ans = 0;
+        for (int i = 0; i < N; i++) {
+            if (tc[i][2] == 1) continue;
+            tc[i][2] = 1;
+            if (tc[i][0] == i) continue;
+            sum = 0;
+            cnt = 0;
+            next = tc[i][0];
+            while (tc[next][2] != 1) {
+                tc[next][2] = 1;
+                cnt++;
+                sum += tc[next][1];
+                next = tc[next][0];
             }
+            ans += Math.min(tc[0][1] * (cnt + 2) + tc[i][1] * 2, tc[i][1] * cnt) + sum;
 
         }
-        long cost = 0, cost1=Long.MAX_VALUE, cost2=0;
-
-        for (Goods g : finalArray) {
-            if (g != null && g.couldMove()) {
-                if (first_sorted != null) {
-                    cost1 = (first_sorted.weight + g.weight) << 1;
-                }
-                while (g.couldMove()) {
-                    Goods target = targets[g.asIS];
-                    cost2 += g.weight + target.weight;
-                    origins[target.asIS] = origins[g.asIS];
-                    origins[g.asIS] = target;
-                    g.asIS = target.asIS;
-                    target.asIS = target.toBe;
-                    if (first_sorted != null) {
-                        cost1 += first_sorted.weight + target.weight;
-                    }
-                }
-                cost += Math.min(cost1, cost2);
-                cost2 = 0;
-            }
-        }
-
-        System.out.println(cost);
-
+        System.out.println(ans);
     }
-
-    static class Goods {
-        int asIS;
-        int toBe;
-        int weight;
-
-        Goods(int pos, int w) {
-            this.asIS = pos;
-            this.weight = w;
-        }
-
-        int getWeight() {
-            return weight;
-        }
-
-        boolean couldMove() {
-            return asIS != toBe;
-        }
-    }
-
 }
