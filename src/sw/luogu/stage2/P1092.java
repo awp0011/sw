@@ -44,7 +44,7 @@ public class P1092 {
             }
             return;
         }
-        for (int i = x - 1; i >= 1; i--) {
+        for (int i = y - 1; i >= 1; i--) {
             int x1 = base[data[0][i]]; //第一行代表的数字
             int x2 = base[data[1][i]]; //第二行代表的数字
             int x3 = base[data[2][i]]; //第三行代表的数字
