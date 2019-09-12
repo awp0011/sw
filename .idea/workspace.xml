@@ -4,12 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage2 4">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1434.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage2 9">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1433.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1434">
+  <component name="RunManager" selected="Application.P1433">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -217,10 +214,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1162" />
+    <configuration name="P1433" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage2.P1433" />
       <module name="sw.pro" />
-      <option name="VM_PARAMETERS" value="-Xmx125M" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sw.luogu.stage2.*" />
@@ -278,19 +275,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.P1162" />
       <item itemvalue="Application.P1141" />
       <item itemvalue="Application.P1032" />
       <item itemvalue="Application.P1118" />
       <item itemvalue="Application.P1434" />
+      <item itemvalue="Application.P1433" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1433" />
         <item itemvalue="Application.P1434" />
         <item itemvalue="Application.P1118" />
         <item itemvalue="Application.P1032" />
         <item itemvalue="Application.P1141" />
-        <item itemvalue="Application.P1162" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +493,8 @@
       <workItem from="1567863403099" duration="18785000" />
       <workItem from="1568034590414" duration="6939000" />
       <workItem from="1568119559922" duration="8631000" />
-      <workItem from="1568205112232" duration="6668000" />
-    </task>
-    <task id="LOCAL-00043" summary="20181116-sw adv &#10;金鱼糖">
-      <created>1542387188742</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1542387188743</updated>
+      <workItem from="1568205112232" duration="6691000" />
+      <workItem from="1568299501011" duration="3363000" />
     </task>
     <task id="LOCAL-00044" summary="20181117-sw adv &#10;对折表格">
       <created>1542417302853</created>
@@ -841,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568128331103</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="luogu stage2 9">
+      <created>1568213239313</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1568213239313</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -885,7 +883,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TreeGraph" />
     <MESSAGE value="TreeGraph -2" />
     <MESSAGE value="Pro突击班——图论模型专题01" />
     <MESSAGE value="Pro突击班——图论模型专题02" />
@@ -910,7 +907,8 @@
     <MESSAGE value="luogu stage2 4" />
     <MESSAGE value="luogu stage2 4  dfs" />
     <MESSAGE value="luogu stage2 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu stage2 5" />
+    <MESSAGE value="luogu stage2 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu stage2 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
