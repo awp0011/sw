@@ -4,11 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class P1908 {
-    private static int[][] arr;
+    private static ArrayList<Number> arr;
     private static long[] tree;
 
     public static void main(String[] args) throws Exception {
@@ -20,27 +22,26 @@ public class P1908 {
         int offset = 1;
         for (; offset <= n; offset *= 2) ;
         tree = new long[offset + n];
-        arr = new int[n][2];
+        arr = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
             in.nextToken();
-            arr[i][0] = (int) in.nval;
-            arr[i][1] = i;
+            arr.add(new Number((int) in.nval, i));
         }
-        Arrays.sort(arr, new Comparator<int[]>() {
+        Collections.sort(arr, new Comparator<Number>() {
             @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] == o2[0] ? o2[1] - o1[1] : o2[0] - o1[0];
+            public int compare(Number o1, Number o2) {
+                return o1.value == o2.value ? o2.index - o1.index : o2.value - o1.value;
             }
         });
         long ans = 0;
         for (int i = 0; i < n; i++) {
-            int cnt = query(offset, offset + arr[i][1]);
+            int cnt = query(offset, offset + arr.get(i).index);
             //System.out.println(arr[i][0] + " -> " + cnt);
             ans += cnt;
-            update(offset + arr[i][1], 1);
+            update(offset + arr.get(i).index, 1);
         }
         System.out.println(ans);
-        System.out.println("Time:"+(System.currentTimeMillis()-start));
+        System.out.println("Time:" + (System.currentTimeMillis() - start));
     }
 
     private static int query(int s, int e) {
@@ -58,6 +59,16 @@ public class P1908 {
         while (s > 0) {
             tree[s] += diff;
             s >>= 1;
+        }
+    }
+
+    private static class Number {
+        int value;
+        int index;
+
+        Number(int v, int i) {
+            value = v;
+            index = i;
         }
     }
 }

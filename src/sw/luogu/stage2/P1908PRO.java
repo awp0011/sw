@@ -1,6 +1,7 @@
 package sw.luogu.stage2;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
 
@@ -10,6 +11,8 @@ public class P1908PRO {
     public static int tree[] = new int[MAX];
 
     public static void main(String[] args) throws Exception {
+        System.setIn(new FileInputStream("E:\\BaiduNetdiskDownload\\testdata.in"));
+        long start = System.currentTimeMillis();
         StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         in.nextToken();
         n = (int) in.nval;
@@ -24,6 +27,7 @@ public class P1908PRO {
             ans += (i - sum(i - 1));
         }
         System.out.println(ans);
+        System.out.println("Time:" + (System.currentTimeMillis() - start));
     }
 
     private static long sum(int x) {
