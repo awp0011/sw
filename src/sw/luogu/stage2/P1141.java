@@ -1,7 +1,6 @@
 package sw.luogu.stage2;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -37,7 +36,7 @@ public class P1141 {
         }
         cnt = new int[size];
         Arrays.fill(cnt, 1);
-        StringBuffer ans = new StringBuffer();
+        StringBuilder ans = new StringBuilder();
         for (int i = 0; i < m; i++) {
             st = new StringTokenizer(in.readLine());
             int x = parseInt(st.nextToken()) - 1;
