@@ -73,7 +73,7 @@ public class BinaryIndexedTree {
         int N = parseInt(br.readLine());
         int Q = parseInt(br.readLine());
 
-        long[] arr = new long[N];
+        long[] arr = new long[N+5];
         for (int i = 0; i < N; i++) {
             arr[i] = i;
         }
