@@ -17,10 +17,10 @@ public class P1514 {
         in.nextToken();
         m = (short) in.nval;
         cnt = m;
-        map = new short[n][m][3];
-        vis = new boolean[n][m];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        map = new short[n + 1][m + 2][3];
+        vis = new boolean[n + 1][m + 2];
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
                 in.nextToken();
                 map[i][j][0] = (short) in.nval;
                 map[i][j][1] = m;
@@ -28,15 +28,16 @@ public class P1514 {
 
             }
         }
-        for (short j = 0; j < m; j++) {
-            map[n - 1][j][1] = j;
-            map[n - 1][j][2] = j;
+        for (short j = 1; j <= m; j++) {
+            map[n][j][1] = j;
+            map[n][j][2] = j;
 
         }
         ArrayDeque<int[]> dq = new ArrayDeque<>();
         int index = 0;
-        for (int i = 0; i < m; i++) {
-            if (!vis[0][i]) dq.add(new int[]{0, i});
+        for (int i = 1; i <= m; i++) {
+            if (map[1][i - 1][0] > map[1][i][0] || map[1][i + 1][0] > map[1][i][0]) continue;
+            if (!vis[1][i]) dq.add(new int[]{1, i});
             while (!dq.isEmpty()) {
                 int[] c = dq.peek();
                 vis[c[0]][c[1]] = true;
@@ -44,7 +45,7 @@ public class P1514 {
                 for (; index < 4; index++) {
                     int nx = c[0] + offset[index][0];
                     int ny = c[1] + offset[index][1];
-                    if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+                    if (nx < 1 || nx > n || ny < 1 || ny > m) continue;
                     if (map[nx][ny][0] >= map[c[0]][c[1]][0]) continue;
                     if (!vis[nx][ny]) {
                         dq.add(new int[]{nx, ny});
@@ -54,15 +55,15 @@ public class P1514 {
                 if (index == 4) {
                     c = dq.pop();
                     int[] p = dq.peek();
-                    if(p==null) continue;
-                    map[p[0]][p[1]][1] = (short)Math.min(map[p[0]][p[1]][1], map[c[0]][c[1]][1]);
-                    map[p[0]][p[1]][2] = (short)Math.max(map[p[0]][p[1]][2], map[c[0]][c[1]][2]);
+                    if (p == null) continue;
+                    map[p[0]][p[1]][1] = (short) Math.min(map[p[0]][p[1]][1], map[c[0]][c[1]][1]);
+                    map[p[0]][p[1]][2] = (short) Math.max(map[p[0]][p[1]][2], map[c[0]][c[1]][2]);
                 }
             }
         }
         int cnt = 0;
-        for (int i = 0; i < m; i++) {
-            if (!vis[n - 1][i]) {
+        for (int i = 1; i <= m; i++) {
+            if (!vis[n][i]) {
                 cnt++;
             }
         }
@@ -70,11 +71,11 @@ public class P1514 {
             System.out.println("0\n" + cnt);
         } else {
             int left = 0, p = 0;
-            while (left < m && cnt == 0) {
+            while (left <= m && cnt == 0) {
                 int maxr = 0;
                 for (int i = 0; i < m; i++)
-                    if (map[0][i][1] <= left)
-                        maxr = Math.max(maxr, map[0][i][2]);
+                    if (map[1][i][1] <= left)
+                        maxr = Math.max(maxr, map[1][i][2]);
                 p++;
                 left = maxr + 1;
             }
