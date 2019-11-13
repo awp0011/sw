@@ -10,7 +10,7 @@ public class P1111 {
     private static int[] p;
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("C:\\Users\\peng0\\Documents\\Downloads\\testdata (9).in"));
+        System.setIn(new FileInputStream("C:\\Users\\peng0\\Downloads\\testdata.in"));
         StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         in.nextToken();
         N = (int) in.nval;
@@ -38,16 +38,14 @@ public class P1111 {
             }
         });
         int index = 0, ans = -1, cnt = 0;
-        while (index <= M && cnt < N - 1) {
-            System.out.println(Arrays.toString(d[index]));
+        while (index <= N && cnt < N - 1) {
             if (union(d[index][0], d[index][1])) {
-                ans = d[index][2];
+                ans = Math.max(ans, d[index][2]);
                 cnt++;
             }
             index++;
         }
         System.out.println(cnt == N - 1 ? ans : -1);
-
     }
 
     static int find(int c) {
