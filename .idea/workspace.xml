@@ -4,16 +4,20 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage2 19 完成">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/T100229.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/T104630.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1088.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1983.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage3   5 完成">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/P5660.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/P5661.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/P5662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/P5663.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1273.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1352.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1726.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1993.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P2279.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_8/source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_8/source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/luogu/stage3/P1268.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1268.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/test/TempTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/test/TempTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1983">
+  <component name="RunManager" selected="Application.P1220">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -179,8 +183,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1441" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P1441" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.test.Main" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1220" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P1220" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -193,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1983" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P1983" />
+    <configuration name="P1273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P1273" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -207,8 +225,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2921" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P2921" />
+    <configuration name="P1352" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P1352" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -221,41 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2921" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P2921" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T100229" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.match.T100229" />
+    <configuration name="P5663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.match.P5663" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sw.luogu.match.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.pro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,19 +286,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.T100229" />
-      <item itemvalue="Application.P1441" />
-      <item itemvalue="Application.P2921" />
-      <item itemvalue="Application.P1983" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.P5663" />
+      <item itemvalue="Application.P1273" />
+      <item itemvalue="Application.P1352" />
+      <item itemvalue="Application.P1220" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P1983" />
-        <item itemvalue="Application.P2921" />
-        <item itemvalue="Application.P1441" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.T100229" />
+        <item itemvalue="Application.P1220" />
+        <item itemvalue="Application.P1352" />
+        <item itemvalue="Application.P1273" />
+        <item itemvalue="Application.P5663" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -558,21 +548,23 @@
       <workItem from="1573349897787" duration="3608000" />
       <workItem from="1573389498517" duration="5801000" />
       <workItem from="1573471554145" duration="5613000" />
-      <workItem from="1573651579241" duration="2745000" />
-    </task>
-    <task id="LOCAL-00064" summary="2019-06，参加宴会">
-      <created>1549894942487</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1549894942488</updated>
-    </task>
-    <task id="LOCAL-00065" summary="2019-06，整理行李">
-      <created>1552312598556</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1552312598557</updated>
+      <workItem from="1573651579241" duration="2849000" />
+      <workItem from="1573829954186" duration="1280000" />
+      <workItem from="1573833347132" duration="7000" />
+      <workItem from="1573835473371" duration="1989000" />
+      <workItem from="1573858940998" duration="14665000" />
+      <workItem from="1573976707766" duration="8939000" />
+      <workItem from="1574082851479" duration="5288000" />
+      <workItem from="1574165559333" duration="2974000" />
+      <workItem from="1574426779527" duration="9245000" />
+      <workItem from="1574468913484" duration="3358000" />
+      <workItem from="1574476145838" duration="202000" />
+      <workItem from="1574476365602" duration="4334000" />
+      <workItem from="1574490130314" duration="2992000" />
+      <workItem from="1574582193261" duration="5440000" />
+      <workItem from="1574767714186" duration="34000" />
+      <workItem from="1574767815005" duration="11000" />
+      <workItem from="1574767874562" duration="3751000" />
     </task>
     <task id="LOCAL-00066" summary="小岛岛屿">
       <created>1552699307855</created>
@@ -903,7 +895,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573400240631</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="luogu stage3   5 完成">
+      <created>1573656832973</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1573656832973</updated>
+    </task>
+    <task id="LOCAL-00114" summary="luogu stage3   6 完成">
+      <created>1573836761727</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1573836761728</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,8 +953,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="luogu stage2 3" />
-    <MESSAGE value="luogu stage2 4" />
     <MESSAGE value="luogu stage2 4  dfs" />
     <MESSAGE value="luogu stage2 5" />
     <MESSAGE value="luogu stage2 9" />
@@ -972,7 +976,9 @@
     <MESSAGE value="luogu stage3   2完成" />
     <MESSAGE value="luogu stage3   3 完成" />
     <MESSAGE value="luogu stage3   4 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu stage3   4 完成" />
+    <MESSAGE value="luogu stage3   5 完成" />
+    <MESSAGE value="luogu stage3   6 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu stage3   6 完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1489,7 +1495,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage2/P1736.java</url>
-          <line>55</line>
+          <line>31</line>
           <option name="timeStamp" value="365" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1559,7 +1565,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1111.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1646,6 +1652,36 @@
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1983.java</url>
           <line>50</line>
           <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1993.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P2279.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/match/P5661.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/match/P5663.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1273.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1352.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="447" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
