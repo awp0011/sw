@@ -1,12 +1,14 @@
 package sw.test;
 
 
-import java.util.BitSet;
+import java.util.HashMap;
 
 class Main {
 
     public static void main(String[] args) {
-        BitSet a = new BitSet();
-        System.out.println(a.nextSetBit(0));
+        HashMap<String, Integer> g = new HashMap<>();
+        System.out.println(g.remove("111"));
+        g.put("111",111);
+        System.out.println(g.remove("111"));
     }
 }
