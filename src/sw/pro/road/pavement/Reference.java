@@ -2,6 +2,8 @@ package sw.pro.road.pavement;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Comparator;
 
 class Reference {
     private static int N;
@@ -11,7 +13,7 @@ class Reference {
     private static final int[] checkE = new int[70000];
     private static final int[][] E = new int[70000][3];
 
-    static class Comp implements java.util.Comparator<int[]> {
+    static class Comp implements Comparator<int[]> {
         public int compare(int[] o1, int[] o2) {
             return o1[2] - o2[2];
         }
@@ -38,7 +40,7 @@ class Reference {
                 E[i][1] = Integer.parseInt(line[1]);
                 E[i][2] = Integer.parseInt(line[2]);
             }
-            java.util.Arrays.sort(E, 0, M, new Comp());
+            Arrays.sort(E, 0, M, new Comp());
             for (int i = 0; i < M; i++) {
                 checkE[i] = 0;
             }

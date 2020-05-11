@@ -6,8 +6,8 @@ import java.util.*;
 
 public class MST {
     private static final int[] parents = new int[355];
-    private static final int[][] edges = new int[70000][3];
-    private static final int[] isVisited = new int[70000];
+    private static final int[][] edges = new int[70003][3];
+    private static final int[] isVisited = new int[70003];
 
     private static int find(int n) {
         if (parents[n] == n) return n;
@@ -34,7 +34,12 @@ public class MST {
                 edges[j][2] = Integer.parseInt(st.nextToken());
 
             }
-            Arrays.sort(edges, 0, M, Comparator.comparing(o -> o[2]));
+            Arrays.sort(edges, 0, M, new Comparator<int[]>() {
+                @Override
+                public int compare(int[] o1, int[] o2) {
+                    return o1[2]-o2[2];
+                }
+            });
             //Arrays.fill(parents, 0, N, -1);
             for (int j = 1; j <=N ; j++) {
                 parents[j]=j;
