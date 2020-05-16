@@ -2,7 +2,7 @@ package sw.pro.shortest.longest;
 
 /*
 1.求多点源的任意两点的最短路径,即所有点对间的最短路径 All Pairs Shortest Path(A.P.S.P.)
-  算法 Floyed
+  算法 Floyd
   for(int k=1;<=N;k++){
    for(int i=1;i<=N;i++){
       for(int j=1;j<=N;j++){
@@ -19,83 +19,48 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class source {
-    private static int inf = Integer.MAX_VALUE >> 1;
+    private static final long inf = Long.MAX_VALUE >> 1;
+    private static final int MAX = 503;
+    private static final boolean[] on = new boolean[MAX];
+    private static final int[] off = new int[MAX];
+    private static final long[] ans = new long[MAX];
+    private static final long[][] dp = new long[MAX][MAX];
+    private static final StringBuilder out = new StringBuilder(2000);
+    private static int N;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder(1000);
         for (int tc = 1; tc <= T; tc++) {
-
-
-            int N = Integer.parseInt(br.readLine());
-            int[] delete_op = new int[N];
+            N = Integer.parseInt(br.readLine());
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int[][] map = new int[N + 2][N + 2];
-            int[][] tmp = new int[N + 2][N + 2];
-            for (int i = 0; i < N; i++) {
-                delete_op[i] = Integer.parseInt(st.nextToken());
-                Arrays.fill(map[i + 1], inf);
-            }
-
+            for (int i = 0; i < N; i++) off[i] = Integer.parseInt(st.nextToken());
+            Arrays.fill(on, false);
             for (int i = 1; i < N; i++) {
                 st = new StringTokenizer(br.readLine());
                 for (int j = i + 1; j <= N; j++) {
-                    int t = Integer.parseInt(st.nextToken());
-                    map[i][j] = t == 0 ? inf : t;
-                    map[j][i] = map[i][j];
+                    int temp = Integer.parseInt(st.nextToken());
+                    dp[i][j] = temp == 0 ? inf : temp;
+                    dp[j][i] = dp[i][j];
                 }
             }
-            //printArray(map);
-
-            sb.append('#').append(tc);
-            int n = 1;
-            do {
-                copy(map, tmp);
-                sb.append(' ').append(floyed(tmp, N));
-                //delete_op[n-1]
-                Arrays.fill(map[delete_op[n - 1]], inf);
-                for (int j = 1; j < map.length; j++) {
-                    map[j][delete_op[n - 1]] = inf;
-                }
-                n++;
-            } while (n < N);
-            sb.append(' ').append(0);
-            System.out.println(sb.toString());
-            sb.delete(0,sb.length());
-        }
-
-        //printArray(map);
-    }
-
-    private static void copy(int[][] a1, int[][] a2) {
-        for (int i = 1; i < a1.length; i++) {
-            System.arraycopy(a1[i], 1, a2[i], 1, a1.length - 1);
+            out.append('#').append(tc);
+            for (int i = N - 1; i >= 0; i--) ans[i] = find(off[i]);
+            for (int i = 0; i < N; i++) out.append(' ').append(ans[i]);
+            System.out.println(out.toString());
+            out.setLength(0);
         }
     }
 
-    private static int floyed(int[][] data, int size) {
-        int longest = 0;
-        for (int k = 1; k <= size; k++) {
-            for (int i = 1; i <= size; i++) {
-                int t = data[i][k];
-                if (t == inf) continue;//跳过不存在的路径
-                for (int j = 1; j <= i; j++) {
-                    if (i == j) continue;
-                    data[i][j] = Math.min(data[i][j], t + data[k][j]);//求出所有点对间最短路径
-                    //data[j][i] = data[i][j];
-                    if(data[i][j]!=inf) longest = Math.max(longest, data[i][j]);
-                }
+    private static long find(int k) {//floyd
+        long longest = 0;
+        on[k] = true;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                if (dp[i][j] > dp[i][k] + dp[k][j]) dp[i][j] = dp[i][k] + dp[k][j];
+                if (on[i] && on[j] && dp[i][j] > longest && dp[i][j] != inf) longest = dp[i][j];
             }
         }
         return longest;
     }
-
-    private static void printArray(int[][] array) {
-        System.out.println("---------start----------");
-        Arrays.stream(array).forEach(s -> System.out.println(Arrays.toString(s)));
-        System.out.println("---------end----------");
-        System.out.println();
-    }
-
 }
