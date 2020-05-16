@@ -4,18 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage2 19 完成">
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/T100229.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/match/T104630.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1088.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P1983.java" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage4 start">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage3/P2742.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/convexhull/source.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/SDS_PRO_9_8/source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_8/source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/SDS_PRO_9_8/source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/luogu/stage3/P1268.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/luogu/stage3/P1268.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/luogu/stage3/P1789.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/luogu/stage3/P1789.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/test/Main.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +110,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Test&#9;FILE&#9;file:///home/michael/IdeaProjects/sw/src/sw/pro/SDS_PRO_7_8/Test.java" />
@@ -130,15 +131,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="sw.pro.SDS_PRO_1_7" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sw.TP2019.M05.P02" />
       <recent name="sw.TP2019.M01.P01" />
       <recent name="sw.adv.select" />
       <recent name="sw.contest.second.finalmatch.b275601" />
       <recent name="sw.contest.second.A273048" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\sw\src\sw\pro\armyline" />
+      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sw.luogu.stage2" />
@@ -147,26 +149,22 @@
       <recent name="sw.pro.real.exam" />
       <recent name="sw.TP2019.M01.P03" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\sw\src\sw\pro\armyline" />
-      <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sw.pro.SDS_PRO_1_7" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.P1983">
+  <component name="RunManager" selected="Application.source">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2921" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P2921" />
+    <configuration name="P2742" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P2742" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -235,27 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T100229" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.match.T100229" />
+    <configuration name="P2921" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage3.P2921" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.match.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.pro.*" />
+          <option name="PATTERN" value="sw.luogu.stage3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,6 +249,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.convexhull.source" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.convexhull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,32 +283,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.T100229" />
       <item itemvalue="Application.P1441" />
       <item itemvalue="Application.P2921" />
       <item itemvalue="Application.P1983" />
+      <item itemvalue="Application.P2742" />
+      <item itemvalue="Application.source" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.source" />
+        <item itemvalue="Application.P2742" />
         <item itemvalue="Application.P1983" />
         <item itemvalue="Application.P2921" />
         <item itemvalue="Application.P1441" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.T100229" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -973,6 +974,48 @@
     <MESSAGE value="luogu stage3   3 完成" />
     <MESSAGE value="luogu stage3   4 完成" />
     <option name="LAST_COMMIT_MESSAGE" value="luogu stage3   4 完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="303" height="732" key="GridCell.Tab.0.bottom" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.0.center" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.0.left" timestamp="1589079768289">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589079768289" />
+    <state width="303" height="732" key="GridCell.Tab.0.right" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.1.bottom" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.1.center" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.1.left" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state width="303" height="732" key="GridCell.Tab.1.right" timestamp="1589079768290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="303" height="732" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589079768290" />
+    <state x="476" y="163" width="647" height="534" key="find.popup" timestamp="1589079158456">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="163" width="647" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1589079158456" />
+    <state x="535" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586264236596">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="535" y="221" key="git4idea.merge.GitPullDialog/0.0.1600.860/-1920.-54.1536.824@0.0.1600.860" timestamp="1586264236596" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1646,6 +1689,11 @@
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P1983.java</url>
           <line>50</line>
           <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage3/P2742.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="430" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
