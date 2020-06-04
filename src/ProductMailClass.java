@@ -2,7 +2,7 @@ import java.io.*;
 
 public class ProductMailClass {
     public static void main(String[] args) throws IOException {
-        String myPackage = "P1614";
+        String myPackage = "P5461";
 
         String templatePath = "C:\\workspace\\idea\\sw\\src\\javaTemplate.tmp";
         String packageName = "package sw.luogu.stage5." + myPackage + ";";
