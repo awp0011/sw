@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage5 start">
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage5 20200604">
       <change afterPath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P1075/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P1554/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P1614/Main.class" afterDir="false" />
@@ -25,6 +25,7 @@
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P1554/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P1614/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P1928/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P2415/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P2615/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P2911/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5461/Main.class" afterDir="false" />
@@ -37,14 +38,27 @@
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5736/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5737/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5738/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5740/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5741/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5742/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5743/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5744/Main$Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P5744/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/poj/POJ3268$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/poj/POJ3268$2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/poj/POJ3268$Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/sw/poj/POJ3268.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P2415/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P5740/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P5741/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P5742/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P5743/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage5/P5744/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ProductMailClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProductMailClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/production/idea/ProductMailClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/production/idea/ProductMailClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P5720/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P5720/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductMailClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductMailClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +202,7 @@
       <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -213,12 +227,12 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5737.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5742.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5737.*" />
+          <option name="PATTERN" value="sw.luogu.stage5.P5742.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +241,26 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5461.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5743.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5461.*" />
+          <option name="PATTERN" value="sw.luogu.stage5.P5743.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5744.Main" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.luogu.stage5.P5744.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,26 +269,12 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5738.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P2415.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5738.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5736.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5736.*" />
+          <option name="PATTERN" value="sw.luogu.stage5.P2415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,18 +315,18 @@
     <list>
       <item itemvalue="Application.CheckMemory" />
       <item itemvalue="Application.ProductMailClass" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.ProductMailClass" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -999,61 +1013,61 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="543" y="285" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1589626295969" />
-    <state x="473" y="20" key="CommitChangelistDialog2" timestamp="1591278968119">
+    <state x="473" y="20" key="CommitChangelistDialog2" timestamp="1591279075314">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-1466" y="-48" key="CommitChangelistDialog2/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590858555267" />
-    <state x="473" y="20" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591278968119" />
-    <state width="322" height="732" key="GridCell.Tab.0.bottom" timestamp="1591278777875">
+    <state x="473" y="20" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591279075314" />
+    <state width="449" height="732" key="GridCell.Tab.0.bottom" timestamp="1591436730218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
-    <state width="322" height="732" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591278777875" />
-    <state width="322" height="732" key="GridCell.Tab.0.center" timestamp="1591278777875">
+    <state width="449" height="732" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591436730218" />
+    <state width="449" height="732" key="GridCell.Tab.0.center" timestamp="1591436730218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
-    <state width="322" height="732" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591278777875" />
-    <state width="322" height="732" key="GridCell.Tab.0.left" timestamp="1591278777875">
+    <state width="449" height="732" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591436730218" />
+    <state width="449" height="732" key="GridCell.Tab.0.left" timestamp="1591436730217">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311229" />
-    <state width="322" height="732" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591278777875" />
-    <state width="322" height="732" key="GridCell.Tab.0.right" timestamp="1591278777875">
+    <state width="449" height="732" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591436730217" />
+    <state width="449" height="732" key="GridCell.Tab.0.right" timestamp="1591436730218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
-    <state width="322" height="732" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591278777875" />
-    <state width="483" height="732" key="GridCell.Tab.1.bottom" timestamp="1591277143761">
+    <state width="449" height="732" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591436730218" />
+    <state width="422" height="732" key="GridCell.Tab.1.bottom" timestamp="1591432055155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058654" />
-    <state width="483" height="732" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591277143761" />
-    <state width="483" height="732" key="GridCell.Tab.1.center" timestamp="1591277143761">
+    <state width="422" height="732" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591432055155" />
+    <state width="422" height="732" key="GridCell.Tab.1.center" timestamp="1591432055155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.center/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
-    <state width="483" height="732" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591277143761" />
-    <state width="483" height="732" key="GridCell.Tab.1.left" timestamp="1591277143761">
+    <state width="422" height="732" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591432055155" />
+    <state width="422" height="732" key="GridCell.Tab.1.left" timestamp="1591432055155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.left/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
-    <state width="483" height="732" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591277143761" />
-    <state width="483" height="732" key="GridCell.Tab.1.right" timestamp="1591277143761">
+    <state width="422" height="732" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591432055155" />
+    <state width="422" height="732" key="GridCell.Tab.1.right" timestamp="1591432055155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.right/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
-    <state width="483" height="732" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591277143761" />
+    <state width="422" height="732" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591432055155" />
     <state x="304" y="10" key="SettingsEditor" timestamp="1591267489787">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-1628" y="-37" key="SettingsEditor/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590855185653" />
     <state x="304" y="10" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591267489787" />
-    <state x="399" y="113" key="Vcs.Push.Dialog.v2" timestamp="1591278976467">
+    <state x="399" y="113" key="Vcs.Push.Dialog.v2" timestamp="1591279082400">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-1537" y="54" key="Vcs.Push.Dialog.v2/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590858565257" />
-    <state x="399" y="113" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591278976467" />
+    <state x="399" y="113" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591279082400" />
     <state x="476" y="163" width="786" height="600" key="find.popup" timestamp="1591276432699">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -1780,6 +1794,11 @@
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage5/P5738/Main.java</url>
           <line>24</line>
           <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage5/P2415/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="437" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
