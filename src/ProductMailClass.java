@@ -2,11 +2,11 @@ import java.io.*;
 
 public class ProductMailClass {
     public static void main(String[] args) throws IOException {
-        String myPackage = "P1122";
+        String myPackage = "P1100";
 
-        String templatePath = "C:\\workspace\\idea\\sw\\src\\javaTemplate.tmp";
+        String templatePath = "E:\\IdeaProjects\\sw\\src\\javaTemplate.tmp";
         String packageName = "package sw.luogu.stage5." + myPackage + ";";
-        String basePath = "C:\\workspace\\idea\\sw\\src\\sw\\luogu\\stage5\\" + myPackage + "\\";
+        String basePath = "E:\\IdeaProjects\\sw\\src\\sw\\luogu\\stage5\\" + myPackage + "\\";
         String filename = "Main.java";
         File f1 = new File(basePath);
         if (!f1.exists()) f1.mkdirs();

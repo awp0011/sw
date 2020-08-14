@@ -4,13 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="luogu stage5 20200604">
-      <change afterPath="$PROJECT_DIR$/bin/sw/luogu/stage5/P1320/cast.input" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="Graham">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ProductMailClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/ProductMailClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P5720/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ProductMailClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ProductMailClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/pro/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sw/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/test/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductMailClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductMailClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,18 +154,9 @@
       <recent name="$PROJECT_DIR$/src/sw/pro/fiveone" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,26 +170,12 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5742.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P1100.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5742.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P5743.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P5743.*" />
+          <option name="PATTERN" value="sw.luogu.stage5.P1100.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,13 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P2415.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage5.P1469.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage5.P2415.*" />
+          <option name="PATTERN" value="sw.luogu.stage5.P1469.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,6 +215,20 @@
       <option name="MAIN_CLASS_NAME" value="ProductMailClass" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.Test" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,21 +255,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
       <item itemvalue="Application.ProductMailClass" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.ProductMailClass" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ProductMailClass" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -541,6 +541,7 @@
       <workItem from="1573389498517" duration="5801000" />
       <workItem from="1573471554145" duration="5613000" />
       <workItem from="1573651579241" duration="2745000" />
+      <workItem from="1597388392843" duration="94000" />
     </task>
     <task id="LOCAL-00064" summary="2019-06，参加宴会">
       <created>1549894942487</created>
@@ -965,51 +966,60 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="543" y="285" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1589626295969" />
-    <state x="473" y="20" key="CommitChangelistDialog2" timestamp="1591437171586">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="757" y="33" key="CommitChangelistDialog2" timestamp="1597388619267">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1466" y="-48" key="CommitChangelistDialog2/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590858555267" />
     <state x="473" y="20" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591437171586" />
-    <state width="422" height="732" key="GridCell.Tab.0.bottom" timestamp="1591437600646">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="757" y="33" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1597388619267" />
+    <state width="710" height="1251" key="GridCell.Tab.0.bottom" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
     <state width="422" height="732" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591437600646" />
-    <state width="422" height="732" key="GridCell.Tab.0.center" timestamp="1591437600646">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
+    <state width="710" height="1251" key="GridCell.Tab.0.center" timestamp="1594477295496">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
     <state width="422" height="732" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591437600646" />
-    <state width="422" height="732" key="GridCell.Tab.0.left" timestamp="1591437600646">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295496" />
+    <state width="710" height="1251" key="GridCell.Tab.0.left" timestamp="1594477295496">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311229" />
     <state width="422" height="732" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591437600646" />
-    <state width="422" height="732" key="GridCell.Tab.0.right" timestamp="1591437600646">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295496" />
+    <state width="710" height="1251" key="GridCell.Tab.0.right" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="496" height="553" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1591104311230" />
     <state width="422" height="732" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591437600646" />
-    <state width="422" height="732" key="GridCell.Tab.1.bottom" timestamp="1591437600647">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
+    <state width="710" height="1251" key="GridCell.Tab.1.bottom" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058654" />
     <state width="422" height="732" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591437600647" />
-    <state width="422" height="732" key="GridCell.Tab.1.center" timestamp="1591437600647">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
+    <state width="710" height="1251" key="GridCell.Tab.1.center" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.center/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
     <state width="422" height="732" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591437600647" />
-    <state width="422" height="732" key="GridCell.Tab.1.left" timestamp="1591437600646">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
+    <state width="710" height="1251" key="GridCell.Tab.1.left" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.left/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
     <state width="422" height="732" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591437600646" />
-    <state width="422" height="732" key="GridCell.Tab.1.right" timestamp="1591437600647">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="710" height="1251" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
+    <state width="710" height="1251" key="GridCell.Tab.1.right" timestamp="1594477295497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="464" height="696" key="GridCell.Tab.1.right/0.0.1600.860/-1920.-54.1536.824@-1920.-54.1536.824" timestamp="1590900058653" />
     <state width="422" height="732" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591437600647" />
+    <state width="710" height="1251" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594477295497" />
     <state x="304" y="10" key="SettingsEditor" timestamp="1591267489787">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -1029,11 +1039,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="584" y="221" key="git4idea.merge.GitMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1589587732412" />
-    <state x="535" y="221" key="git4idea.merge.GitPullDialog" timestamp="1589587744742">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="856" y="360" key="git4idea.merge.GitPullDialog" timestamp="1597388551504">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="535" y="221" key="git4idea.merge.GitPullDialog/0.0.1600.860/-1920.-54.1536.824@0.0.1600.860" timestamp="1586264236596" />
     <state x="535" y="221" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1589587744742" />
+    <state x="856" y="360" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597388551504" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1591267482840">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -1752,6 +1762,11 @@
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage5/P2415/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage5/P1100/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="509" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
