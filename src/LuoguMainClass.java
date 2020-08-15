@@ -2,7 +2,7 @@ import java.io.*;
 
 public class LuoguMainClass {
     public static void main(String[] args) throws IOException {
-        String myPackage = "P4136";
+        String myPackage = "P2660";
 
         String templatePath = "C:\\workspace\\idea\\sw\\src\\javaTemplate.tmp";
         String packageName = "package sw.luogu.stage5." + myPackage + ";";
