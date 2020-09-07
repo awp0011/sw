@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
 import java.util.Arrays;
+import java.util.BitSet;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -13,31 +15,24 @@ public class Main {
         int n = (int) in.nval;
         in.nextToken();
         int C = (int) in.nval;
-        int[] t = new int[n + 2];
+        HashMap<Integer, Integer> d = new HashMap<>();
+        BitSet e = new BitSet();
         for (int i = 1; i <= n; i++) {
             in.nextToken();
-            t[i] = (int) in.nval;
-        }
-        Arrays.sort(t,1,n+1);
-        int[] d1 = new int[n + 1];
-        int[] d2 = new int[n + 1];
-
-        int idx = 1;
-        for (int i = 1; i <= n; i++) {
-            if (t[i - 1] == t[i]) d2[idx - 1]++;
+            int a = (int) in.nval;
+            if (e.get(a)) d.put(a, d.get(a) + 1);
             else {
-                d2[idx]++;
-                d1[idx++] = t[i];
+                d.put(a, 1);
+                e.set(a);
             }
         }
-        int ans = 0;
-        for (int i = 1; i < idx; i++) {
-            int key = d1[i] + C;
-            int pos = Arrays.binarySearch(d1, i + 1, idx, key);
-            if (pos > 0) {
-                ans += d2[i] * d2[pos];
+        long ans = 0;
+        for (int i : d.keySet()) {
+            if (d.containsKey(i + C)) {
+                ans += (long) d.get(i) * d.get(i + C);
             }
         }
+
         System.out.println(ans);
     }
 }

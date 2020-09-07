@@ -6,7 +6,7 @@ import java.util.*;
 // written by luchy0120
 
 public class P3388AC {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         new P3388AC().run();
     }
 
@@ -133,7 +133,9 @@ public class P3388AC {
     InputStream is;
     PrintWriter out;
 
-    void run() {
+    void run() throws FileNotFoundException {
+        System.setIn(new FileInputStream("E:\\BaiduNetdiskDownload\\P3388_1.in"));
+
         is = System.in;
         out = new PrintWriter(System.out);
         solve();

@@ -2,49 +2,51 @@ package sw.luogu.stage4;
 
 import java.io.*;
 
-import static java.lang.Integer.min;
 
 public class P3388 {
-    private static int n, m, idx;
-    private static Edge[] edges;
-    private static int[] head, low, dfn;
-    private static boolean[] cut;
+    private static int idx;
+    private static int timeIdx;
+    private static int[] head, next, to, low, dfn;
+    private static boolean[] isCut;
+
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("C:\\Users\\peng0\\Downloads\\P3388_1.in"));
+        System.setIn(new FileInputStream("E:\\BaiduNetdiskDownload\\P3388_1.in"));
         StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         in.nextToken();
-        n = (int) in.nval;
+        int n = (int) in.nval;
         in.nextToken();
-        m = (int) in.nval;
+        int m = (int) in.nval;
 
-        edges = new Edge[2 * m + 2];
+
         head = new int[n + 2];
         dfn = new int[n + 2];
         low = new int[n + 2];
-        cut = new boolean[n + 2];
+        isCut = new boolean[n + 2];
+        next = new int[2 * m + 2];
+        to = new int[2 * m + 2];
         idx = 1;
-        for (int i = 1; i <= m; i++) {
+        timeIdx = 1;
+
+        for (int i = 0; i < m; i++) {
             in.nextToken();
-            int u = (int) in.nval;
+            int a = (int) in.nval;
             in.nextToken();
-            int v = (int) in.nval;
-            addEdge(u, v);
-            addEdge(v, u);
+            int b = (int) in.nval;
+            addEdge(a, b);
+            addEdge(b, a);
         }
-        idx = 0;
         for (int i = 1; i <= n; i++) {
             if (dfn[i] == 0) {
-                idx = 1;
-                dfn[i] = idx;
-                low[i] = idx++;
-                dfs(i, i);
+                tarjan(i, -1);
             }
         }
+
+
         int cnt = 0;
         StringBuilder ans = new StringBuilder();
         for (int i = 1; i <= n; i++) {
-            if (cut[i]) {
+            if (isCut[i]) {
                 cnt++;
                 ans.append(i).append(' ');
             }
@@ -53,35 +55,34 @@ public class P3388 {
         System.out.println(ans.toString());
     }
 
-    private static void dfs(int s, int parent) {
-        dfn[s] = idx;
-        low[s] = idx++;
-        int child = 0;
-        for (int i = head[s]; i != 0; i = edges[i].next) {
-            if (dfn[edges[i].to] == 0) {
-                dfs(edges[i].to, s);
-                low[s] = min(low[s], low[edges[i].to]);
-                if (low[edges[i].to] >= dfn[s] && s != parent) cut[s] = true;
-                if (s == parent) child++;
-
+    public static void tarjan(int cur, int fa) {
+        low[cur] = dfn[cur] = timeIdx++;
+        int count = 0;
+        for (int i = head[cur]; i != 0; i = next[i]) {
+            int next = to[i];
+            if (dfn[next] == 0) {
+                count++;
+                tarjan(next, cur);
+                low[cur] = Math.min(low[cur], low[next]);
+                if (dfn[cur] <= low[next]) {
+                    if (cur != next) {
+                        isCut[cur] = true;
+                    }
+                }
+            } else if (next != fa && dfn[cur] > dfn[next]) {
+                low[cur] = Math.min(low[cur], dfn[next]);
             }
-            low[s] = min(low[s], dfn[edges[i].to]);
         }
-        if (s == parent && child >= 2) cut[s] = true;
-    }
-
-    private static void addEdge(int from, int to) {
-        edges[idx] = new Edge();
-        edges[idx].next = head[from];
-        edges[idx].to = to;
-        head[from] = idx++;
-    }
-
-    private static class Edge {
-        int next;
-        int to;
-
-        Edge() {
+        if (fa < 0 && count == 1) {
+            isCut[cur] = false;
         }
     }
+
+    public static void addEdge(int a, int b) {
+        next[idx] = head[a];
+        head[a] = idx;
+        to[idx++] = b;
+    }
+
+
 }
