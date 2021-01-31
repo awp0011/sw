@@ -6,7 +6,10 @@ import java.util.*;
 // written by luchy0120
 
 public class P3388AC {
+    private static long start;
+
     public static void main(String[] args) throws IOException {
+        start = System.currentTimeMillis();
         new P3388AC().run();
     }
 
@@ -126,10 +129,6 @@ public class P3388AC {
 
     }
 
-
-//
-
-
     InputStream is;
     PrintWriter out;
 
@@ -139,6 +138,7 @@ public class P3388AC {
         is = System.in;
         out = new PrintWriter(System.out);
         solve();
+        out.println("Time:" + (System.currentTimeMillis() - start));
         out.flush();
     }
 

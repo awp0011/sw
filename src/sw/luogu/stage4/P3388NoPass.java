@@ -2,22 +2,21 @@ package sw.luogu.stage4;
 
 import java.io.*;
 
-public class P3388 implements Runnable {
+
+public class P3388NoPass {
     private static int idx;
     private static int timeIdx;
     private static int[] head, next, to, low, dfn;
     private static boolean[] isCut;
-    private static StreamTokenizer in;
 
-    public static void main(String[] args) {
-        in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
-        new Thread(null, new P3388(), "", 1 << 29).start();
-    }
 
-    @Override
-    public void run() {
-        int n = nextInt();
-        int m = nextInt();
+    public static void main(String[] args) throws IOException {
+        StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+        in.nextToken();
+        int n = (int) in.nval;
+        in.nextToken();
+        int m = (int) in.nval;
+
 
         head = new int[n + 2];
         dfn = new int[n + 2];
@@ -29,8 +28,10 @@ public class P3388 implements Runnable {
         timeIdx = 1;
 
         for (int i = 0; i < m; i++) {
-            int a = nextInt();
-            int b = nextInt();
+            in.nextToken();
+            int a = (int) in.nval;
+            in.nextToken();
+            int b = (int) in.nval;
             addEdge(a, b);
             addEdge(b, a);
         }
@@ -39,6 +40,7 @@ public class P3388 implements Runnable {
                 tarjan(i, -1);
             }
         }
+
 
         int cnt = 0;
         StringBuilder ans = new StringBuilder();
@@ -50,9 +52,7 @@ public class P3388 implements Runnable {
         }
         System.out.println(cnt);
         System.out.println(ans.toString());
-
     }
-
 
     public static void tarjan(int cur, int fa) {
         low[cur] = dfn[cur] = timeIdx++;
@@ -83,14 +83,5 @@ public class P3388 implements Runnable {
         to[idx++] = b;
     }
 
-    private static int nextInt() {
-        try {
-            in.nextToken();
-            return (int) in.nval;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return Integer.MIN_VALUE;
-        }
-    }
 
 }

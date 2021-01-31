@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.BitSet;
 import java.util.HashMap;
@@ -32,6 +33,7 @@ public class Main {
                 ans += (long) d.get(i) * d.get(i + C);
             }
         }
+        BigInteger one = BigInteger.ONE;
 
         System.out.println(ans);
     }

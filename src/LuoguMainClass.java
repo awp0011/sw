@@ -2,11 +2,12 @@ import java.io.*;
 
 public class LuoguMainClass {
     public static void main(String[] args) throws IOException {
-        String myPackage = "P2660";
+        String myPackage = "P5318";
 
-        String templatePath = "C:\\workspace\\idea\\sw\\src\\javaTemplate.tmp";
-        String packageName = "package sw.luogu.stage5." + myPackage + ";";
-        String basePath = "C:\\workspace\\idea\\sw\\src\\sw\\luogu\\stage5\\" + myPackage + "\\";
+        String templatePath = "E:\\IdeaProjects\\sw\\src\\javaTemplate.tmp";
+        //"E:\\IdeaProjects\\sw\\src\\sw\\luogu\\stage5\\P5719\\Main.java"
+        String packageName = "package sw.luogu.stage6." + myPackage + ";";
+        String basePath = "E:\\IdeaProjects\\sw\\src\\sw\\luogu\\stage6\\" + myPackage + "\\";
         String filename = "Main.java";
         File f1 = new File(basePath);
         if (!f1.exists()) f1.mkdirs();
