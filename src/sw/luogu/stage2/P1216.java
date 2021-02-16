@@ -6,11 +6,13 @@ import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
 
 public class P1216 {
+    private static final int[][] dp = new int[1003][1003];
+    private static final StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+
     public static void main(String[] args) throws IOException {
-        StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         in.nextToken();
         int N = (int) in.nval;
-        int[][] dp = new int[N + 1][N + 1];
+
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= i; j++) {
                 in.nextToken();

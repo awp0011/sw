@@ -8,9 +8,9 @@ public class P3388AC2 implements Runnable {
     static int next[];
     static int to[];
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream("E:\\BaiduNetdiskDownload\\P3388_1.in"));
-        new Thread(null, new P3388AC2(), "", 1 << 29).start();
+        new Thread(null, new P3388AC2(), "", 1024 * 1024 * 4).start();
     }
 
     @Override

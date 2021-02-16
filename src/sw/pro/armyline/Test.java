@@ -8,7 +8,8 @@ public class Test {
 
 
     public static void main(String[] args) {
-        System.out.println(-0x3f3f3f3f);
-        System.out.println(Integer.MIN_VALUE >> 1);
+        System.out.println(1 << 29);
+        System.out.println(1 << 25);
+        System.out.println(1024 * 1024 * 4);
     }
 }
