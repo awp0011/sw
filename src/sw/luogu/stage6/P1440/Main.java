@@ -5,7 +5,6 @@ import java.util.ArrayDeque;
 
 public class Main {
     private static StreamTokenizer in;
-
     private static int nextInt() throws Exception {
         in.nextToken();
         return (int) in.nval;
