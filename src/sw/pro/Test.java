@@ -5,11 +5,12 @@ import java.util.*;
 
 public class Test {
 
-    private static HashMap<Integer, LinkedList<Integer>> meetings = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
-
-        System.out.println(4 << 1 | 1);
+        int l=0;
+        for(;(1<<l)<=5;l++);//先计算上限
+        l--;
+        System.out.println(l);
 
     }
 

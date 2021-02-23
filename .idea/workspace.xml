@@ -7,667 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="提交 2021 02 08 PRO 考题题，壁纸贴墙壁">
-      <change afterPath="$PROJECT_DIR$/src/algorighms/fourth/edition/chapter1/Main_1_1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorighms/fourth/edition/chapter1/Main_1_2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/learning/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/leetcode/three/steps/problem/lcci/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/P1413/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/P1439/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/P1440/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/P1802/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/P3372/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/test/Tower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/peng0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/peng0.xml" afterDir="false" />
+    <list default="true" id="021fd579-fb18-4861-a591-5bd0157137d8" name="Default" comment="提交 2021 02 17 晚  动态规划练习">
+      <change afterPath="$PROJECT_DIR$/src/sw/luogu/stage6/SP14932/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/lca/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/real/exam/Solution20210222.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/real/exam/Solution20210222_ola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionP0030.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/pro/real/exam/SolutionP0042.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/sw.pro.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/META-INF/idea.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/hackerrank/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/javaTemplate.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P01/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P03/source$People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P03/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P03/source02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M01/P06/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P01/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P01/source02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P03/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P04/source$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P04/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M02/P05/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M03/P03/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M03/P04/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M03/P05/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M03/P06/source$Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M03/P06/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M04/P01/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M04/P04/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M04/P05/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M04/P06/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M04/p02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M05/P01/Main$Mine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M05/P01/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M05/P01/Main02$Volume.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M05/P01/Main02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M05/P02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M06/P01/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M06/P02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M06/P06/source$Island.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M06/P06/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P01/source$Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P01/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P02/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P02/source2$Bag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P02/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/TP2019/M07/P03/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/Chocolates/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/DivisionCalculator/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/DivisionCalculator/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/MinDiff$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/MinDiff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/abc2/dp/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/building/blocks/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/building/blocks/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/color/letters/Solution$CharLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/color/letters/Solution$Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/color/letters/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/find/max/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/five/bit/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/five/bit/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/floyd/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/floyd/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/fold/table/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/fold/table/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/hate/mosquito/Solution$Pray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/hate/mosquito/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/hate/mosquito/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/leanings/notebook/Solution$Notebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/leanings/notebook/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/leanings/notebook/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/meet99/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/normandie/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/s56/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/s59/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/sand/castle/Solution$Castle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/sand/castle/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/sand/castle/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/select/gift/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/select/soldiers/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/slash/burn/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/slash/burn/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/sugguer/fish/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/sugguer/fish/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/adv/unicron/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/A273048/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/B273048/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/C273048/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/LongLongStrings$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/LongLongStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/LongLongStrings2$Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/LongLongStrings2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/Main$Range.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/MainV2$Opt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/MainV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/MySolution$Range.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/MySolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/D273048/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/second/finalmatch/b275601/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/CodeForces1030/A/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/CodeForces1108/A/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1338/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1363/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1419/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1419/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1419/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ1419/Record.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/POJ2255/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA11235/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA1585/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/Main$Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/Main$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/Test$Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/UVA658$Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/UVA658/UVA658.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/b/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/b/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/c/Main$Npath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/c/Main$Subnet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/c/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/d/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297176/e/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297177/Main$Junction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/c297177/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/poj2940/Main$Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/poj2940/Main$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/contest/vjudge/poj2940/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/learning/Andrew$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/learning/Andrew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/learning/Graham$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/learning/Graham$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/learning/Graham.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P3613.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5266.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5660.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5661$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5661.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5662$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5662.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5663$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5663.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5703.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5704.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5709.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5710.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5715.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5716.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5721.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5722.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5727.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5728.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5733.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5739.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/P5745.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/T100229.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/match/T104630.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1008.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1014.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1022.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1028.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1035.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1036.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1046.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1047.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1055.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1085.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1089.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1149.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1307.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1308.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1423.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1424.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1426.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1427.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1428.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1464.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1553.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1567.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1598.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1909.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1914.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P1980.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P2089.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage1/P2141.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1006.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1010.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1017.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1019.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1020$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1020$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1020.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1025.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1025PRO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1029.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1030.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1031.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1032.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1040.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1042.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1045.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1048.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1049.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1056.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1058.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1062.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1062OTH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1063.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1067.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1068$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1068.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1071.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1086$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1086.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1087.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1088.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1091$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1091$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1091.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1092.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1101.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1108$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1108.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1115.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1118.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1135$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1135$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1135.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1141.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1147.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1160$STU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1160.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1162.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1177.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1182.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1192.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1216.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1226.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1233$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1233.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1255.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1280$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1280.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1303.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1305.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1309$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1309.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1328.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1338.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1363.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1363Pro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1372.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1433.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1434.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1449.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1504.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1540.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1541.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1541random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1563.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1582.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1583$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1583$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1583.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1601.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1603.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1605.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1736.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1739.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1781.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1865.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1908$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1908$Number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1908.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1908PRO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1969.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1996$Y.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P1996.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P2123$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P2123.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P2142.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P2258.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage2/P5018.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1005.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1011.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1111$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1111.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1116.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1119.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1120.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1134.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1138.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1144$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1144$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1144.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1150.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1161.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1179.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1196.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1197$Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1220.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1242.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1242Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1268.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1273.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1304.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1317.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1319.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1321.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1330$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1330.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1339$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1339$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1339.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1346$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1346$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1346.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1352$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1352.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1378.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1420.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462Ex$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462Ex$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1462Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1514.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1534.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1546$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1546.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1615.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1720.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1726.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1789.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1838.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1876.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1886$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1886.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1888.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1983$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1983.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1991$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1991.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1993$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P1993.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2024.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2279$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2279$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2279.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2394.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2550.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2708.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2742.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2788.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P2955.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P3374.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P3374Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P4414.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P4439.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5534.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5594.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5638.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5681.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5690.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage3/P5831.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P1241.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2058$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2058.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2196$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2196.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2433.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2742$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2742.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2742_3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2742_3$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2742_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P2850.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P3388$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P3388.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P3388AC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P4387.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5705.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5706.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5708.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5711.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5712.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5713.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5714.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5717.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/P5718.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage4/UVA558.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/luogu/stage5/P5719/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/poj/POJ2236.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/poj/POJ3249$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/poj/POJ3249.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/poj/case.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COCI_2007_FREFLY/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source$Coin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source2$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source3$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source4$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/COI_2015_KOVANICE/source4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/Cutting_Sticks/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/Exponentiation/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/Exponentiation/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/FROG/source$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/FROG/source$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/FROG/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/GHOST_SHIP/source$Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/GHOST_SHIP/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/GRAPH_TRAVERSAL/source$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/GRAPH_TRAVERSAL/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/ICPC_2012NWERC_HOUSE/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/IndexedTree/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/KOI_2008RH_AMEOBA/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/KOI_2008RH_AMEOBA/source1$Amoeba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/KOI_2008RH_AMEOBA/source1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/KOI_2008RH_AMEOBA/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/MIDDLE_NUMBER/MaxMinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/MIDDLE_NUMBER/SourceArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/MIDDLE_NUMBER/SourceList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/NQUEEN/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/NQUEEN/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/NUMBEROFINVERSION/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/NUMBEROFINVERSION/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PALINDROME/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PARTY/Dijkstra$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PARTY/Dijkstra$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PARTY/Dijkstra$Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PARTY/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PINARY/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PINARY/DP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/PINARY/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_1/source$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_3/source$Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_3/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_3/source2$Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_3/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source$Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source2$Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source3$Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source3$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_10_4/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_1_7/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_1_8/source$Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_1_8/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_2_3/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_2_3/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_2_3/source2$Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_2_3/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_2_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_3_1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_3_1/source$People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_3_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_3_5/FenwickTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_3_5/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_1/source$Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_2/picnic.tc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_2/source$Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_2/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_2/source3$Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_2/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_3/Dijkstra$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_3/Dijkstra$Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_3/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_3/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_3/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_6/source$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_6/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_8/source$City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_4_8/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_4/source$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_5/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_5/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_5/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_5_5/source4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_2/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_2/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_2/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_3/source$Piece.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_3/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_3/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_3/source3$Piece.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_3/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_7/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_7/source_bak$Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_7/source_bak$GoodsWeightComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_6_7/source_bak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_3/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_4/source$Paper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_4/source_bak$Paper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_4/source_bak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_6/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_6/source_logn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_8/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_8/source$Building.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_8/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_8/source1$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_7_8/source1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_8_4/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_8_8/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_1/source$point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_1/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source2$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source3$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source4$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SDS_PRO_9_8/source5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SET/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SHORTEST_PATH/source$City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SHORTEST_PATH/source$Road.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SHORTEST_PATH/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SQUARE/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SQUARE/source$Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SQUARE/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SQUARE/source_dp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUFFIXARRAY/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUM/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUM/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUM/source_dp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUM/source_dp_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/SUM/source_dp_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/USACO_2017FEB_SILVER_COWPARTY/Batter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/USACO_2017FEB_SILVER_COWPARTY/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/armyline/BuildMaxCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/armyline/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/armyline/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/armyline/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/city/spy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/city/spy/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/convexhull/source$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/convexhull/source$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/convexhull/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/dynamic/programming/POJ1163.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/dynamic/programming/POJ1164.tc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/e20200424/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/e20200424/in_out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/falled/balls/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/falled/balls/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/SolutionReview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/TestT3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/doc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/fiveone/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/kmp/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/knights/round/table/Solution$KnightSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/knights/round/table/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/kthnumber/Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/kthnumber/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/kthnumber/source_my.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/lis/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/point/area/source$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/point/area/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/point/area/source2$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/point/area/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Islands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Scissors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20190321$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20190321.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20191205$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20191205.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20191205_TO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20191205_TO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20191217.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20200410$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20200410.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20200410_DFSIT$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/Solution20200410_DFSIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionDNA$DNA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionDNA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionMeetingRoom$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionMeetingRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionPath$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionTreeGraph$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionTreeGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionTreeGraph2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/SolutionTreeGraph2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/source$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/real/exam/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/MST$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/MST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/Reference$Comp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/Reference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/Solution$Compare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/road/pavement/test_data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/russian/dolls/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/russian/dolls/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/russian/dolls/source_lis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/russian/dolls/source_lis_dp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/shields/up/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/shields/up/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/shortest/longest/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/stone/game/Solution$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/stone/game/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/sunday/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/sunday/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/the3nplus1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/the3nplus1_2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/topological/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/topological/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/topological/source2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/topological/source3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tower/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tower/source$Tower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tower/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tree/BinaryIndexedTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tree/CompleteBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tree/IndexedTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tree/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/pro/tree/source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/test/CheckMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/test/ConvexHull$Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/test/ConvexHull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/test/Graham.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/idea/sw/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/luogu/stage2/P1216.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/luogu/stage2/P1216.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/sw/pro/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sw/pro/armyline/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sw/pro/armyline/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/luogu/stage2/P1216.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage2/P1216.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/luogu/stage4/P3388AC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/luogu/stage4/P3388AC2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/pro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/pro/armyline/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/pro/armyline/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -778,6 +127,7 @@
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -798,7 +148,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -820,13 +170,13 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sw.pro.real.exam" />
+      <recent name="sw.luogu.stage6.P1077" />
       <recent name="sw.luogu.stage6.P5318" />
       <recent name="sw.luogu.stage4" />
       <recent name="sw.luogu.stage2" />
-      <recent name="sw.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -841,55 +191,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage6.P1440.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage6.P1440.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage6.P3372.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage6.P3372.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage6.P1439.Main" />
-      <module name="sw.pro" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.luogu.stage6.P1439.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage6.P1802.Main" />
+      <option name="MAIN_CLASS_NAME" value="sw.luogu.stage6.SP14932.Main" />
       <module name="sw.pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.luogu.stage6.P1802.*" />
+          <option name="PATTERN" value="sw.luogu.stage6.SP14932.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution20210222" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.real.exam.Solution20210222" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.real.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionP0042" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.real.exam.SolutionP0042" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.real.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Template" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.pro.lca.Template" />
+      <module name="sw.pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.pro.lca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -944,19 +294,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckMemory" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.SolutionP0042" />
+      <item itemvalue="Application.Template" />
+      <item itemvalue="Application.Solution20210222" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Solution20210222" />
+        <item itemvalue="Application.Template" />
+        <item itemvalue="Application.SolutionP0042" />
       </list>
     </recent_temporary>
   </component>
@@ -972,6 +322,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -1240,20 +591,6 @@
       <workItem from="1612002267081" duration="10243000" />
       <workItem from="1612061673266" duration="44000" />
       <workItem from="1613484160415" duration="147000" />
-    </task>
-    <task id="LOCAL-00070" summary="调整练习题目的顺序">
-      <created>1552997399325</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1552997399325</updated>
-    </task>
-    <task id="LOCAL-00071" summary="真题：拓扑排序">
-      <created>1553256676759</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1553256676759</updated>
     </task>
     <task id="LOCAL-00072" summary="真题：拓扑排序">
       <created>1553257520370</created>
@@ -1584,7 +921,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612795672876</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="提交 2021 02 17 Indexed Tree和 动态规划练习">
+      <created>1613496144842</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1613496144843</updated>
+    </task>
+    <task id="LOCAL-00120" summary="提交 2021 02 17 晚  动态规划练习">
+      <created>1613572632592</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1613572632592</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1627,8 +978,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="luogu stage2 14 完成" />
-    <MESSAGE value="luogu stage2 15 完成" />
     <MESSAGE value="luogu stage2 16 完成" />
     <MESSAGE value="luogu stage2 17 完成" />
     <MESSAGE value="luogu stage2 19" />
@@ -1652,7 +1001,9 @@
     <MESSAGE value="提交 2021 02 01 pro 考试思路" />
     <MESSAGE value="提交 2021 02 04 PRO 练习题，高楼射箭" />
     <MESSAGE value="提交 2021 02 08 PRO 考题题，壁纸贴墙壁" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交 2021 02 08 PRO 考题题，壁纸贴墙壁" />
+    <MESSAGE value="提交 2021 02 17 Indexed Tree和 动态规划练习" />
+    <MESSAGE value="提交 2021 02 17 晚  动态规划练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交 2021 02 17 晚  动态规划练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2374,13 +1725,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage6/P1440/Main.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="449" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/luogu/stage6/P1439/Main.java</url>
           <line>34</line>
           <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionP0042.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionP0042.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/pro/real/exam/SolutionP0042.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage6/SP14932/Main.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/luogu/stage6/SP14932/Main.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="458" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
