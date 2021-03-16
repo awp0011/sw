@@ -15,7 +15,7 @@ import java.util.*;
  * 6.MST 使用Kruskal算法实现，需要基于5的情况进行循环
  * */
 public class SolutionP0042 {
-    private static StreamTokenizer in;
+
     private static final int[] nodeP = new int[52];
     private static final int[] edgeP = new int[202];
     private static final int[] flag = new int[202];
@@ -27,6 +27,7 @@ public class SolutionP0042 {
     private static final BitSet mutex = new BitSet();
     private static int N;
 
+    private static StreamTokenizer in;
     private static void init() {
         in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
     }
