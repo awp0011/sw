@@ -8,48 +8,74 @@ import java.util.Comparator;
 
 public class SolutionMeetingRoom {
     /*
-   0:start
-   1:end
-   2:next meeting
-   3:last time
-   4:isUsed
+   0: 以Ei进行升序排序
+   1: 分别二分查找(upperBound)当前会议前，两个会议室可以举行的会议（最后）prve
+   2: 不使用会议i，f[0][i] = f[0][i-1],f[1][i] = f[1][i-1]
+   3:  使用会议i, f[0][i] = f[0][prev]+v[i](放到会议室1)
+                f[1][i] = f[1][prev]+v[i](放到会议室2)
+   4:递推公式  (f[0][i],f[1][i])= Max( f[0][i-1]+f[1][i-1],
+                                     f[0][prev]+v[i] + f[1][i-1],
+                                     f[1][prev]+v[i] + f[0][i-1])
      */
 
-    private static final int[][] meetings = new int[3003][4];
-    private static final long[] val = new long[3003];
-    private static final boolean[] vis = new boolean[3003];
+    private static final int[][] d = new int[3003][3];
+    private static final int[][] f = new int[2][3003];
+    private static StreamTokenizer in;
+
+    private static void init() {
+        in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+    }
+
+    private static int nextInt() throws Exception {
+        in.nextToken();
+        return (int) in.nval;
+    }
 
     public static void main(String[] args) throws Exception {
-        StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
-        in.nextToken();
-        int T = (int) in.nval;
+        init();
+        int T = nextInt();
         for (int t = 1; t <= T; t++) {
-            in.nextToken();
-            int n = (int) in.nval;
+            int n = nextInt();
             for (int i = 1; i <= n; i++) {
-                in.nextToken();
-                meetings[i][0] = (int) in.nval;
-                in.nextToken();
-                meetings[i][1] = (int) in.nval;
-                in.nextToken();
-                val[i] = (long) in.nval;
-                meetings[i][2] = i;
-                meetings[i][3] = meetings[i][1];
-                vis[i] = false;
+                d[i][0] = nextInt();
+                d[i][1] = nextInt();
+                d[i][2] = nextInt();
+
             }
-            Arrays.sort(meetings, 1, n + 1, new Comparator<int[]>() {
-                @Override
-                public int compare(int[] o1, int[] o2) {
-                    return o1[1] - o2[1];
+            Arrays.sort(d, 1, n + 1, Comparator.comparingInt(o -> o[1]));
+            for (int i = 1; i <= n; i++) {
+                int prev = upperBound(d[i][0] - 1, i - 1);
+                f[0][i] = f[0][i - 1];
+                f[1][i] = f[1][i - 1];
+                if (f[0][prev] + d[i][2] + f[1][i - 1] > f[0][i] + f[1][i]) {
+                    f[0][i] = f[0][prev] + d[i][2];
                 }
-            });
-
-            for (int i = 2; i <= n; i++) {
-                for (int j = i - 1; j >= 1; j--) {
-
+                if (f[1][prev] + d[i][2] + f[0][i - 1] > f[0][i] + f[1][i]) {
+                    f[0][i] = f[0][i - 1];
+                    f[1][i] = f[1][prev] + d[i][2];
                 }
+            }
+            System.out.println("#" + t + " " + (f[0][n] + f[1][n]));
+        }
+    }
+
+    private static int upperBound(int key, int to) {
+        int res = 0;
+        int l = 0;
+        int r = to;
+        while (l <= r) {
+            int mid = (l + r) >> 1;
+            if (d[mid][1] > key) r = mid - 1;
+            else if (d[mid][1] < key) {
+                l = mid + 1;
+                res = mid;
+            } else {
+                res = mid;
+                break;
             }
         }
+        while (d[res + 1][1] == d[res][1]) res++;
+        return res;
     }
 
 }
